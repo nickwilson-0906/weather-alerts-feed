@@ -784,14 +784,9 @@
     // MAP
     // ========================================================================
     function initMap() {
-        map = L.map('map', {
-            zoomControl: true,
-            minZoom: 2,
-            maxBounds: [[-85, -180], [85, 180]],
-            maxBoundsViscosity: 1.0
-        }).setView([20, -40], 2);
+        map = L.map('map', { zoomControl: true }).setView([20, -40], 2);
         L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18, noWrap: true
+            attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18
         }).addTo(map);
         markerLayer = L.layerGroup().addTo(map);
     }
