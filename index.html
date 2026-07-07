@@ -107,7 +107,7 @@
         }
         .panel-tabs { display: flex; border-bottom: 1px solid #334155; }
         .panel-tab {
-            flex: 1; padding: 10px; text-align: center; font-size: 12px; font-weight: 600;
+            flex: 1; padding: 10px; text-align: center; font-size: 13px; font-weight: 600;
             text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer;
             border-bottom: 2px solid transparent; color: #64748b; transition: all 0.2s;
         }
@@ -174,25 +174,38 @@
         }
         .state-list-header {
             display: flex; justify-content: space-between; align-items: center;
-            padding: 8px 12px; cursor: pointer; user-select: none;
+            padding: 8px 12px;
         }
-        .state-list-header:hover { background: #1a2540; }
-        .state-list-chevron { font-size: 10px; color: #64748b; transition: transform 0.2s; margin-left: 8px; }
-        .state-list-item.open .state-list-chevron { transform: rotate(180deg); }
         .state-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
         .badge-severe  { background: #7f1d1d; color: #fca5a5; }
         .badge-moderate{ background: #713f12; color: #fde047; }
         .badge-clear   { background: #14532d; color: #86efac; }
-        .state-agents { display: none; border-top: 1px solid #1e293b; max-height: 200px; overflow-y: auto; }
-        .state-list-item.open .state-agents { display: block; }
-        .agent-row {
-            display: flex; justify-content: space-between; padding: 6px 12px;
-            font-size: 11px; border-bottom: 1px solid #1e293b;
+
+        /* ── Agents Panel ── */
+        .agents-panel-header {
+            background: #0f172a; border: 1px solid #334155; border-radius: 8px;
+            padding: 12px; margin-bottom: 12px;
         }
-        .agent-row:last-child { border-bottom: none; }
-        .agent-row:hover { background: #1e293b; }
-        .agent-name { color: #e2e8f0; font-weight: 500; }
-        .agent-meta { color: #64748b; font-size: 10px; }
+        .agents-panel-header h3 { font-size: 14px; font-weight: 600; margin-bottom: 4px; color: #f1f5f9; }
+        .agents-panel-header .count { font-size: 24px; font-weight: 700; color: #3b82f6; }
+        .agents-panel-header .subtitle { font-size: 11px; color: #94a3b8; }
+        .agents-search {
+            padding: 8px 12px; background: #0f172a; border: 1px solid #334155;
+            border-radius: 6px; width: 100%; color: #e2e8f0; font-size: 13px; margin-bottom: 12px;
+        }
+        .agents-search:focus { outline: none; border-color: #3b82f6; }
+        .agents-search::placeholder { color: #64748b; }
+        .agents-list { max-height: calc(100vh - 380px); overflow-y: auto; }
+        .agent-list-item {
+            display: flex; justify-content: space-between; align-items: flex-start;
+            padding: 10px 12px; background: #0f172a; border: 1px solid #334155;
+            border-radius: 6px; margin-bottom: 6px;
+        }
+        .agent-list-item:hover { background: #1a2540; }
+        .agent-list-name { font-size: 13px; font-weight: 600; color: #f1f5f9; }
+        .agent-list-team { font-size: 11px; color: #94a3b8; margin-top: 2px; }
+        .agent-list-location { font-size: 11px; color: #64748b; text-align: right; }
+        .agent-list-tz { font-size: 10px; color: #475569; margin-top: 2px; }
 
         /* ── History Panel ── */
         .history-controls {
@@ -362,6 +375,7 @@
                 <div class="panel-tab" data-panel="groups">Groups</div>
                 <div class="panel-tab" data-panel="states">States</div>
                 <div class="panel-tab" data-panel="regions">Regions</div>
+                <div class="panel-tab" data-panel="agents">Agents</div>
                 <div class="panel-tab" data-panel="history">History</div>
             </div>
             <div class="panel-content">
@@ -369,6 +383,7 @@
                 <div class="panel-section" id="panelGroups"></div>
                 <div class="panel-section" id="panelStates"></div>
                 <div class="panel-section" id="panelRegions"></div>
+                <div class="panel-section" id="panelAgents"></div>
                 <div class="panel-section" id="panelHistory"></div>
             </div>
         </div>
@@ -822,27 +837,13 @@
             const agents = filteredAgents.filter(a => {
                 if (isCountry) return a.country === state;
                 return a.state === state && a.country === 'US';
-            }).sort((a, b) => a.name.localeCompare(b.name));
-
-            const agentListHtml = agents.length > 0
-                ? `<div style="margin-top:8px;padding-top:6px;border-top:1px solid #334155;">
-                    <b style="color:#3b82f6;">Agents (${agents.length}):</b>
-                    <div style="max-height:150px;overflow-y:auto;margin-top:4px;">
-                        ${agents.slice(0, 50).map(a => `<div style="font-size:11px;padding:2px 0;border-bottom:1px solid #1e293b;">
-                            <span style="color:#e2e8f0;">${a.name}</span>
-                            <span style="color:#64748b;font-size:10px;"> — ${a.sub_team}</span>
-                        </div>`).join('')}
-                        ${agents.length > 50 ? `<div style="color:#64748b;font-size:11px;padding:4px 0;"><i>+${agents.length - 50} more agents...</i></div>` : ''}
-                    </div>
-                </div>`
-                : '';
+            });
 
             marker.bindPopup(`
                 <div style="min-width:250px;max-width:320px;">
                     <b style="font-size:15px;">${state}</b><span style="color:#94a3b8;"> — ${total} agents</span>
                     <div style="margin-top:6px;">${groupHtml}</div>
                     ${alertHtml}
-                    ${agentListHtml}
                 </div>`, { maxWidth: 400 });
             marker.addTo(markerLayer);
         });
@@ -974,32 +975,6 @@
     }
 
     // ========================================================================
-    // HELPER: Get agents for a region/state
-    // ========================================================================
-    function getAgentsForRegion(regionName, isCountry) {
-        return filteredAgents.filter(a => {
-            if (isCountry) return a.country === regionName;
-            return a.state === regionName && a.country === 'US';
-        }).sort((a, b) => a.name.localeCompare(b.name));
-    }
-
-    function renderAgentList(agents) {
-        if (agents.length === 0) return '<div class="agent-row"><span class="agent-meta">No agents in this region</span></div>';
-        return agents.map(a => `
-            <div class="agent-row">
-                <div>
-                    <span class="agent-name">${a.name}</span>
-                    <div class="agent-meta">${a.sub_team}</div>
-                </div>
-                <span class="agent-meta">${a.work_group}</span>
-            </div>`).join('');
-    }
-
-    function toggleRegionExpand(el) {
-        el.closest('.state-list-item').classList.toggle('open');
-    }
-
-    // ========================================================================
     // STATES PANEL (US States only)
     // ========================================================================
     function updateStatesPanel() {
@@ -1010,25 +985,20 @@
             const sev = markerSeverity(s.state);
             const badgeClass = sev === 'clear' ? 'badge-clear' : sev === 'moderate' ? 'badge-moderate' : 'badge-severe';
             const badgeText  = sev === 'clear' ? 'Clear' : sev.charAt(0).toUpperCase() + sev.slice(1);
-            const agents = getAgentsForRegion(s.state, false);
-            return { ...s, sev, badgeClass, badgeText, agents };
+            return { ...s, sev, badgeClass, badgeText };
         }).sort((a, b) => (sevOrder[a.sev] || 3) - (sevOrder[b.sev] || 3) || b.total - a.total);
 
         panel.innerHTML = stateList.length === 0
             ? '<div class="no-data">No US states in filtered data.</div>'
             : stateList.map(s => `
             <div class="state-list-item">
-                <div class="state-list-header" onclick="toggleRegionExpand(this)">
+                <div class="state-list-header">
                     <div>
                         <b>${s.state}</b><span style="color:#94a3b8;margin-left:6px;">${s.total} agents</span>
                         <div style="font-size:11px;color:#64748b;margin-top:2px;">${Object.entries(s.groups).map(([g,c]) => `${g}: ${c}`).join(' | ')}</div>
                     </div>
-                    <div style="display:flex;align-items:center;gap:8px;">
-                        <span class="state-badge ${s.badgeClass}">${s.badgeText}</span>
-                        <span class="state-list-chevron">&#9660;</span>
-                    </div>
+                    <span class="state-badge ${s.badgeClass}">${s.badgeText}</span>
                 </div>
-                <div class="state-agents">${renderAgentList(s.agents)}</div>
             </div>`).join('');
     }
 
@@ -1043,26 +1013,65 @@
             const sev = markerSeverity(s.state);
             const badgeClass = sev === 'clear' ? 'badge-clear' : sev === 'moderate' ? 'badge-moderate' : 'badge-severe';
             const badgeText  = sev === 'clear' ? 'Clear' : sev.charAt(0).toUpperCase() + sev.slice(1);
-            const agents = getAgentsForRegion(s.state, true);
-            return { ...s, sev, badgeClass, badgeText, agents };
+            return { ...s, sev, badgeClass, badgeText };
         }).sort((a, b) => (sevOrder[a.sev] || 3) - (sevOrder[b.sev] || 3) || b.total - a.total);
 
         panel.innerHTML = regionList.length === 0
             ? '<div class="no-data">No international regions in filtered data.</div>'
             : regionList.map(s => `
             <div class="state-list-item">
-                <div class="state-list-header" onclick="toggleRegionExpand(this)">
+                <div class="state-list-header">
                     <div>
                         <b>${s.state}</b><span style="color:#94a3b8;margin-left:6px;">${s.total} agents</span>
                         <div style="font-size:11px;color:#64748b;margin-top:2px;">${Object.entries(s.groups).map(([g,c]) => `${g}: ${c}`).join(' | ')}</div>
                     </div>
-                    <div style="display:flex;align-items:center;gap:8px;">
-                        <span class="state-badge ${s.badgeClass}">${s.badgeText}</span>
-                        <span class="state-list-chevron">&#9660;</span>
-                    </div>
+                    <span class="state-badge ${s.badgeClass}">${s.badgeText}</span>
                 </div>
-                <div class="state-agents">${renderAgentList(s.agents)}</div>
             </div>`).join('');
+    }
+
+    // ========================================================================
+    // AGENTS PANEL (Impacted Agents based on current filters)
+    // ========================================================================
+    let agentSearchTerm = '';
+
+    function updateAgentsPanel() {
+        const panel = document.getElementById('panelAgents');
+        const searchFilteredAgents = agentSearchTerm
+            ? filteredAgents.filter(a => a.name.toLowerCase().includes(agentSearchTerm.toLowerCase()))
+            : filteredAgents;
+
+        const sortedAgents = searchFilteredAgents.sort((a, b) => a.name.localeCompare(b.name));
+
+        panel.innerHTML = `
+            <div class="agents-panel-header">
+                <h3>Impacted Agents</h3>
+                <div class="count">${filteredAgents.length}</div>
+                <div class="subtitle">Based on current filter selections</div>
+            </div>
+            <input type="text" class="agents-search" placeholder="Search agents by name..."
+                   value="${agentSearchTerm}" onkeyup="handleAgentSearch(this.value)">
+            <div class="agents-list">
+                ${sortedAgents.length === 0
+                    ? '<div style="text-align:center;padding:20px;color:#64748b;">No agents match your search.</div>'
+                    : sortedAgents.slice(0, 200).map(a => `
+                        <div class="agent-list-item">
+                            <div>
+                                <div class="agent-list-name">${a.name}</div>
+                                <div class="agent-list-team">${a.sub_team}</div>
+                            </div>
+                            <div style="text-align:right;">
+                                <div class="agent-list-location">${a.state}${a.country !== 'US' ? ', ' + a.country : ''}</div>
+                                <div class="agent-list-tz">${a.tz}</div>
+                            </div>
+                        </div>`).join('')}
+                ${sortedAgents.length > 200 ? `<div style="text-align:center;padding:12px;color:#64748b;font-size:12px;"><i>Showing first 200 of ${sortedAgents.length} agents</i></div>` : ''}
+            </div>`;
+    }
+
+    function handleAgentSearch(value) {
+        agentSearchTerm = value;
+        updateAgentsPanel();
     }
 
     // ========================================================================
@@ -1243,7 +1252,7 @@
         agentData      = buildAgentData(filteredAgents);
         weatherData    = applyWeatherFilters(rawWeatherData);
         impactData     = computeImpact(filteredAgents, weatherData);
-        updateMap(); updateCards(); updateAlertsPanel(); updateGroupsPanel(); updateStatesPanel(); updateRegionsPanel(); updateHistoryPanel();
+        updateMap(); updateCards(); updateAlertsPanel(); updateGroupsPanel(); updateStatesPanel(); updateRegionsPanel(); updateAgentsPanel(); updateHistoryPanel();
     }
 
     // ========================================================================
@@ -1262,7 +1271,7 @@
             rawWeatherData = newWeather;
             weatherData    = applyWeatherFilters(rawWeatherData);
             impactData     = computeImpact(filteredAgents, weatherData);
-            updateMap(); updateCards(); updateAlertsPanel(); updateGroupsPanel(); updateStatesPanel(); updateRegionsPanel();
+            updateMap(); updateCards(); updateAlertsPanel(); updateGroupsPanel(); updateStatesPanel(); updateRegionsPanel(); updateAgentsPanel();
             document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString();
             fetchHistory().then(updateHistoryPanel);
         } catch (e) { console.error('Refresh error:', e); }
