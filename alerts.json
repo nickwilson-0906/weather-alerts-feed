@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T15:03:08.669Z",
+  "lastUpdated": "2026-07-07T15:20:57.321Z",
   "alerts": {
     "Philippines": [
       {
@@ -9,7 +9,7 @@
         "headline": "Orange notification for tropical cyclone MAYSAK-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (16.374 million in Tropical Storm).",
         "description": "From 01/07/2026 to 04/07/2026, a Tropical Storm (maximum wind speed of 93 km/h) MAYSAK-26 was active in NWPacific. The cyclone affects these countries: Viet Nam, China, Laos (vulnerability High). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (16.374 million in tr",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:03:08.667Z"
+        "fetchedAt": "2026-07-07T15:20:57.320Z"
       },
       {
         "event": "Earthquake",
@@ -18,7 +18,7 @@
         "headline": "Green earthquake (Magnitude 5.8M, Depth:35km) in Philippines 06/07/2026 08:11 UTC, 850 thousand in MMI&gt;=IV.",
         "description": "On 7/6/2026 8:11:11 AM, an earthquake occurred in Philippines potentially affecting 850 thousand in MMI>=IV. The earthquake had Magnitude 5.8M, Depth:35km.",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:03:08.664Z"
+        "fetchedAt": "2026-07-07T15:20:57.318Z"
       },
       {
         "event": "Flood Alert",
@@ -27,7 +27,7 @@
         "headline": "Green flood alert in Philippines",
         "description": "On 13/06/2026, a flood started in Philippines, lasting until 05/07/2026 (last update). The flood caused 0 deaths and 866 displaced .",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:03:08.669Z"
+        "fetchedAt": "2026-07-07T15:20:57.321Z"
       },
       {
         "event": "Weather Alert",
@@ -36,7 +36,7 @@
         "headline": "Drought is on going in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
         "description": "The  Drought notification level is Green.",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:03:08.669Z"
+        "fetchedAt": "2026-07-07T15:20:57.321Z"
       },
       {
         "event": "Super Typhoon BAVI-26",
@@ -45,7 +45,7 @@
         "headline": "Red notification for tropical cyclone BAVI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 36.778 million .",
         "description": "From 01/07/2026 to 07/07/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 287 km/h) BAVI-26 was active in NWPacific. The cyclone affects these countries: Guam, Northern Mariana Islands, Japan, Taiwan, China (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wi",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:03:08.667Z"
+        "fetchedAt": "2026-07-07T15:20:57.320Z"
       }
     ],
     "Guatemala": [
@@ -56,7 +56,7 @@
         "headline": "Drought is on going in Guatemala, Honduras, Nicaragua, El Salvador",
         "description": "The  Drought notification level is Green.",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:03:08.669Z"
+        "fetchedAt": "2026-07-07T15:20:57.321Z"
       }
     ],
     "Colombia": [
@@ -67,7 +67,7 @@
         "headline": "Drought is on going in Colombia",
         "description": "The  Drought notification level is Green.",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:03:08.669Z"
+        "fetchedAt": "2026-07-07T15:20:57.321Z"
       }
     ]
   }
