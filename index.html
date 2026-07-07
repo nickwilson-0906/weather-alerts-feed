@@ -818,12 +818,32 @@
             const groupHtml = Object.entries(groups).map(([g,c]) =>
                 `<div class="popup-group-row"><span class="grp">${g}</span><b>${c}</b></div>`).join('');
 
+            // Get agents for this region
+            const agents = filteredAgents.filter(a => {
+                if (isCountry) return a.country === state;
+                return a.state === state && a.country === 'US';
+            }).sort((a, b) => a.pe.localeCompare(b.pe));
+
+            const agentListHtml = agents.length > 0
+                ? `<div style="margin-top:8px;padding-top:6px;border-top:1px solid #334155;">
+                    <b style="color:#3b82f6;">Agents (${agents.length}):</b>
+                    <div style="max-height:150px;overflow-y:auto;margin-top:4px;">
+                        ${agents.slice(0, 50).map(a => `<div style="font-size:11px;padding:2px 0;border-bottom:1px solid #1e293b;">
+                            <span style="color:#e2e8f0;">${a.pe}</span>
+                            <span style="color:#64748b;font-size:10px;"> — ${a.sub_team}</span>
+                        </div>`).join('')}
+                        ${agents.length > 50 ? `<div style="color:#64748b;font-size:11px;padding:4px 0;"><i>+${agents.length - 50} more agents...</i></div>` : ''}
+                    </div>
+                </div>`
+                : '';
+
             marker.bindPopup(`
-                <div style="min-width:200px;">
+                <div style="min-width:250px;max-width:320px;">
                     <b style="font-size:15px;">${state}</b><span style="color:#94a3b8;"> — ${total} agents</span>
                     <div style="margin-top:6px;">${groupHtml}</div>
                     ${alertHtml}
-                </div>`, { maxWidth: 350 });
+                    ${agentListHtml}
+                </div>`, { maxWidth: 400 });
             marker.addTo(markerLayer);
         });
 
