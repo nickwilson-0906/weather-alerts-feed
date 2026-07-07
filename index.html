@@ -784,9 +784,14 @@
     // MAP
     // ========================================================================
     function initMap() {
-        map = L.map('map', { zoomControl: true }).setView([39.5, -98.0], 4);
+        map = L.map('map', {
+            zoomControl: true,
+            minZoom: 2,
+            maxBounds: [[-85, -180], [85, 180]],
+            maxBoundsViscosity: 1.0
+        }).setView([20, -40], 2);
         L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18,
+            attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18, noWrap: true
         }).addTo(map);
         markerLayer = L.layerGroup().addTo(map);
     }
@@ -838,7 +843,7 @@
             if (validCoords.length > 0 && hasFilter) {
                 map.fitBounds(L.latLngBounds(validCoords), { padding: [60, 60] });
             } else if (!hasFilter) {
-                map.setView([39.5, -98.0], 4);
+                map.setView([20, -40], 2);
             }
         }
     }
