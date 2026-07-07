@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T15:20:57.321Z",
+  "lastUpdated": "2026-07-07T17:33:47.413Z",
   "alerts": {
     "Philippines": [
       {
@@ -9,7 +9,9 @@
         "headline": "Orange notification for tropical cyclone MAYSAK-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (16.374 million in Tropical Storm).",
         "description": "From 01/07/2026 to 04/07/2026, a Tropical Storm (maximum wind speed of 93 km/h) MAYSAK-26 was active in NWPacific. The cyclone affects these countries: Viet Nam, China, Laos (vulnerability High). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (16.374 million in tr",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:20:57.320Z"
+        "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001281",
+        "publishedAt": "2026-07-01T21:07:04.000Z",
+        "fetchedAt": "2026-07-07T17:33:47.411Z"
       },
       {
         "event": "Earthquake",
@@ -18,7 +20,9 @@
         "headline": "Green earthquake (Magnitude 5.8M, Depth:35km) in Philippines 06/07/2026 08:11 UTC, 850 thousand in MMI&gt;=IV.",
         "description": "On 7/6/2026 8:11:11 AM, an earthquake occurred in Philippines potentially affecting 850 thousand in MMI>=IV. The earthquake had Magnitude 5.8M, Depth:35km.",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:20:57.318Z"
+        "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1550395",
+        "publishedAt": "2026-07-06T08:35:27.000Z",
+        "fetchedAt": "2026-07-07T17:33:47.410Z"
       },
       {
         "event": "Flood Alert",
@@ -27,7 +31,9 @@
         "headline": "Green flood alert in Philippines",
         "description": "On 13/06/2026, a flood started in Philippines, lasting until 05/07/2026 (last update). The flood caused 0 deaths and 866 displaced .",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:20:57.321Z"
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
+        "publishedAt": "2026-06-15T09:44:33.000Z",
+        "fetchedAt": "2026-07-07T17:33:47.413Z"
       },
       {
         "event": "Weather Alert",
@@ -36,7 +42,9 @@
         "headline": "Drought is on going in China, Indonesia, Cambodia, Laos, Malaysia, Philippines, Thailand, Vietnam",
         "description": "The  Drought notification level is Green.",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:20:57.321Z"
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+        "publishedAt": "2026-04-30T13:07:47.000Z",
+        "fetchedAt": "2026-07-07T17:33:47.413Z"
       },
       {
         "event": "Super Typhoon BAVI-26",
@@ -45,7 +53,9 @@
         "headline": "Red notification for tropical cyclone BAVI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 36.778 million .",
         "description": "From 01/07/2026 to 07/07/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 287 km/h) BAVI-26 was active in NWPacific. The cyclone affects these countries: Guam, Northern Mariana Islands, Japan, Taiwan, China (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wi",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:20:57.320Z"
+        "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001279",
+        "publishedAt": "2026-07-01T01:51:41.000Z",
+        "fetchedAt": "2026-07-07T17:33:47.411Z"
       }
     ],
     "Guatemala": [
@@ -56,7 +66,9 @@
         "headline": "Drought is on going in Guatemala, Honduras, Nicaragua, El Salvador",
         "description": "The  Drought notification level is Green.",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:20:57.321Z"
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
+        "publishedAt": "2026-07-03T12:57:40.000Z",
+        "fetchedAt": "2026-07-07T17:33:47.413Z"
       }
     ],
     "Colombia": [
@@ -67,7 +79,9 @@
         "headline": "Drought is on going in Colombia",
         "description": "The  Drought notification level is Green.",
         "source": "GDACS",
-        "fetchedAt": "2026-07-07T15:20:57.321Z"
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
+        "publishedAt": "2026-07-03T12:57:35.000Z",
+        "fetchedAt": "2026-07-07T17:33:47.413Z"
       }
     ]
   }
