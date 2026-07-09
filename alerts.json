@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T13:38:10.410Z",
+  "lastUpdated": "2026-07-09T16:32:39.786Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1550395",
         "publishedAt": "2026-07-06T08:35:27.000Z",
-        "fetchedAt": "2026-07-09T13:38:10.405Z"
+        "fetchedAt": "2026-07-09T16:32:39.784Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
         "publishedAt": "2026-06-15T09:44:33.000Z",
-        "fetchedAt": "2026-07-09T13:38:10.410Z"
+        "fetchedAt": "2026-07-09T16:32:39.786Z"
       },
       {
         "event": "Weather Alert",
@@ -33,18 +33,18 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-07-09T13:38:10.410Z"
+        "fetchedAt": "2026-07-09T16:32:39.786Z"
       },
       {
         "event": "Super Typhoon BAVI-26",
         "severity": "Extreme",
         "urgency": "Immediate",
-        "headline": "Red notification for tropical cyclone BAVI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 38.457 million .",
+        "headline": "Red notification for tropical cyclone BAVI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 29.463 million .",
         "description": "From 01/07/2026 to 09/07/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 287 km/h) BAVI-26 was active in NWPacific. The cyclone affects these countries: Guam, Northern Mariana Islands, Japan, Taiwan, China (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wi",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001279",
         "publishedAt": "2026-07-01T01:51:41.000Z",
-        "fetchedAt": "2026-07-09T13:38:10.408Z"
+        "fetchedAt": "2026-07-09T16:32:39.785Z"
       }
     ],
     "Guatemala": [
@@ -57,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-07-09T13:38:10.410Z"
+        "fetchedAt": "2026-07-09T16:32:39.786Z"
       }
     ],
     "Colombia": [
@@ -70,7 +70,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-07-09T13:38:10.410Z"
+        "fetchedAt": "2026-07-09T16:32:39.786Z"
       }
     ]
   }
