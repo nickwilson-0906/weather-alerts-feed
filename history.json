@@ -1,25 +1,9 @@
 {
-  "lastUpdated": "2026-07-10T21:43:29.969Z",
+  "lastUpdated": "2026-07-10T22:44:11.404Z",
   "retentionDays": 90,
   "totalEvents": 8,
-  "activeEvents": 6,
+  "activeEvents": 5,
   "events": [
-    {
-      "id": "philippines:earthquake:greenearthquakemagnitude58mdepth:35kminphilippines0607202608:11utc850thousand",
-      "country": "Philippines",
-      "event": "Earthquake",
-      "severity": "Moderate",
-      "currentSeverity": "Moderate",
-      "urgency": "Future",
-      "headline": "Green earthquake (Magnitude 5.8M, Depth:35km) in Philippines 06/07/2026 08:11 UTC, 850 thousand in MMI&gt;=IV.",
-      "description": "On 7/6/2026 8:11:11 AM, an earthquake occurred in Philippines potentially affecting 850 thousand in MMI>=IV. The earthquake had Magnitude 5.8M, Depth:35km.",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1550395",
-      "publishedAt": "2026-07-06T08:35:27.000Z",
-      "firstSeen": "2026-07-07T17:33:47.416Z",
-      "lastSeen": "2026-07-10T21:43:29.969Z",
-      "active": true
-    },
     {
       "id": "philippines:weatheralert:droughtisongoinginchinaindonesiacambodialaosmalaysiaphilippinesthailandviet",
       "country": "Philippines",
@@ -33,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-07-07T17:33:47.416Z",
-      "lastSeen": "2026-07-10T21:43:29.969Z",
+      "lastSeen": "2026-07-10T22:44:11.404Z",
       "active": true
     },
     {
@@ -49,7 +33,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001279",
       "publishedAt": "2026-07-01T01:51:41.000Z",
       "firstSeen": "2026-07-07T17:33:47.416Z",
-      "lastSeen": "2026-07-10T21:43:29.969Z",
+      "lastSeen": "2026-07-10T22:44:11.404Z",
       "active": true
     },
     {
@@ -65,7 +49,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-07-07T17:33:47.416Z",
-      "lastSeen": "2026-07-10T21:43:29.969Z",
+      "lastSeen": "2026-07-10T22:44:11.404Z",
       "active": true
     },
     {
@@ -81,7 +65,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-07-07T17:33:47.416Z",
-      "lastSeen": "2026-07-10T21:43:29.969Z",
+      "lastSeen": "2026-07-10T22:44:11.404Z",
       "active": true
     },
     {
@@ -97,8 +81,25 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000143",
       "publishedAt": "2026-07-10T06:03:01.000Z",
       "firstSeen": "2026-07-10T08:52:37.157Z",
-      "lastSeen": "2026-07-10T21:43:29.969Z",
+      "lastSeen": "2026-07-10T22:44:11.404Z",
       "active": true
+    },
+    {
+      "id": "philippines:earthquake:greenearthquakemagnitude58mdepth:35kminphilippines0607202608:11utc850thousand",
+      "country": "Philippines",
+      "event": "Earthquake",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Green earthquake (Magnitude 5.8M, Depth:35km) in Philippines 06/07/2026 08:11 UTC, 850 thousand in MMI&gt;=IV.",
+      "description": "On 7/6/2026 8:11:11 AM, an earthquake occurred in Philippines potentially affecting 850 thousand in MMI>=IV. The earthquake had Magnitude 5.8M, Depth:35km.",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1550395",
+      "publishedAt": "2026-07-06T08:35:27.000Z",
+      "firstSeen": "2026-07-07T17:33:47.416Z",
+      "lastSeen": "2026-07-10T21:43:29.969Z",
+      "active": false,
+      "endedAt": "2026-07-10T22:44:11.404Z"
     },
     {
       "id": "philippines:floodalert:greenfloodalertinphilippines",
