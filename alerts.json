@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T06:59:17.414Z",
+  "lastUpdated": "2026-07-11T08:56:10.546Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,18 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000143",
         "publishedAt": "2026-07-10T06:03:01.000Z",
-        "fetchedAt": "2026-07-11T06:59:17.411Z"
+        "fetchedAt": "2026-07-11T08:56:10.543Z"
+      },
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Philippines",
+        "description": "On 13/06/2026, a flood started in Philippines, lasting until 05/07/2026 (last update). The flood caused 0 deaths and 866 displaced .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
+        "publishedAt": "2026-06-15T09:44:33.000Z",
+        "fetchedAt": "2026-07-11T08:56:10.546Z"
       },
       {
         "event": "Weather Alert",
@@ -22,18 +33,18 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-07-11T06:59:17.414Z"
+        "fetchedAt": "2026-07-11T08:56:10.546Z"
       },
       {
         "event": "Super Typhoon BAVI-26",
         "severity": "Extreme",
         "urgency": "Immediate",
-        "headline": "Red notification for tropical cyclone BAVI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 55.92 million .",
+        "headline": "Red notification for tropical cyclone BAVI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 62.983 million .",
         "description": "From 01/07/2026 to 11/07/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 287 km/h) BAVI-26 was active in NWPacific. The cyclone affects these countries: Guam, Northern Mariana Islands, Japan, Taiwan, China (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wi",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001279",
         "publishedAt": "2026-07-01T01:51:41.000Z",
-        "fetchedAt": "2026-07-11T06:59:17.413Z"
+        "fetchedAt": "2026-07-11T08:56:10.545Z"
       }
     ],
     "Guatemala": [
@@ -46,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104013",
         "publishedAt": "2026-07-11T06:40:35.000Z",
-        "fetchedAt": "2026-07-11T06:59:17.411Z"
+        "fetchedAt": "2026-07-11T08:56:10.543Z"
       },
       {
         "event": "Weather Alert",
@@ -57,7 +68,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-07-11T06:59:17.414Z"
+        "fetchedAt": "2026-07-11T08:56:10.546Z"
       }
     ],
     "Colombia": [
@@ -66,11 +77,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Green flood alert in Colombia",
-        "description": "On 09/07/2026, a flood started in Colombia, lasting until 11/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+        "description": "On 08/07/2026, a flood started in Colombia, lasting until 11/07/2026 (last update). The flood caused 0 deaths and 20 displaced .",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
         "publishedAt": "2026-07-11T06:41:16.000Z",
-        "fetchedAt": "2026-07-11T06:59:17.411Z"
+        "fetchedAt": "2026-07-11T08:56:10.543Z"
       },
       {
         "event": "Weather Alert",
@@ -81,7 +92,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-07-11T06:59:17.414Z"
+        "fetchedAt": "2026-07-11T08:56:10.546Z"
       }
     ]
   }
