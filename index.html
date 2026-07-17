@@ -105,14 +105,22 @@
             background: #1e293b; border-left: 1px solid #334155;
             display: flex; flex-direction: column; overflow: hidden;
         }
-        .panel-tabs { display: flex; border-bottom: 1px solid #334155; }
+        .panel-tabs { display: flex; border-bottom: 1px solid #334155; flex-wrap: wrap; }
         .panel-tab {
-            flex: 1; padding: 10px; text-align: center; font-size: 12px; font-weight: 600;
-            text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer;
+            padding: 8px 10px; text-align: center; font-size: 11px; font-weight: 600;
+            text-transform: uppercase; letter-spacing: 0.3px; cursor: pointer;
             border-bottom: 2px solid transparent; color: #64748b; transition: all 0.2s;
+            white-space: nowrap;
         }
         .panel-tab.active { color: #3b82f6; border-bottom-color: #3b82f6; }
         .panel-tab:hover { color: #e2e8f0; }
+
+        .export-btn {
+            background: #334155; color: #e2e8f0; border: none; padding: 6px 12px;
+            border-radius: 4px; font-size: 11px; font-weight: 600; cursor: pointer;
+            margin-bottom: 12px; display: inline-flex; align-items: center; gap: 6px;
+        }
+        .export-btn:hover { background: #475569; }
 
         .panel-content { flex: 1; overflow-y: auto; padding: 12px; }
         .panel-section { display: none; }
@@ -995,6 +1003,8 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
             return;
         }
 
+        const exportBtn = `<button class="export-btn" onclick="exportAlertsCSV()">&#x2B73; Export Alerts CSV</button>`;
+
         // Group event types into categories
         const byCategory = {};
         for (const [event, d] of Object.entries(byType)) {
@@ -1040,6 +1050,48 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
                 <div class="alert-cat-body">${itemsHtml}</div>
             </div>`;
         }).join('');
+
+        panel.innerHTML = exportBtn + panel.innerHTML;
+    }
+
+    function exportAlertsCSV() {
+        const rows = [];
+        for (const [state, alerts] of Object.entries(weatherData)) {
+            for (const a of alerts) {
+                rows.push({
+                    state,
+                    event: a.event,
+                    severity: a.severity,
+                    urgency: a.urgency,
+                    headline: a.headline || '',
+                    description: a.description || '',
+                    onset: a.onset || '',
+                    expires: a.expires || ''
+                });
+            }
+        }
+        if (rows.length === 0) { alert('No alerts to export'); return; }
+
+        const headers = ['State', 'Event', 'Severity', 'Urgency', 'Headline', 'Description', 'Onset', 'Expires'];
+        const csvRows = rows.map(r => [
+            r.state,
+            r.event,
+            r.severity,
+            r.urgency,
+            `"${r.headline.replace(/"/g, '""')}"`,
+            `"${r.description.replace(/"/g, '""')}"`,
+            r.onset,
+            r.expires
+        ].join(','));
+
+        const csv = [headers.join(','), ...csvRows].join('\n');
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `weather-alerts-${new Date().toISOString().slice(0,10)}.csv`;
+        a.click();
+        URL.revokeObjectURL(url);
     }
 
     // ========================================================================
