@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T00:13:52.157Z",
+  "lastUpdated": "2026-07-17T03:42:49.332Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,18 +11,18 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000144",
         "publishedAt": "2026-07-16T07:34:28.000Z",
-        "fetchedAt": "2026-07-17T00:13:52.156Z"
+        "fetchedAt": "2026-07-17T03:42:49.330Z"
       },
       {
         "event": "Earthquake",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Green earthquake (Magnitude 6.2M, Depth:46.427km) in Philippines 14/07/2026 15:49 UTC, 1.3 million in 100km.",
-        "description": "On 7/14/2026 3:49:39 PM, an earthquake occurred in Philippines potentially affecting 1.3 million in 100km. The earthquake had Magnitude 6.2M, Depth:46.427km.",
+        "headline": "Green earthquake (Magnitude 6.2M, Depth:46.427km) in Philippines 14/07/2026 15:49 UTC, 60 thousand in MMI VI.",
+        "description": "On 7/14/2026 3:49:39 PM, an earthquake occurred in Philippines potentially affecting 60 thousand in MMI VI. The earthquake had Magnitude 6.2M, Depth:46.427km.",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1551846",
         "publishedAt": "2026-07-14T16:07:21.000Z",
-        "fetchedAt": "2026-07-17T00:13:52.156Z"
+        "fetchedAt": "2026-07-17T03:42:49.330Z"
       },
       {
         "event": "Flood Alert",
@@ -33,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
         "publishedAt": "2026-06-15T09:44:33.000Z",
-        "fetchedAt": "2026-07-17T00:13:52.157Z"
+        "fetchedAt": "2026-07-17T03:42:49.331Z"
       },
       {
         "event": "Weather Alert",
@@ -44,7 +44,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-07-17T00:13:52.157Z"
+        "fetchedAt": "2026-07-17T03:42:49.332Z"
       }
     ],
     "Colombia": [
@@ -57,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-07-17T00:13:52.157Z"
+        "fetchedAt": "2026-07-17T03:42:49.332Z"
       }
     ]
   }
