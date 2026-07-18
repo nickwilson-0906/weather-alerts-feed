@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-18T21:58:24.013Z",
+  "lastUpdated": "2026-07-18T23:01:43.740Z",
   "retentionDays": 90,
   "totalEvents": 17,
-  "activeEvents": 5,
+  "activeEvents": 4,
   "events": [
     {
       "id": "philippines:floodalert:greenfloodalertinphilippines",
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
       "publishedAt": "2026-06-15T09:44:33.000Z",
       "firstSeen": "2026-07-07T17:33:47.416Z",
-      "lastSeen": "2026-07-18T21:58:24.013Z",
+      "lastSeen": "2026-07-18T23:01:43.740Z",
       "active": true,
       "endedAt": "2026-07-09T23:38:29.180Z"
     },
@@ -34,7 +34,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-07-14T15:47:44.810Z",
-      "lastSeen": "2026-07-18T21:58:24.013Z",
+      "lastSeen": "2026-07-18T23:01:43.740Z",
       "active": true
     },
     {
@@ -50,7 +50,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000144",
       "publishedAt": "2026-07-16T07:34:28.000Z",
       "firstSeen": "2026-07-16T09:30:09.444Z",
-      "lastSeen": "2026-07-18T21:58:24.013Z",
+      "lastSeen": "2026-07-18T23:01:43.740Z",
       "active": true
     },
     {
@@ -66,7 +66,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-07-16T11:20:18.633Z",
-      "lastSeen": "2026-07-18T21:58:24.013Z",
+      "lastSeen": "2026-07-18T23:01:43.740Z",
       "active": true
     },
     {
@@ -83,7 +83,8 @@
       "publishedAt": "2026-07-14T16:07:21.000Z",
       "firstSeen": "2026-07-17T03:42:49.333Z",
       "lastSeen": "2026-07-18T21:58:24.013Z",
-      "active": true
+      "active": false,
+      "endedAt": "2026-07-18T23:01:43.740Z"
     },
     {
       "id": "philippines:earthquake:greenearthquakemagnitude62mdepth:46427kminphilippines1407202615:49utc13millio",
