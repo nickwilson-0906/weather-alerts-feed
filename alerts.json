@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T22:28:51.188Z",
+  "lastUpdated": "2026-07-21T23:33:48.692Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
         "publishedAt": "2026-06-15T09:44:33.000Z",
-        "fetchedAt": "2026-07-21T22:28:51.188Z"
+        "fetchedAt": "2026-07-21T23:33:48.692Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-07-21T22:28:51.188Z"
+        "fetchedAt": "2026-07-21T23:33:48.692Z"
       }
     ],
     "Colombia": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-07-21T22:28:51.188Z"
+        "fetchedAt": "2026-07-21T23:33:48.692Z"
       }
     ]
   }
