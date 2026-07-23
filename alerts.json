@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-23T06:17:23.086Z",
+  "lastUpdated": "2026-07-23T09:10:22.049Z",
   "alerts": {
     "Philippines": [
+      {
+        "event": "Typhoon ELEVEN-26",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "headline": "Orange notification for tropical cyclone ELEVEN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 17.242 million .",
+        "description": "From 23/07/2026 to 23/07/2026, a Tropical Depression (maximum wind speed of 139 km/h) ELEVEN-26 was active in NWPacific. The cyclone affects these countries: China (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 17.242 million .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001294",
+        "publishedAt": "2026-07-23T08:39:30.000Z",
+        "fetchedAt": "2026-07-23T09:10:22.047Z"
+      },
       {
         "event": "Flood Alert",
         "severity": "Moderate",
@@ -11,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
         "publishedAt": "2026-06-15T09:44:33.000Z",
-        "fetchedAt": "2026-07-23T06:17:23.086Z"
+        "fetchedAt": "2026-07-23T09:10:22.048Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-07-23T06:17:23.086Z"
+        "fetchedAt": "2026-07-23T09:10:22.049Z"
       }
     ],
     "Colombia": [
@@ -35,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-07-23T06:17:23.086Z"
+        "fetchedAt": "2026-07-23T09:10:22.049Z"
       }
     ]
   }
