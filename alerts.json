@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T04:36:38.326Z",
+  "lastUpdated": "2026-07-24T07:19:36.598Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,18 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001294",
         "publishedAt": "2026-07-23T08:39:30.000Z",
-        "fetchedAt": "2026-07-24T04:36:38.323Z"
+        "fetchedAt": "2026-07-24T07:19:36.596Z"
+      },
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Philippines",
+        "description": "On 13/06/2026, a flood started in Philippines, lasting until 19/07/2026 (last update). The flood caused 2 deaths and 11246 displaced .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
+        "publishedAt": "2026-06-15T09:44:33.000Z",
+        "fetchedAt": "2026-07-24T07:19:36.598Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-07-24T04:36:38.326Z"
+        "fetchedAt": "2026-07-24T07:19:36.598Z"
       }
     ],
     "Colombia": [
@@ -35,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-07-24T04:36:38.326Z"
+        "fetchedAt": "2026-07-24T07:19:36.598Z"
       }
     ]
   }
