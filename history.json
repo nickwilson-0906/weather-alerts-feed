@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-28T21:41:58.173Z",
+  "lastUpdated": "2026-07-28T22:43:48.534Z",
   "retentionDays": 90,
   "totalEvents": 19,
-  "activeEvents": 5,
+  "activeEvents": 4,
   "events": [
     {
       "id": "colombia:weatheralert:droughtisongoingincolombiaecuadorpanamavenezuela",
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-07-14T15:47:44.810Z",
-      "lastSeen": "2026-07-28T21:41:58.173Z",
+      "lastSeen": "2026-07-28T22:43:48.534Z",
       "active": true,
       "endedAt": "2026-07-27T05:26:57.921Z"
     },
@@ -34,7 +34,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-07-16T11:20:18.633Z",
-      "lastSeen": "2026-07-28T21:41:58.173Z",
+      "lastSeen": "2026-07-28T22:43:48.534Z",
       "active": true,
       "endedAt": "2026-07-27T05:26:57.921Z"
     },
@@ -51,9 +51,26 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001294",
       "publishedAt": "2026-07-23T08:39:30.000Z",
       "firstSeen": "2026-07-23T21:29:26.030Z",
-      "lastSeen": "2026-07-28T21:41:58.173Z",
+      "lastSeen": "2026-07-28T22:43:48.534Z",
       "active": true,
       "endedAt": "2026-07-27T05:26:57.921Z"
+    },
+    {
+      "id": "colombia:floodalert:greenfloodalertincolombia",
+      "country": "Colombia",
+      "event": "Flood Alert",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Green flood alert in Colombia",
+      "description": "On 09/07/2026, a flood started in Colombia, lasting until 11/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
+      "publishedAt": "2026-07-11T06:41:16.000Z",
+      "firstSeen": "2026-07-11T06:59:17.417Z",
+      "lastSeen": "2026-07-28T22:43:48.534Z",
+      "active": true,
+      "endedAt": "2026-07-15T22:14:46.882Z"
     },
     {
       "id": "philippines:floodalert:greenfloodalertinphilippines",
@@ -69,25 +86,8 @@
       "publishedAt": "2026-06-15T09:44:33.000Z",
       "firstSeen": "2026-07-07T17:33:47.416Z",
       "lastSeen": "2026-07-28T21:41:58.173Z",
-      "active": true,
-      "endedAt": "2026-07-25T22:38:48.724Z"
-    },
-    {
-      "id": "colombia:floodalert:greenfloodalertincolombia",
-      "country": "Colombia",
-      "event": "Flood Alert",
-      "severity": "Moderate",
-      "currentSeverity": "Moderate",
-      "urgency": "Future",
-      "headline": "Green flood alert in Colombia",
-      "description": "On 09/07/2026, a flood started in Colombia, lasting until 11/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
-      "publishedAt": "2026-07-11T06:41:16.000Z",
-      "firstSeen": "2026-07-11T06:59:17.417Z",
-      "lastSeen": "2026-07-28T21:41:58.173Z",
-      "active": true,
-      "endedAt": "2026-07-15T22:14:46.882Z"
+      "active": false,
+      "endedAt": "2026-07-28T22:43:48.534Z"
     },
     {
       "id": "philippines:typhooneleven26:orangenotificationfortropicalcycloneeleven26populationaffectedbycategory",
