@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T12:31:27.210Z",
+  "lastUpdated": "2026-07-29T14:58:32.159Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001294",
         "publishedAt": "2026-07-23T08:39:30.000Z",
-        "fetchedAt": "2026-07-29T12:31:27.207Z"
+        "fetchedAt": "2026-07-29T14:58:32.156Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-07-29T12:31:27.210Z"
+        "fetchedAt": "2026-07-29T14:58:32.159Z"
       }
     ],
     "Colombia": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
         "publishedAt": "2026-07-11T06:41:16.000Z",
-        "fetchedAt": "2026-07-29T12:31:27.210Z"
+        "fetchedAt": "2026-07-29T14:58:32.159Z"
       },
       {
         "event": "Weather Alert",
@@ -46,7 +46,20 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-07-29T12:31:27.210Z"
+        "fetchedAt": "2026-07-29T14:58:32.159Z"
+      }
+    ],
+    "Guatemala": [
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Belize, Costa Rica, Guatemala, Honduras, Mexico, Nicaragua, Panama, El Salvador",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
+        "publishedAt": "2026-07-03T12:57:40.000Z",
+        "fetchedAt": "2026-07-29T14:58:32.159Z"
       }
     ]
   }
