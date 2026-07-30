@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-30T21:44:16.336Z",
+  "lastUpdated": "2026-07-30T22:49:48.481Z",
   "retentionDays": 90,
   "totalEvents": 20,
-  "activeEvents": 4,
+  "activeEvents": 3,
   "events": [
     {
       "id": "colombia:weatheralert:droughtisongoingincolombiaecuadorpanamavenezuela",
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-07-14T15:47:44.810Z",
-      "lastSeen": "2026-07-30T21:44:16.336Z",
+      "lastSeen": "2026-07-30T22:49:48.481Z",
       "active": true,
       "endedAt": "2026-07-27T05:26:57.921Z"
     },
@@ -34,24 +34,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-07-16T11:20:18.633Z",
-      "lastSeen": "2026-07-30T21:44:16.336Z",
-      "active": true,
-      "endedAt": "2026-07-27T05:26:57.921Z"
-    },
-    {
-      "id": "philippines:typhoonnoul26:orangenotificationfortropicalcyclonenoul26populationaffectedbycategory1120",
-      "country": "Philippines",
-      "event": "Typhoon NOUL-26",
-      "severity": "Severe",
-      "currentSeverity": "Severe",
-      "urgency": "Expected",
-      "headline": "Orange notification for tropical cyclone NOUL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 8.106 million .",
-      "description": "From 23/07/2026 to 23/07/2026, a Tropical Storm (maximum wind speed of 148 km/h) NOUL-26 was active in NWPacific. The cyclone affects these countries: Philippines, China (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 8.106 million .",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001294",
-      "publishedAt": "2026-07-23T08:39:30.000Z",
-      "firstSeen": "2026-07-23T21:29:26.030Z",
-      "lastSeen": "2026-07-30T21:44:16.336Z",
+      "lastSeen": "2026-07-30T22:49:48.481Z",
       "active": true,
       "endedAt": "2026-07-27T05:26:57.921Z"
     },
@@ -68,8 +51,25 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-07-29T14:58:32.161Z",
-      "lastSeen": "2026-07-30T21:44:16.336Z",
+      "lastSeen": "2026-07-30T22:49:48.481Z",
       "active": true
+    },
+    {
+      "id": "philippines:typhoonnoul26:orangenotificationfortropicalcyclonenoul26populationaffectedbycategory1120",
+      "country": "Philippines",
+      "event": "Typhoon NOUL-26",
+      "severity": "Severe",
+      "currentSeverity": "Severe",
+      "urgency": "Expected",
+      "headline": "Orange notification for tropical cyclone NOUL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 8.106 million .",
+      "description": "From 23/07/2026 to 23/07/2026, a Tropical Storm (maximum wind speed of 148 km/h) NOUL-26 was active in NWPacific. The cyclone affects these countries: Philippines, China (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 8.106 million .",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001294",
+      "publishedAt": "2026-07-23T08:39:30.000Z",
+      "firstSeen": "2026-07-23T21:29:26.030Z",
+      "lastSeen": "2026-07-30T21:44:16.336Z",
+      "active": false,
+      "endedAt": "2026-07-30T22:49:48.481Z"
     },
     {
       "id": "colombia:floodalert:greenfloodalertincolombia",
