@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T02:16:02.548Z",
+  "lastUpdated": "2026-08-10T04:14:15.968Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001298",
         "publishedAt": "2026-08-04T22:23:42.000Z",
-        "fetchedAt": "2026-08-10T02:16:02.545Z"
+        "fetchedAt": "2026-08-10T04:14:15.965Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
         "publishedAt": "2026-06-15T09:44:33.000Z",
-        "fetchedAt": "2026-08-10T02:16:02.548Z"
+        "fetchedAt": "2026-08-10T04:14:15.967Z"
       },
       {
         "event": "Weather Alert",
@@ -33,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-10T02:16:02.548Z"
+        "fetchedAt": "2026-08-10T04:14:15.968Z"
       },
       {
         "event": "Super Typhoon DOLPHIN-26",
@@ -44,7 +44,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001297",
         "publishedAt": "2026-07-27T02:24:29.000Z",
-        "fetchedAt": "2026-08-10T02:16:02.547Z"
+        "fetchedAt": "2026-08-10T04:14:15.967Z"
       }
     ],
     "Guatemala": [
@@ -57,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-10T02:16:02.548Z"
+        "fetchedAt": "2026-08-10T04:14:15.968Z"
       }
     ],
     "Colombia": [
@@ -70,7 +70,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-10T02:16:02.548Z"
+        "fetchedAt": "2026-08-10T04:14:15.968Z"
       }
     ]
   }
