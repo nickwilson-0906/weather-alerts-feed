@@ -1,6 +1,30 @@
 {
-  "lastUpdated": "2026-08-10T11:52:22.792Z",
+  "lastUpdated": "2026-08-10T13:21:51.029Z",
   "alerts": {
+    "Colombia": [
+      {
+        "event": "Earthquake",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "headline": "Orange earthquake (Magnitude 7.4M, Depth:107.029km) in Colombia 10/08/2026 12:34 UTC, 2.1 million (in MMI&gt;=VII).",
+        "description": "On 8/10/2026 12:34:27 PM, an earthquake occurred in Colombia potentially affecting 2.1 million (in MMI>=VII). The earthquake had Magnitude 7.4M, Depth:107.029km.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1557236",
+        "publishedAt": "2026-08-10T12:50:33.000Z",
+        "fetchedAt": "2026-08-10T13:21:51.024Z"
+      },
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Colombia, , Ecuador, Panama, Venezuela",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
+        "publishedAt": "2026-07-03T12:57:35.000Z",
+        "fetchedAt": "2026-08-10T13:21:51.028Z"
+      }
+    ],
     "Philippines": [
       {
         "event": "Typhoon PEILOU-26",
@@ -11,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001298",
         "publishedAt": "2026-08-04T22:23:42.000Z",
-        "fetchedAt": "2026-08-10T11:52:22.788Z"
+        "fetchedAt": "2026-08-10T13:21:51.026Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
         "publishedAt": "2026-06-15T09:44:33.000Z",
-        "fetchedAt": "2026-08-10T11:52:22.791Z"
+        "fetchedAt": "2026-08-10T13:21:51.028Z"
       },
       {
         "event": "Weather Alert",
@@ -33,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-10T11:52:22.791Z"
+        "fetchedAt": "2026-08-10T13:21:51.028Z"
       },
       {
         "event": "Super Typhoon DOLPHIN-26",
@@ -44,7 +68,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001297",
         "publishedAt": "2026-07-27T02:24:29.000Z",
-        "fetchedAt": "2026-08-10T11:52:22.791Z"
+        "fetchedAt": "2026-08-10T13:21:51.028Z"
       }
     ],
     "Guatemala": [
@@ -57,20 +81,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-10T11:52:22.791Z"
-      }
-    ],
-    "Colombia": [
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Colombia, , Ecuador, Panama, Venezuela",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
-        "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-10T11:52:22.791Z"
+        "fetchedAt": "2026-08-10T13:21:51.028Z"
       }
     ]
   }
