@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T06:59:05.589Z",
+  "lastUpdated": "2026-08-15T07:37:46.262Z",
   "alerts": {
     "Colombia": [
       {
@@ -10,8 +10,8 @@
         "description": "On 10/08/2026, a forest fire started in Colombia,  until 14/08/2026.",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1030520",
-        "publishedAt": "2026-08-15T03:04:29.000Z",
-        "fetchedAt": "2026-08-15T06:59:05.585Z"
+        "publishedAt": "2026-08-15T07:03:58.000Z",
+        "fetchedAt": "2026-08-15T07:37:46.258Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-15T06:59:05.589Z"
+        "fetchedAt": "2026-08-15T07:37:46.262Z"
       }
     ],
     "Philippines": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001298",
         "publishedAt": "2026-08-04T22:23:42.000Z",
-        "fetchedAt": "2026-08-15T06:59:05.587Z"
+        "fetchedAt": "2026-08-15T07:37:46.260Z"
       },
       {
         "event": "Weather Alert",
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-15T06:59:05.589Z"
+        "fetchedAt": "2026-08-15T07:37:46.262Z"
       }
     ],
     "Guatemala": [
@@ -59,7 +59,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-15T06:59:05.589Z"
+        "fetchedAt": "2026-08-15T07:37:46.262Z"
       }
     ]
   }
