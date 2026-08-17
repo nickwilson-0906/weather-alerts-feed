@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T22:00:50.343Z",
+  "lastUpdated": "2026-08-17T22:42:53.857Z",
   "alerts": {
     "Colombia": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104097",
         "publishedAt": "2026-08-17T09:43:19.000Z",
-        "fetchedAt": "2026-08-17T22:00:50.340Z"
+        "fetchedAt": "2026-08-17T22:42:53.854Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1030520",
         "publishedAt": "2026-08-15T19:07:18.000Z",
-        "fetchedAt": "2026-08-17T22:00:50.341Z"
+        "fetchedAt": "2026-08-17T22:42:53.855Z"
       },
       {
         "event": "Weather Alert",
@@ -33,31 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-17T22:00:50.343Z"
-      }
-    ],
-    "Philippines": [
-      {
-        "event": "Typhoon PEILOU-26",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green notification for tropical cyclone PEILOU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0.874 million in Tropical Storm).",
-        "description": "From 04/08/2026 to 13/08/2026, a Tropical Depression (maximum wind speed of 74 km/h) PEILOU-26 was active in NWPacific. The cyclone affects these countries: Philippines (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0.874 million in tropic",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001298",
-        "publishedAt": "2026-08-04T22:23:42.000Z",
-        "fetchedAt": "2026-08-17T22:00:50.342Z"
-      },
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-        "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-17T22:00:50.343Z"
+        "fetchedAt": "2026-08-17T22:42:53.857Z"
       }
     ],
     "Guatemala": [
@@ -70,7 +46,20 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-17T22:00:50.343Z"
+        "fetchedAt": "2026-08-17T22:42:53.857Z"
+      }
+    ],
+    "Philippines": [
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+        "publishedAt": "2026-04-30T13:07:47.000Z",
+        "fetchedAt": "2026-08-17T22:42:53.857Z"
       }
     ]
   }
