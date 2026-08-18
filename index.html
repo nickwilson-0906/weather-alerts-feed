@@ -597,7 +597,9 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
         const unique = key => [...new Set(AGENTS.map(a => a[key]))].sort();
         buildMsOptions('work_group', unique('work_group'));
         buildMsOptions('country',    unique('country'));
-        buildMsOptions('state',      unique('state'));
+        // Add cities to state/region filter for city-level weather alerts
+        const statesWithCities = [...unique('state'), ...FILTER_CITIES].sort();
+        buildMsOptions('state',      statesWithCities);
         buildMsOptions('tz',         unique('tz'));
         buildMsOptions('pe',         unique('pe'));
         buildMsOptions('sub_team',   unique('sub_team'));
@@ -606,18 +608,34 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
     function getFilteredAgents() {
         const wg = getMsValues('work_group');
         const co = getMsValues('country');
-        const st = getMsValues('state');
+        let st = getMsValues('state');
         const tz = getMsValues('tz');
         const pe = getMsValues('pe');
         const sb = getMsValues('sub_team');
-        return AGENTS.filter(a =>
-            (!wg || wg.includes(a.work_group)) &&
-            (!co || co.includes(a.country)) &&
-            (!st || st.includes(a.state)) &&
-            (!tz || tz.includes(a.tz)) &&
-            (!pe || pe.includes(a.pe)) &&
-            (!sb || sb.includes(a.sub_team))
-        );
+
+        // If city filters are selected, also include agents from the parent country
+        // (since agents are assigned to countries, not cities)
+        if (st) {
+            const expandedStates = new Set(st);
+            for (const state of st) {
+                if (CITY_TO_COUNTRY[state]) {
+                    // City selected - include the parent country
+                    expandedStates.add(CITY_TO_COUNTRY[state]);
+                }
+            }
+            st = [...expandedStates];
+        }
+
+        return AGENTS.filter(a => {
+            // For state filter, match either the state or the country (for international agents)
+            const stateMatch = !st || st.includes(a.state) || (a.country !== 'US' && st.includes(a.country));
+            return (!wg || wg.includes(a.work_group)) &&
+                (!co || co.includes(a.country)) &&
+                stateMatch &&
+                (!tz || tz.includes(a.tz)) &&
+                (!pe || pe.includes(a.pe)) &&
+                (!sb || sb.includes(a.sub_team));
+        });
     }
 
     // ========================================================================
@@ -877,6 +895,9 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
         'Guatemala City': 'Guatemala',
     };
 
+    // Cities to add as filter options under State/Region
+    const FILTER_CITIES = ['Guatemala City', 'Manila'];
+
     function updateAlertsPanel() {
         const panel = document.getElementById('panelAlerts');
 
@@ -887,6 +908,16 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
         for (const [city, country] of Object.entries(CITY_TO_COUNTRY)) {
             if (relevantLocations.has(country)) {
                 relevantLocations.add(city);
+            }
+        }
+
+        // If specific cities are selected in the filter, include them
+        const selectedStates = getMsValues('state');
+        if (selectedStates) {
+            for (const st of selectedStates) {
+                if (FILTER_CITIES.includes(st)) {
+                    relevantLocations.add(st);
+                }
             }
         }
 
