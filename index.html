@@ -419,6 +419,7 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
         'Washington DC':[38.9,-77.0],'West Virginia':[38.6,-80.5],'Wisconsin':[44.5,-89.5],
         'Wyoming':[43.0,-107.5],
         'Philippines':[12.5,122.0],'Guatemala':[15.5,-90.3],'Colombia':[4.0,-72.0],
+        'Manila':[14.5995,120.9842],'Guatemala City':[14.6349,-90.5069],
     };
 
     const STATE_ABBREV = {
@@ -721,7 +722,17 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
             if (!resp.ok) throw new Error('Failed to fetch international alerts');
             const data = await resp.json();
             console.log('International alerts loaded:', data.lastUpdated, data.alerts);
-            return data.alerts || {};
+
+            // Merge country-level and city-level alerts
+            const merged = { ...(data.alerts || {}) };
+            if (data.cityAlerts) {
+                for (const [cityName, cityAlertList] of Object.entries(data.cityAlerts)) {
+                    if (!merged[cityName]) merged[cityName] = [];
+                    merged[cityName] = [...merged[cityName], ...cityAlertList];
+                }
+                console.log('City alerts loaded:', Object.keys(data.cityAlerts));
+            }
+            return merged;
         } catch (e) {
             console.error('International alerts fetch error:', e);
             return {};
@@ -860,11 +871,24 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
     // ========================================================================
     // ALERTS PANEL — grouped by category (Fire / Flood / Wind / etc.)
     // ========================================================================
+    // Map cities to their parent countries for filtering
+    const CITY_TO_COUNTRY = {
+        'Manila': 'Philippines',
+        'Guatemala City': 'Guatemala',
+    };
+
     function updateAlertsPanel() {
         const panel = document.getElementById('panelAlerts');
 
         // Get the set of locations (states/countries) where filtered agents are located
         const relevantLocations = new Set(filteredAgents.map(a => a.country === 'US' ? a.state : a.country));
+
+        // Also include cities that belong to relevant countries
+        for (const [city, country] of Object.entries(CITY_TO_COUNTRY)) {
+            if (relevantLocations.has(country)) {
+                relevantLocations.add(city);
+            }
+        }
 
         // Group alerts by NWS event type, collecting states — only for locations with filtered agents
         const byType = {};

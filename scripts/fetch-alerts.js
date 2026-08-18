@@ -4,6 +4,11 @@ const https = require('https');
 const MONITORED_COUNTRIES = ['Philippines', 'Guatemala', 'Colombia'];
 const HISTORY_RETENTION_DAYS = 90;
 
+const MONITORED_CITIES = [
+  { name: 'Manila', country: 'Philippines', lat: 14.5995, lon: 120.9842 },
+  { name: 'Guatemala City', country: 'Guatemala', lat: 14.6349, lon: -90.5069 },
+];
+
 function fetch(url) {
   return new Promise((resolve, reject) => {
     https.get(url, { headers: { 'User-Agent': 'WeatherAlertsFeed/1.0' } }, (res) => {
@@ -203,6 +208,129 @@ function updateHistory(history, currentAlerts) {
   };
 }
 
+async function fetchCityWeather(city) {
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${city.lat}&longitude=${city.lon}&current=temperature_2m,relative_humidity_2m,precipitation,rain,weather_code,wind_speed_10m&daily=weather_code,precipitation_sum,rain_sum,precipitation_probability_max&timezone=auto`;
+  try {
+    const data = JSON.parse(await fetch(url));
+    return { city, data };
+  } catch (err) {
+    console.error(`Error fetching weather for ${city.name}:`, err.message);
+    return { city, data: null };
+  }
+}
+
+function parseWeatherCode(code) {
+  const codes = {
+    0: { desc: 'Clear sky', severity: null },
+    1: { desc: 'Mainly clear', severity: null },
+    2: { desc: 'Partly cloudy', severity: null },
+    3: { desc: 'Overcast', severity: null },
+    45: { desc: 'Fog', severity: 'Moderate' },
+    48: { desc: 'Depositing rime fog', severity: 'Moderate' },
+    51: { desc: 'Light drizzle', severity: null },
+    53: { desc: 'Moderate drizzle', severity: null },
+    55: { desc: 'Dense drizzle', severity: 'Moderate' },
+    61: { desc: 'Slight rain', severity: null },
+    63: { desc: 'Moderate rain', severity: 'Moderate' },
+    65: { desc: 'Heavy rain', severity: 'Severe' },
+    80: { desc: 'Slight rain showers', severity: null },
+    81: { desc: 'Moderate rain showers', severity: 'Moderate' },
+    82: { desc: 'Violent rain showers', severity: 'Severe' },
+    95: { desc: 'Thunderstorm', severity: 'Severe' },
+    96: { desc: 'Thunderstorm with slight hail', severity: 'Severe' },
+    99: { desc: 'Thunderstorm with heavy hail', severity: 'Extreme' },
+  };
+  return codes[code] || { desc: 'Unknown', severity: null };
+}
+
+function generateCityAlerts(cityWeatherResults) {
+  const cityAlerts = {};
+  for (const { city, data } of cityWeatherResults) {
+    if (!data || !data.current) continue;
+    const alerts = [];
+    const current = data.current;
+    const daily = data.daily;
+    const weatherInfo = parseWeatherCode(current.weather_code);
+    const currentRain = current.rain || 0;
+    const todayPrecip = daily && daily.precipitation_sum ? daily.precipitation_sum[0] : 0;
+
+    let shouldAlert = false;
+    let severity = 'Moderate';
+    let eventType = 'Weather Advisory';
+    let headline = '';
+    let description = '';
+
+    if (currentRain > 0 || [51, 53, 55, 61, 63, 65, 80, 81, 82, 95, 96, 99].includes(current.weather_code)) {
+      shouldAlert = true;
+      if (todayPrecip >= 30 || currentRain >= 5 || [65, 82, 95, 96, 99].includes(current.weather_code)) {
+        severity = 'Severe';
+        eventType = 'Heavy Rain Alert';
+        headline = `Heavy rainfall in ${city.name}`;
+      } else if (todayPrecip >= 50 || currentRain >= 15) {
+        severity = 'Extreme';
+        eventType = 'Flood Risk Alert';
+        headline = `Extreme rainfall and flood risk in ${city.name}`;
+      } else {
+        eventType = 'Rain Advisory';
+        headline = `${weatherInfo.desc} in ${city.name}`;
+      }
+      description = `Current conditions: ${weatherInfo.desc}. `;
+      if (currentRain > 0) description += `Current rainfall rate: ${currentRain}mm. `;
+      if (todayPrecip > 0) description += `Today's expected total: ${todayPrecip}mm. `;
+    }
+
+    if ([95, 96, 99].includes(current.weather_code)) {
+      shouldAlert = true;
+      severity = current.weather_code === 99 ? 'Extreme' : 'Severe';
+      eventType = 'Thunderstorm Alert';
+      headline = `Thunderstorm activity in ${city.name}`;
+      description = `Active thunderstorm conditions. ${weatherInfo.desc}. `;
+    }
+
+    if (shouldAlert) {
+      description += `Temperature: ${current.temperature_2m}°C, Humidity: ${current.relative_humidity_2m}%, Wind: ${current.wind_speed_10m} km/h.`;
+      alerts.push({
+        event: eventType,
+        severity,
+        urgency: severity === 'Extreme' ? 'Immediate' : severity === 'Severe' ? 'Expected' : 'Future',
+        headline,
+        description,
+        source: 'Open-Meteo',
+        link: 'https://open-meteo.com/',
+        publishedAt: new Date().toISOString(),
+        fetchedAt: new Date().toISOString(),
+        cityLevel: true,
+      });
+    }
+
+    if (daily && daily.precipitation_probability_max) {
+      for (let i = 1; i < Math.min(7, daily.precipitation_probability_max.length); i++) {
+        const prob = daily.precipitation_probability_max[i];
+        const precip = daily.precipitation_sum[i];
+        if (prob >= 70 && precip >= 15) {
+          const date = new Date(daily.time[i]);
+          const dayName = date.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
+          alerts.push({
+            event: precip >= 30 ? 'Heavy Rain Forecast' : 'Rain Forecast',
+            severity: precip >= 50 ? 'Severe' : 'Moderate',
+            urgency: 'Future',
+            headline: `${precip >= 30 ? 'Heavy rain' : 'Rain'} expected in ${city.name} on ${dayName}`,
+            description: `${precip.toFixed(1)}mm of precipitation forecast with ${prob}% probability.`,
+            source: 'Open-Meteo',
+            link: 'https://open-meteo.com/',
+            publishedAt: new Date().toISOString(),
+            fetchedAt: new Date().toISOString(),
+            cityLevel: true,
+          });
+          break;
+        }
+      }
+    }
+    if (alerts.length > 0) cityAlerts[city.name] = alerts;
+  }
+  return cityAlerts;
+}
+
 async function main() {
   console.log('Fetching GDACS alerts...');
 
@@ -210,14 +338,25 @@ async function main() {
     const xml = await fetch('https://www.gdacs.org/xml/rss.xml');
     const alerts = parseGDACS(xml);
 
-    // Save current alerts
+    console.log('\nFetching city-level weather...');
+    const cityWeatherResults = await Promise.all(MONITORED_CITIES.map(fetchCityWeather));
+    const cityAlerts = generateCityAlerts(cityWeatherResults);
+
+    for (const [cityName, cityAlertList] of Object.entries(cityAlerts)) {
+      console.log(`  ${cityName}: ${cityAlertList.length} alert(s)`);
+      for (const a of cityAlertList) {
+        console.log(`    - ${a.event} (${a.severity})`);
+      }
+    }
+
     const output = {
       lastUpdated: new Date().toISOString(),
       alerts,
+      cityAlerts,
     };
 
     fs.writeFileSync('alerts.json', JSON.stringify(output, null, 2));
-    console.log('Alerts written to alerts.json');
+    console.log('\nAlerts written to alerts.json');
     console.log('Countries with alerts:', Object.keys(alerts));
     for (const [country, countryAlerts] of Object.entries(alerts)) {
       console.log(`  ${country}: ${countryAlerts.length} alert(s)`);
@@ -226,7 +365,6 @@ async function main() {
       }
     }
 
-    // Update history
     console.log('\nUpdating history...');
     const history = loadHistory();
     const updatedHistory = updateHistory(history, alerts);
