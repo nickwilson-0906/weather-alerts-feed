@@ -863,10 +863,14 @@ const _NM=["Billy Chau", "Carlos Tello", "Scott Quiles", "Chelsea Hilbun", "Jeff
     function updateAlertsPanel() {
         const panel = document.getElementById('panelAlerts');
 
-        // Group alerts by NWS event type, collecting states
+        // Get the set of locations (states/countries) where filtered agents are located
+        const relevantLocations = new Set(filteredAgents.map(a => a.country === 'US' ? a.state : a.country));
+
+        // Group alerts by NWS event type, collecting states — only for locations with filtered agents
         const byType = {};
         const sevOrder = { Extreme: 0, Severe: 1, Moderate: 2 };
         for (const [state, alerts] of Object.entries(weatherData)) {
+            if (!relevantLocations.has(state)) continue;
             for (const a of alerts) {
                 if (!byType[a.event]) byType[a.event] = { severity: a.severity, urgency: a.urgency, headline: a.headline, description: a.description, states: [] };
                 if (!byType[a.event].states.includes(state)) byType[a.event].states.push(state);
