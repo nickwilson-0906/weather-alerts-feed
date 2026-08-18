@@ -1,41 +1,6 @@
 {
-  "lastUpdated": "2026-08-18T12:13:59.221Z",
+  "lastUpdated": "2026-08-18T13:12:42.282Z",
   "alerts": {
-    "Colombia": [
-      {
-        "event": "Flood Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green flood alert in Colombia",
-        "description": "On 14/08/2026, a flood started in Colombia, lasting until 16/08/2026 (last update). The flood caused 0 deaths and 0 displaced .",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104097",
-        "publishedAt": "2026-08-17T09:43:19.000Z",
-        "fetchedAt": "2026-08-18T12:13:59.218Z"
-      },
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green forest fire notification in Colombia",
-        "description": "On 10/08/2026, a forest fire started in Colombia,  until 16/08/2026.",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1030520",
-        "publishedAt": "2026-08-15T19:07:18.000Z",
-        "fetchedAt": "2026-08-18T12:13:59.219Z"
-      },
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Colombia, Costa Rica, Nicaragua, Panama, Venezuela",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
-        "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-18T12:13:59.221Z"
-      }
-    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -46,7 +11,53 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-18T12:13:59.221Z"
+        "fetchedAt": "2026-08-18T13:12:42.282Z"
+      },
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Guatemala",
+        "description": "On 15/08/2026, a flood started in Guatemala, lasting until 17/08/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104100",
+        "publishedAt": "2026-08-18T12:27:59.000Z",
+        "fetchedAt": "2026-08-18T13:12:42.279Z"
+      }
+    ],
+    "Colombia": [
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Colombia",
+        "description": "On 14/08/2026, a flood started in Colombia, lasting until 16/08/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104097",
+        "publishedAt": "2026-08-17T09:43:19.000Z",
+        "fetchedAt": "2026-08-18T13:12:42.279Z"
+      },
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green forest fire notification in Colombia",
+        "description": "On 10/08/2026, a forest fire started in Colombia,  until 16/08/2026.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1030520",
+        "publishedAt": "2026-08-15T19:07:18.000Z",
+        "fetchedAt": "2026-08-18T13:12:42.280Z"
+      },
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Colombia, Costa Rica, Nicaragua, Panama, Venezuela",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
+        "publishedAt": "2026-07-03T12:57:35.000Z",
+        "fetchedAt": "2026-08-18T13:12:42.282Z"
       }
     ],
     "Philippines": [
@@ -59,7 +70,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-18T12:13:59.221Z"
+        "fetchedAt": "2026-08-18T13:12:42.282Z"
       }
     ]
   }
