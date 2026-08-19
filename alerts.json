@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T23:59:23.940Z",
+  "lastUpdated": "2026-08-19T01:47:58.847Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-18T23:59:23.153Z"
+        "fetchedAt": "2026-08-19T01:47:58.191Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104100",
         "publishedAt": "2026-08-18T12:27:59.000Z",
-        "fetchedAt": "2026-08-18T23:59:23.150Z"
+        "fetchedAt": "2026-08-19T01:47:58.188Z"
       }
     ],
     "Colombia": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104097",
         "publishedAt": "2026-08-17T09:43:19.000Z",
-        "fetchedAt": "2026-08-18T23:59:23.150Z"
+        "fetchedAt": "2026-08-19T01:47:58.189Z"
       },
       {
         "event": "Weather Alert",
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1030520",
         "publishedAt": "2026-08-15T19:07:18.000Z",
-        "fetchedAt": "2026-08-18T23:59:23.152Z"
+        "fetchedAt": "2026-08-19T01:47:58.190Z"
       },
       {
         "event": "Weather Alert",
@@ -57,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-18T23:59:23.153Z"
+        "fetchedAt": "2026-08-19T01:47:58.191Z"
       }
     ],
     "Philippines": [
@@ -70,7 +70,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-18T23:59:23.153Z"
+        "fetchedAt": "2026-08-19T01:47:58.191Z"
       }
     ]
   },
@@ -80,24 +80,12 @@
         "event": "Rain Advisory",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Moderate drizzle in Manila",
-        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 14.9mm. Temperature: 26.3°C, Humidity: 87%, Wind: 16.8 km/h.",
+        "headline": "Light drizzle in Manila",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 18.6mm. Temperature: 27.6°C, Humidity: 81%, Wind: 16 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-18T23:59:23.616Z",
-        "fetchedAt": "2026-08-18T23:59:23.616Z",
-        "cityLevel": true
-      },
-      {
-        "event": "Rain Forecast",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Rain expected in Manila on Monday, Aug 24",
-        "description": "15.3mm of precipitation forecast with 89% probability.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-18T23:59:23.939Z",
-        "fetchedAt": "2026-08-18T23:59:23.939Z",
+        "publishedAt": "2026-08-19T01:47:58.847Z",
+        "fetchedAt": "2026-08-19T01:47:58.847Z",
         "cityLevel": true
       }
     ],
@@ -106,12 +94,12 @@
         "event": "Rain Advisory",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Slight rain in Guatemala City",
-        "description": "Current conditions: Slight rain. Current rainfall rate: 0.4mm. Today's expected total: 3.3mm. Temperature: 19.4°C, Humidity: 85%, Wind: 10.9 km/h.",
+        "headline": "Light drizzle in Guatemala City",
+        "description": "Current conditions: Light drizzle. Today's expected total: 3mm. Temperature: 18.6°C, Humidity: 92%, Wind: 15.2 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-18T23:59:23.939Z",
-        "fetchedAt": "2026-08-18T23:59:23.939Z",
+        "publishedAt": "2026-08-19T01:47:58.847Z",
+        "fetchedAt": "2026-08-19T01:47:58.847Z",
         "cityLevel": true
       }
     ]
