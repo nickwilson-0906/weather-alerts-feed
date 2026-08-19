@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T12:03:41.659Z",
+  "lastUpdated": "2026-08-19T13:10:55.738Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-19T12:03:40.832Z"
+        "fetchedAt": "2026-08-19T13:10:54.863Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104100",
         "publishedAt": "2026-08-18T12:27:59.000Z",
-        "fetchedAt": "2026-08-19T12:03:40.829Z"
+        "fetchedAt": "2026-08-19T13:10:54.860Z"
       }
     ],
     "Colombia": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104097",
         "publishedAt": "2026-08-17T09:43:19.000Z",
-        "fetchedAt": "2026-08-19T12:03:40.830Z"
+        "fetchedAt": "2026-08-19T13:10:54.860Z"
       },
       {
         "event": "Weather Alert",
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1030520",
         "publishedAt": "2026-08-15T19:07:18.000Z",
-        "fetchedAt": "2026-08-19T12:03:40.831Z"
+        "fetchedAt": "2026-08-19T13:10:54.862Z"
       },
       {
         "event": "Weather Alert",
@@ -57,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-19T12:03:40.832Z"
+        "fetchedAt": "2026-08-19T13:10:54.863Z"
       }
     ],
     "Philippines": [
@@ -70,22 +70,34 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-19T12:03:40.832Z"
+        "fetchedAt": "2026-08-19T13:10:54.863Z"
       }
     ]
   },
   "cityAlerts": {
     "Manila": [
       {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Moderate drizzle in Manila",
+        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 18mm. Temperature: 26.3°C, Humidity: 86%, Wind: 16.2 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-08-19T13:10:55.344Z",
+        "fetchedAt": "2026-08-19T13:10:55.344Z",
+        "cityLevel": true
+      },
+      {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Rain expected in Manila on Tuesday, Aug 25",
-        "description": "15.0mm of precipitation forecast with 93% probability.",
+        "description": "22.2mm of precipitation forecast with 93% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-19T12:03:41.659Z",
-        "fetchedAt": "2026-08-19T12:03:41.659Z",
+        "publishedAt": "2026-08-19T13:10:55.738Z",
+        "fetchedAt": "2026-08-19T13:10:55.738Z",
         "cityLevel": true
       }
     ]
