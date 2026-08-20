@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T21:44:49.208Z",
+  "lastUpdated": "2026-08-20T22:11:06.589Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104107",
         "publishedAt": "2026-08-20T10:14:03.000Z",
-        "fetchedAt": "2026-08-20T21:44:48.577Z"
+        "fetchedAt": "2026-08-20T22:11:06.145Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-20T21:44:48.582Z"
+        "fetchedAt": "2026-08-20T22:11:06.150Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-20T21:44:48.582Z"
+        "fetchedAt": "2026-08-20T22:11:06.150Z"
       },
       {
         "event": "Flood Alert",
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104100",
         "publishedAt": "2026-08-18T12:27:59.000Z",
-        "fetchedAt": "2026-08-20T21:44:48.578Z"
+        "fetchedAt": "2026-08-20T22:11:06.146Z"
       }
     ],
     "Colombia": [
@@ -59,18 +59,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104097",
         "publishedAt": "2026-08-17T09:43:19.000Z",
-        "fetchedAt": "2026-08-20T21:44:48.578Z"
-      },
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green forest fire notification in Colombia",
-        "description": "On 10/08/2026, a forest fire started in Colombia,  until 16/08/2026.",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1030520",
-        "publishedAt": "2026-08-15T19:07:18.000Z",
-        "fetchedAt": "2026-08-20T21:44:48.580Z"
+        "fetchedAt": "2026-08-20T22:11:06.147Z"
       },
       {
         "event": "Weather Alert",
@@ -81,7 +70,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-20T21:44:48.582Z"
+        "fetchedAt": "2026-08-20T22:11:06.150Z"
       }
     ]
   },
@@ -95,8 +84,8 @@
         "description": "22.2mm of precipitation forecast with 92% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-20T21:44:49.207Z",
-        "fetchedAt": "2026-08-20T21:44:49.207Z",
+        "publishedAt": "2026-08-20T22:11:06.589Z",
+        "fetchedAt": "2026-08-20T22:11:06.589Z",
         "cityLevel": true
       }
     ]
