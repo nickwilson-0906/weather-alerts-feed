@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T19:58:15.832Z",
+  "lastUpdated": "2026-08-22T20:33:35.352Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104107",
         "publishedAt": "2026-08-20T10:14:03.000Z",
-        "fetchedAt": "2026-08-22T19:58:14.972Z"
+        "fetchedAt": "2026-08-22T20:33:34.903Z"
       },
       {
         "event": "Weather Alert",
@@ -22,18 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-22T19:58:14.975Z"
-      },
-      {
-        "event": "Super Typhoon SAUDEL-26",
-        "severity": "Extreme",
-        "urgency": "Immediate",
-        "headline": "Orange notification for tropical cyclone SAUDEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.404 million .",
-        "description": "From 18/08/2026 to 22/08/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h) SAUDEL-26 was active in NWPacific. The cyclone affects these countries: Northern Mariana Islands, Japan (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds or higher is",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
-        "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-22T19:58:14.972Z"
+        "fetchedAt": "2026-08-22T20:33:34.908Z"
       }
     ],
     "Colombia": [
@@ -46,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104097",
         "publishedAt": "2026-08-17T09:43:19.000Z",
-        "fetchedAt": "2026-08-22T19:58:14.973Z"
+        "fetchedAt": "2026-08-22T20:33:34.905Z"
       },
       {
         "event": "Weather Alert",
@@ -57,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-22T19:58:14.975Z"
+        "fetchedAt": "2026-08-22T20:33:34.907Z"
       }
     ],
     "Guatemala": [
@@ -70,7 +59,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-22T19:58:14.975Z"
+        "fetchedAt": "2026-08-22T20:33:34.907Z"
       }
     ]
   },
@@ -81,11 +70,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 6.2mm. Temperature: 27.3°C, Humidity: 83%, Wind: 18.7 km/h.",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 6.2mm. Temperature: 27.6°C, Humidity: 81%, Wind: 19.4 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-22T19:58:15.588Z",
-        "fetchedAt": "2026-08-22T19:58:15.588Z",
+        "publishedAt": "2026-08-22T20:33:35.319Z",
+        "fetchedAt": "2026-08-22T20:33:35.319Z",
         "cityLevel": true
       },
       {
@@ -96,8 +85,22 @@
         "description": "15.6mm of precipitation forecast with 96% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-22T19:58:15.832Z",
-        "fetchedAt": "2026-08-22T19:58:15.832Z",
+        "publishedAt": "2026-08-22T20:33:35.351Z",
+        "fetchedAt": "2026-08-22T20:33:35.351Z",
+        "cityLevel": true
+      }
+    ],
+    "Guatemala City": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Guatemala City",
+        "description": "Current conditions: Light drizzle. Today's expected total: 7.5mm. Temperature: 27.4°C, Humidity: 40%, Wind: 17 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-08-22T20:33:35.351Z",
+        "fetchedAt": "2026-08-22T20:33:35.351Z",
         "cityLevel": true
       }
     ]
