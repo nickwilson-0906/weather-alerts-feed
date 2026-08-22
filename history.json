@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T04:38:58.506Z",
+  "lastUpdated": "2026-08-22T05:10:42.365Z",
   "retentionDays": 90,
   "totalEvents": 38,
   "activeEvents": 6,
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-08-04T13:25:02.748Z",
-      "lastSeen": "2026-08-22T04:38:58.506Z",
+      "lastSeen": "2026-08-22T05:10:42.365Z",
       "active": true
     },
     {
@@ -33,7 +33,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
       "publishedAt": "2026-07-11T06:41:16.000Z",
       "firstSeen": "2026-07-11T06:59:17.417Z",
-      "lastSeen": "2026-08-22T04:38:58.506Z",
+      "lastSeen": "2026-08-22T05:10:42.365Z",
       "active": true,
       "endedAt": "2026-07-29T22:41:28.908Z"
     },
@@ -50,7 +50,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-08-17T10:42:50.150Z",
-      "lastSeen": "2026-08-22T04:38:58.506Z",
+      "lastSeen": "2026-08-22T05:10:42.365Z",
       "active": true
     },
     {
@@ -66,7 +66,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-08-17T10:42:50.150Z",
-      "lastSeen": "2026-08-22T04:38:58.506Z",
+      "lastSeen": "2026-08-22T05:10:42.365Z",
       "active": true
     },
     {
@@ -82,7 +82,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
       "publishedAt": "2026-06-15T09:44:33.000Z",
       "firstSeen": "2026-07-07T17:33:47.416Z",
-      "lastSeen": "2026-08-22T04:38:58.506Z",
+      "lastSeen": "2026-08-22T05:10:42.365Z",
       "active": true,
       "endedAt": "2026-08-10T22:08:31.414Z"
     },
@@ -99,7 +99,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
       "publishedAt": "2026-08-18T13:37:43.000Z",
       "firstSeen": "2026-08-21T20:35:26.042Z",
-      "lastSeen": "2026-08-22T04:38:58.506Z",
+      "lastSeen": "2026-08-22T05:10:42.365Z",
       "active": true
     },
     {
