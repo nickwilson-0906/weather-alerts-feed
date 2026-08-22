@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T06:14:27.748Z",
+  "lastUpdated": "2026-08-22T07:04:20.529Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104107",
         "publishedAt": "2026-08-20T10:14:03.000Z",
-        "fetchedAt": "2026-08-22T06:14:26.935Z"
+        "fetchedAt": "2026-08-22T07:04:20.000Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-22T06:14:26.939Z"
+        "fetchedAt": "2026-08-22T07:04:20.004Z"
       },
       {
         "event": "Super Typhoon SAUDEL-26",
@@ -33,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-22T06:14:26.934Z"
+        "fetchedAt": "2026-08-22T07:04:20.000Z"
       }
     ],
     "Colombia": [
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104097",
         "publishedAt": "2026-08-17T09:43:19.000Z",
-        "fetchedAt": "2026-08-22T06:14:26.936Z"
+        "fetchedAt": "2026-08-22T07:04:20.001Z"
       },
       {
         "event": "Weather Alert",
@@ -57,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-22T06:14:26.939Z"
+        "fetchedAt": "2026-08-22T07:04:20.004Z"
       }
     ],
     "Guatemala": [
@@ -70,7 +70,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-22T06:14:26.939Z"
+        "fetchedAt": "2026-08-22T07:04:20.004Z"
       }
     ]
   },
@@ -84,8 +84,8 @@
         "description": "17.1mm of precipitation forecast with 92% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-22T06:14:27.747Z",
-        "fetchedAt": "2026-08-22T06:14:27.747Z",
+        "publishedAt": "2026-08-22T07:04:20.529Z",
+        "fetchedAt": "2026-08-22T07:04:20.529Z",
         "cityLevel": true
       }
     ]
