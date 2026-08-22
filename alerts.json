@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T07:47:02.882Z",
+  "lastUpdated": "2026-08-22T08:36:27.489Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104107",
         "publishedAt": "2026-08-20T10:14:03.000Z",
-        "fetchedAt": "2026-08-22T07:47:01.833Z"
+        "fetchedAt": "2026-08-22T08:36:26.983Z"
       },
       {
         "event": "Weather Alert",
@@ -22,18 +22,18 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-22T07:47:01.837Z"
+        "fetchedAt": "2026-08-22T08:36:26.989Z"
       },
       {
         "event": "Super Typhoon SAUDEL-26",
         "severity": "Extreme",
         "urgency": "Immediate",
-        "headline": "Orange notification for tropical cyclone SAUDEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.408 million .",
+        "headline": "Orange notification for tropical cyclone SAUDEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.397 million .",
         "description": "From 18/08/2026 to 22/08/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h) SAUDEL-26 was active in NWPacific. The cyclone affects these countries: Northern Mariana Islands, Japan (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds or higher is",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-22T07:47:01.833Z"
+        "fetchedAt": "2026-08-22T08:36:26.983Z"
       }
     ],
     "Colombia": [
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104097",
         "publishedAt": "2026-08-17T09:43:19.000Z",
-        "fetchedAt": "2026-08-22T07:47:01.834Z"
+        "fetchedAt": "2026-08-22T08:36:26.985Z"
       },
       {
         "event": "Weather Alert",
@@ -57,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-22T07:47:01.837Z"
+        "fetchedAt": "2026-08-22T08:36:26.988Z"
       }
     ],
     "Guatemala": [
@@ -70,12 +70,24 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-22T07:47:01.837Z"
+        "fetchedAt": "2026-08-22T08:36:26.988Z"
       }
     ]
   },
   "cityAlerts": {
     "Manila": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Manila",
+        "description": "Current conditions: Light drizzle. Today's expected total: 2.7mm. Temperature: 29.7°C, Humidity: 70%, Wind: 23.8 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-08-22T08:36:27.451Z",
+        "fetchedAt": "2026-08-22T08:36:27.451Z",
+        "cityLevel": true
+      },
       {
         "event": "Rain Forecast",
         "severity": "Moderate",
@@ -84,8 +96,8 @@
         "description": "17.1mm of precipitation forecast with 92% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-22T07:47:02.882Z",
-        "fetchedAt": "2026-08-22T07:47:02.882Z",
+        "publishedAt": "2026-08-22T08:36:27.488Z",
+        "fetchedAt": "2026-08-22T08:36:27.488Z",
         "cityLevel": true
       }
     ]
