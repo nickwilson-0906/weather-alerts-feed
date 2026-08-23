@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T15:02:27.408Z",
+  "lastUpdated": "2026-08-23T15:39:06.289Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-23T15:02:26.441Z"
+        "fetchedAt": "2026-08-23T15:39:05.374Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104107",
         "publishedAt": "2026-08-20T10:14:03.000Z",
-        "fetchedAt": "2026-08-23T15:02:26.441Z"
+        "fetchedAt": "2026-08-23T15:39:05.375Z"
       },
       {
         "event": "Weather Alert",
@@ -33,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-23T15:02:26.445Z"
+        "fetchedAt": "2026-08-23T15:39:05.378Z"
       }
     ],
     "Guatemala": [
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-23T15:02:26.444Z"
+        "fetchedAt": "2026-08-23T15:39:05.378Z"
       }
     ],
     "Colombia": [
@@ -59,7 +59,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-23T15:02:26.444Z"
+        "fetchedAt": "2026-08-23T15:39:05.378Z"
       }
     ]
   },
@@ -70,11 +70,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 4.9mm. Temperature: 27.2°C, Humidity: 84%, Wind: 16.7 km/h.",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 4.9mm. Temperature: 27.3°C, Humidity: 83%, Wind: 16.5 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-23T15:02:27.060Z",
-        "fetchedAt": "2026-08-23T15:02:27.060Z",
+        "publishedAt": "2026-08-23T15:39:05.794Z",
+        "fetchedAt": "2026-08-23T15:39:05.794Z",
         "cityLevel": true
       },
       {
@@ -85,8 +85,8 @@
         "description": "19.6mm of precipitation forecast with 98% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-23T15:02:27.408Z",
-        "fetchedAt": "2026-08-23T15:02:27.408Z",
+        "publishedAt": "2026-08-23T15:39:06.288Z",
+        "fetchedAt": "2026-08-23T15:39:06.288Z",
         "cityLevel": true
       }
     ],
@@ -99,8 +99,8 @@
         "description": "15.6mm of precipitation forecast with 74% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-23T15:02:27.408Z",
-        "fetchedAt": "2026-08-23T15:02:27.408Z",
+        "publishedAt": "2026-08-23T15:39:06.288Z",
+        "fetchedAt": "2026-08-23T15:39:06.288Z",
         "cityLevel": true
       }
     ]
