@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T22:32:16.703Z",
+  "lastUpdated": "2026-08-23T22:59:42.962Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-23T22:32:16.007Z"
+        "fetchedAt": "2026-08-23T22:59:42.106Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-23T22:32:16.012Z"
+        "fetchedAt": "2026-08-23T22:59:42.110Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-23T22:32:16.011Z"
+        "fetchedAt": "2026-08-23T22:59:42.110Z"
       }
     ],
     "Colombia": [
@@ -48,7 +48,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-23T22:32:16.011Z"
+        "fetchedAt": "2026-08-23T22:59:42.110Z"
       }
     ]
   },
@@ -59,11 +59,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Moderate drizzle in Manila",
-        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 5.9mm. Temperature: 26.7°C, Humidity: 84%, Wind: 18.4 km/h.",
+        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 5.9mm. Temperature: 26.9°C, Humidity: 84%, Wind: 18 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-23T22:32:16.667Z",
-        "fetchedAt": "2026-08-23T22:32:16.667Z",
+        "publishedAt": "2026-08-23T22:59:42.701Z",
+        "fetchedAt": "2026-08-23T22:59:42.701Z",
         "cityLevel": true
       },
       {
@@ -74,8 +74,8 @@
         "description": "33.3mm of precipitation forecast with 96% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-23T22:32:16.703Z",
-        "fetchedAt": "2026-08-23T22:32:16.703Z",
+        "publishedAt": "2026-08-23T22:59:42.962Z",
+        "fetchedAt": "2026-08-23T22:59:42.962Z",
         "cityLevel": true
       }
     ]
