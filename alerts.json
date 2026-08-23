@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T21:58:58.065Z",
+  "lastUpdated": "2026-08-23T22:32:16.703Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,18 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-23T21:58:57.628Z"
-      },
-      {
-        "event": "Flood Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green flood alert in Philippines",
-        "description": "On 17/08/2026, a flood started in Philippines, lasting until 19/08/2026 (last update). The flood caused 0 deaths and 1076 displaced .",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104107",
-        "publishedAt": "2026-08-20T10:14:03.000Z",
-        "fetchedAt": "2026-08-23T21:58:57.629Z"
+        "fetchedAt": "2026-08-23T22:32:16.007Z"
       },
       {
         "event": "Weather Alert",
@@ -33,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-23T21:58:57.633Z"
+        "fetchedAt": "2026-08-23T22:32:16.012Z"
       }
     ],
     "Guatemala": [
@@ -46,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-23T21:58:57.633Z"
+        "fetchedAt": "2026-08-23T22:32:16.011Z"
       }
     ],
     "Colombia": [
@@ -59,7 +48,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-23T21:58:57.633Z"
+        "fetchedAt": "2026-08-23T22:32:16.011Z"
       }
     ]
   },
@@ -70,11 +59,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Moderate drizzle in Manila",
-        "description": "Current conditions: Moderate drizzle. Today's expected total: 5.9mm. Temperature: 26.5°C, Humidity: 86%, Wind: 16.8 km/h.",
+        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 5.9mm. Temperature: 26.7°C, Humidity: 84%, Wind: 18.4 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-23T21:58:58.029Z",
-        "fetchedAt": "2026-08-23T21:58:58.029Z",
+        "publishedAt": "2026-08-23T22:32:16.667Z",
+        "fetchedAt": "2026-08-23T22:32:16.667Z",
         "cityLevel": true
       },
       {
@@ -85,8 +74,8 @@
         "description": "33.3mm of precipitation forecast with 96% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-23T21:58:58.065Z",
-        "fetchedAt": "2026-08-23T21:58:58.065Z",
+        "publishedAt": "2026-08-23T22:32:16.703Z",
+        "fetchedAt": "2026-08-23T22:32:16.703Z",
         "cityLevel": true
       }
     ]
