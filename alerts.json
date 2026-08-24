@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:04:30.086Z",
+  "lastUpdated": "2026-08-24T19:46:14.262Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-24T19:04:29.648Z"
+        "fetchedAt": "2026-08-24T19:46:13.636Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-24T19:04:29.652Z"
+        "fetchedAt": "2026-08-24T19:46:13.641Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-24T19:04:29.652Z"
+        "fetchedAt": "2026-08-24T19:46:13.641Z"
       }
     ],
     "Colombia": [
@@ -48,34 +48,22 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-24T19:04:29.652Z"
+        "fetchedAt": "2026-08-24T19:46:13.641Z"
       }
     ]
   },
   "cityAlerts": {
     "Manila": [
       {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 6.2mm. Temperature: 27.7°C, Humidity: 81%, Wind: 20.5 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-24T19:04:30.059Z",
-        "fetchedAt": "2026-08-24T19:04:30.059Z",
-        "cityLevel": true
-      },
-      {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Rain expected in Manila on Thursday, Aug 27",
-        "description": "16.0mm of precipitation forecast with 96% probability.",
+        "description": "15.7mm of precipitation forecast with 96% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-24T19:04:30.086Z",
-        "fetchedAt": "2026-08-24T19:04:30.086Z",
+        "publishedAt": "2026-08-24T19:46:14.262Z",
+        "fetchedAt": "2026-08-24T19:46:14.262Z",
         "cityLevel": true
       }
     ]
