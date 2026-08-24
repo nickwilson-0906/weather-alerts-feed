@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T01:52:40.289Z",
+  "lastUpdated": "2026-08-24T03:09:33.722Z",
   "retentionDays": 90,
   "totalEvents": 38,
   "activeEvents": 4,
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-08-04T13:25:02.748Z",
-      "lastSeen": "2026-08-24T01:52:40.289Z",
+      "lastSeen": "2026-08-24T03:09:33.722Z",
       "active": true
     },
     {
@@ -33,7 +33,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-08-17T10:42:50.150Z",
-      "lastSeen": "2026-08-24T01:52:40.289Z",
+      "lastSeen": "2026-08-24T03:09:33.722Z",
       "active": true
     },
     {
@@ -49,7 +49,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-08-17T10:42:50.150Z",
-      "lastSeen": "2026-08-24T01:52:40.289Z",
+      "lastSeen": "2026-08-24T03:09:33.722Z",
       "active": true
     },
     {
@@ -65,7 +65,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
       "publishedAt": "2026-08-18T13:37:43.000Z",
       "firstSeen": "2026-08-21T14:54:46.017Z",
-      "lastSeen": "2026-08-24T01:52:40.289Z",
+      "lastSeen": "2026-08-24T03:09:33.722Z",
       "active": true,
       "endedAt": "2026-08-23T08:37:06.188Z"
     },
