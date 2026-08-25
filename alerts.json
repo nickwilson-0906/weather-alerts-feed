@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T18:50:53.904Z",
+  "lastUpdated": "2026-08-25T19:36:20.691Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-25T18:50:53.170Z"
+        "fetchedAt": "2026-08-25T19:36:20.080Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-25T18:50:53.174Z"
+        "fetchedAt": "2026-08-25T19:36:20.084Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-25T18:50:53.174Z"
+        "fetchedAt": "2026-08-25T19:36:20.084Z"
       }
     ],
     "Colombia": [
@@ -48,12 +48,24 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-25T18:50:53.174Z"
+        "fetchedAt": "2026-08-25T19:36:20.084Z"
       }
     ]
   },
   "cityAlerts": {
     "Manila": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Moderate drizzle in Manila",
+        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.2mm. Today's expected total: 4.3mm. Temperature: 26.8°C, Humidity: 85%, Wind: 15.3 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-08-25T19:36:20.596Z",
+        "fetchedAt": "2026-08-25T19:36:20.596Z",
+        "cityLevel": true
+      },
       {
         "event": "Heavy Rain Forecast",
         "severity": "Moderate",
@@ -62,8 +74,8 @@
         "description": "31.6mm of precipitation forecast with 96% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-25T18:50:53.904Z",
-        "fetchedAt": "2026-08-25T18:50:53.904Z",
+        "publishedAt": "2026-08-25T19:36:20.691Z",
+        "fetchedAt": "2026-08-25T19:36:20.691Z",
         "cityLevel": true
       }
     ]
