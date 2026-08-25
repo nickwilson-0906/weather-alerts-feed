@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T10:38:34.387Z",
+  "lastUpdated": "2026-08-25T11:08:25.394Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-25T10:38:33.937Z"
+        "fetchedAt": "2026-08-25T11:08:24.954Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-25T10:38:33.937Z"
+        "fetchedAt": "2026-08-25T11:08:24.954Z"
       }
     ],
     "Philippines": [
@@ -37,7 +37,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-25T10:38:33.937Z"
+        "fetchedAt": "2026-08-25T11:08:24.954Z"
       }
     ]
   },
@@ -48,11 +48,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Today's expected total: 3.8mm. Temperature: 28.1°C, Humidity: 82%, Wind: 14.6 km/h.",
+        "description": "Current conditions: Light drizzle. Today's expected total: 3.8mm. Temperature: 27.9°C, Humidity: 83%, Wind: 14.1 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-25T10:38:34.359Z",
-        "fetchedAt": "2026-08-25T10:38:34.359Z",
+        "publishedAt": "2026-08-25T11:08:25.349Z",
+        "fetchedAt": "2026-08-25T11:08:25.349Z",
         "cityLevel": true
       },
       {
@@ -63,8 +63,8 @@
         "description": "26.9mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-25T10:38:34.387Z",
-        "fetchedAt": "2026-08-25T10:38:34.387Z",
+        "publishedAt": "2026-08-25T11:08:25.394Z",
+        "fetchedAt": "2026-08-25T11:08:25.394Z",
         "cityLevel": true
       }
     ]
