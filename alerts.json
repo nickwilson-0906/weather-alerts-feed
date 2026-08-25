@@ -1,30 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T01:53:32.632Z",
+  "lastUpdated": "2026-08-25T03:04:09.863Z",
   "alerts": {
-    "Philippines": [
-      {
-        "event": "Typhoon SAUDEL-26",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "headline": "Orange notification for tropical cyclone SAUDEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 4.737 million .",
-        "description": "From 18/08/2026 to 24/08/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h) SAUDEL-26 was active in NWPacific. The cyclone affects these countries: Japan, Northern Mariana Islands, China (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
-        "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-25T01:53:31.740Z"
-      },
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-        "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-25T01:53:31.743Z"
-      }
-    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -35,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-25T01:53:31.743Z"
+        "fetchedAt": "2026-08-25T03:04:09.198Z"
       }
     ],
     "Colombia": [
@@ -48,7 +24,20 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-25T01:53:31.743Z"
+        "fetchedAt": "2026-08-25T03:04:09.198Z"
+      }
+    ],
+    "Philippines": [
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Solomon Is., Thailand, Vietnam",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+        "publishedAt": "2026-04-30T13:07:47.000Z",
+        "fetchedAt": "2026-08-25T03:04:09.198Z"
       }
     ]
   },
@@ -62,8 +51,8 @@
         "description": "20.7mm of precipitation forecast with 94% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-25T01:53:32.632Z",
-        "fetchedAt": "2026-08-25T01:53:32.632Z",
+        "publishedAt": "2026-08-25T03:04:09.862Z",
+        "fetchedAt": "2026-08-25T03:04:09.862Z",
         "cityLevel": true
       }
     ]
