@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T23:29:18.912Z",
+  "lastUpdated": "2026-08-25T23:54:02.611Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-25T23:29:18.282Z"
+        "fetchedAt": "2026-08-25T23:54:01.754Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-25T23:29:18.283Z"
+        "fetchedAt": "2026-08-25T23:54:01.754Z"
       }
     ],
     "Philippines": [
@@ -37,7 +37,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-25T23:29:18.283Z"
+        "fetchedAt": "2026-08-25T23:54:01.754Z"
       }
     ]
   },
@@ -48,11 +48,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 4.3mm. Temperature: 27.8°C, Humidity: 79%, Wind: 16.9 km/h.",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 4.3mm. Temperature: 28.1°C, Humidity: 78%, Wind: 18 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-25T23:29:18.882Z",
-        "fetchedAt": "2026-08-25T23:29:18.882Z",
+        "publishedAt": "2026-08-25T23:54:02.323Z",
+        "fetchedAt": "2026-08-25T23:54:02.323Z",
         "cityLevel": true
       },
       {
@@ -63,8 +63,8 @@
         "description": "31.6mm of precipitation forecast with 99% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-25T23:29:18.912Z",
-        "fetchedAt": "2026-08-25T23:29:18.912Z",
+        "publishedAt": "2026-08-25T23:54:02.610Z",
+        "fetchedAt": "2026-08-25T23:54:02.610Z",
         "cityLevel": true
       }
     ],
@@ -74,11 +74,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Dense drizzle in Guatemala City",
-        "description": "Current conditions: Dense drizzle. Today's expected total: 3.3mm. Temperature: 22.6°C, Humidity: 61%, Wind: 16.4 km/h.",
+        "description": "Current conditions: Dense drizzle. Today's expected total: 3.3mm. Temperature: 20.5°C, Humidity: 75%, Wind: 16.2 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-25T23:29:18.912Z",
-        "fetchedAt": "2026-08-25T23:29:18.912Z",
+        "publishedAt": "2026-08-25T23:54:02.610Z",
+        "fetchedAt": "2026-08-25T23:54:02.610Z",
         "cityLevel": true
       }
     ]
