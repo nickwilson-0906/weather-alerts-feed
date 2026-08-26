@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T01:43:39.095Z",
+  "lastUpdated": "2026-08-26T02:53:24.395Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-26T01:43:38.168Z"
+        "fetchedAt": "2026-08-26T02:53:23.710Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-26T01:43:38.168Z"
+        "fetchedAt": "2026-08-26T02:53:23.710Z"
       }
     ],
     "Philippines": [
@@ -37,7 +37,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-26T01:43:38.168Z"
+        "fetchedAt": "2026-08-26T02:53:23.710Z"
       }
     ]
   },
@@ -48,11 +48,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Heavy rain expected in Manila on Friday, Aug 28",
-        "description": "30.2mm of precipitation forecast with 99% probability.",
+        "description": "30.2mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-26T01:43:39.095Z",
-        "fetchedAt": "2026-08-26T01:43:39.095Z",
+        "publishedAt": "2026-08-26T02:53:24.394Z",
+        "fetchedAt": "2026-08-26T02:53:24.394Z",
         "cityLevel": true
       }
     ]
