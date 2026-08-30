@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T23:32:54.481Z",
+  "lastUpdated": "2026-08-30T01:43:15.729Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-08-29T23:32:53.515Z"
+        "fetchedAt": "2026-08-30T01:43:15.242Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-08-29T23:32:53.516Z"
+        "fetchedAt": "2026-08-30T01:43:15.243Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-08-29T23:32:53.516Z"
+        "fetchedAt": "2026-08-30T01:43:15.243Z"
       }
     ],
     "Colombia": [
@@ -48,7 +48,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-08-29T23:32:53.516Z"
+        "fetchedAt": "2026-08-30T01:43:15.243Z"
       }
     ]
   },
@@ -58,12 +58,12 @@
         "event": "Rain Advisory",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Dense drizzle in Manila",
-        "description": "Current conditions: Dense drizzle. Current rainfall rate: 0.1mm. Today's expected total: 16.2mm. Temperature: 26.4°C, Humidity: 84%, Wind: 22.7 km/h.",
+        "headline": "Light drizzle in Manila",
+        "description": "Current conditions: Light drizzle. Today's expected total: 15.4mm. Temperature: 27.3°C, Humidity: 81%, Wind: 23.7 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-29T23:32:54.146Z",
-        "fetchedAt": "2026-08-29T23:32:54.146Z",
+        "publishedAt": "2026-08-30T01:43:15.649Z",
+        "fetchedAt": "2026-08-30T01:43:15.649Z",
         "cityLevel": true
       },
       {
@@ -71,25 +71,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Rain expected in Manila on Wednesday, Sep 2",
-        "description": "16.5mm of precipitation forecast with 96% probability.",
+        "description": "15.9mm of precipitation forecast with 86% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-29T23:32:54.481Z",
-        "fetchedAt": "2026-08-29T23:32:54.481Z",
-        "cityLevel": true
-      }
-    ],
-    "Guatemala City": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Light drizzle in Guatemala City",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 2.2mm. Temperature: 21.9°C, Humidity: 63%, Wind: 17.7 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-08-29T23:32:54.481Z",
-        "fetchedAt": "2026-08-29T23:32:54.481Z",
+        "publishedAt": "2026-08-30T01:43:15.728Z",
+        "fetchedAt": "2026-08-30T01:43:15.728Z",
         "cityLevel": true
       }
     ]
