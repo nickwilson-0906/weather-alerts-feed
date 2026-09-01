@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T21:23:06.069Z",
+  "lastUpdated": "2026-09-01T23:29:54.599Z",
   "alerts": {
     "Philippines": [
       {
@@ -7,11 +7,11 @@
         "severity": "Severe",
         "urgency": "Expected",
         "headline": "Orange notification for tropical cyclone SAUDEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 13.05 million .",
-        "description": "From 18/08/2026 to 01/09/2026, a Tropical Storm (maximum wind speed of 213 km/h) SAUDEL-26 was active in NWPacific. The cyclone affects these countries: Japan, China, Northern Mariana Islands (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 13.0",
+        "description": "From 18/08/2026 to 01/09/2026, a Tropical Depression (maximum wind speed of 213 km/h) SAUDEL-26 was active in NWPacific. The cyclone affects these countries: Japan, China, Northern Mariana Islands (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-09-01T21:23:04.700Z"
+        "fetchedAt": "2026-09-01T23:29:54.091Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104130",
         "publishedAt": "2026-08-31T08:15:50.000Z",
-        "fetchedAt": "2026-09-01T21:23:04.697Z"
+        "fetchedAt": "2026-09-01T23:29:54.088Z"
       },
       {
         "event": "Weather Alert",
@@ -33,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-01T21:23:04.701Z"
+        "fetchedAt": "2026-09-01T23:29:54.092Z"
       }
     ],
     "Guatemala": [
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-01T21:23:04.701Z"
+        "fetchedAt": "2026-09-01T23:29:54.092Z"
       }
     ],
     "Colombia": [
@@ -59,12 +59,24 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-01T21:23:04.701Z"
+        "fetchedAt": "2026-09-01T23:29:54.092Z"
       }
     ]
   },
   "cityAlerts": {
     "Manila": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Manila",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 14.7mm. Temperature: 27.8°C, Humidity: 81%, Wind: 22.8 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-09-01T23:29:54.569Z",
+        "fetchedAt": "2026-09-01T23:29:54.569Z",
+        "cityLevel": true
+      },
       {
         "event": "Rain Forecast",
         "severity": "Moderate",
@@ -73,8 +85,8 @@
         "description": "19.4mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-01T21:23:06.069Z",
-        "fetchedAt": "2026-09-01T21:23:06.069Z",
+        "publishedAt": "2026-09-01T23:29:54.598Z",
+        "fetchedAt": "2026-09-01T23:29:54.598Z",
         "cityLevel": true
       }
     ],
@@ -87,8 +99,8 @@
         "description": "16.7mm of precipitation forecast with 86% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-01T21:23:06.069Z",
-        "fetchedAt": "2026-09-01T21:23:06.069Z",
+        "publishedAt": "2026-09-01T23:29:54.598Z",
+        "fetchedAt": "2026-09-01T23:29:54.598Z",
         "cityLevel": true
       }
     ]
