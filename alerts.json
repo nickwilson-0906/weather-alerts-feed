@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T01:20:04.372Z",
+  "lastUpdated": "2026-09-02T06:18:45.650Z",
   "alerts": {
     "Philippines": [
       {
@@ -7,11 +7,11 @@
         "severity": "Severe",
         "urgency": "Expected",
         "headline": "Orange notification for tropical cyclone SAUDEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 13.05 million .",
-        "description": "From 18/08/2026 to 01/09/2026, a Tropical Storm (maximum wind speed of 213 km/h) SAUDEL-26 was active in NWPacific. The cyclone affects these countries: Japan, China, Northern Mariana Islands (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 13.0",
+        "description": "From 18/08/2026 to 02/09/2026, a Tropical Depression (maximum wind speed of 213 km/h) SAUDEL-26 was active in NWPacific. The cyclone affects these countries: Japan, China, Northern Mariana Islands (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001305",
         "publishedAt": "2026-08-18T13:37:43.000Z",
-        "fetchedAt": "2026-09-02T01:20:03.559Z"
+        "fetchedAt": "2026-09-02T06:18:45.206Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104130",
         "publishedAt": "2026-08-31T08:15:50.000Z",
-        "fetchedAt": "2026-09-02T01:20:03.556Z"
+        "fetchedAt": "2026-09-02T06:18:45.202Z"
       },
       {
         "event": "Weather Alert",
@@ -33,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-02T01:20:03.560Z"
+        "fetchedAt": "2026-09-02T06:18:45.206Z"
       }
     ],
     "Guatemala": [
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-02T01:20:03.560Z"
+        "fetchedAt": "2026-09-02T06:18:45.206Z"
       }
     ],
     "Colombia": [
@@ -59,7 +59,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-02T01:20:03.560Z"
+        "fetchedAt": "2026-09-02T06:18:45.206Z"
       }
     ]
   },
@@ -69,12 +69,12 @@
         "event": "Rain Advisory",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 17.5mm. Temperature: 29.2°C, Humidity: 74%, Wind: 26.7 km/h.",
+        "headline": "Moderate drizzle in Manila",
+        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 17.5mm. Temperature: 28.9°C, Humidity: 75%, Wind: 33 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-02T01:20:04.337Z",
-        "fetchedAt": "2026-09-02T01:20:04.337Z",
+        "publishedAt": "2026-09-02T06:18:45.622Z",
+        "fetchedAt": "2026-09-02T06:18:45.622Z",
         "cityLevel": true
       },
       {
@@ -85,8 +85,8 @@
         "description": "17.1mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-02T01:20:04.371Z",
-        "fetchedAt": "2026-09-02T01:20:04.371Z",
+        "publishedAt": "2026-09-02T06:18:45.650Z",
+        "fetchedAt": "2026-09-02T06:18:45.650Z",
         "cityLevel": true
       }
     ],
@@ -96,11 +96,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Rain expected in Guatemala City on Thursday, Sep 3",
-        "description": "16.2mm of precipitation forecast with 86% probability.",
+        "description": "16.2mm of precipitation forecast with 91% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-02T01:20:04.372Z",
-        "fetchedAt": "2026-09-02T01:20:04.372Z",
+        "publishedAt": "2026-09-02T06:18:45.650Z",
+        "fetchedAt": "2026-09-02T06:18:45.650Z",
         "cityLevel": true
       }
     ]
