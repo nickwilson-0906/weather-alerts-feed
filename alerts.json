@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T16:21:30.875Z",
+  "lastUpdated": "2026-09-09T19:23:55.603Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-09T16:21:30.480Z"
+        "fetchedAt": "2026-09-09T19:23:54.543Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-09T16:21:30.481Z"
+        "fetchedAt": "2026-09-09T19:23:54.543Z"
       }
     ],
     "Philippines": [
@@ -37,22 +37,22 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-09T16:21:30.481Z"
+        "fetchedAt": "2026-09-09T19:23:54.543Z"
       }
     ]
   },
   "cityAlerts": {
-    "Manila": [
+    "Guatemala City": [
       {
-        "event": "Rain Advisory",
+        "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Moderate drizzle in Manila",
-        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 23mm. Temperature: 25.3°C, Humidity: 90%, Wind: 11.2 km/h.",
+        "headline": "Rain expected in Guatemala City on Sunday, Sep 13",
+        "description": "19.4mm of precipitation forecast with 88% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-09T16:21:30.875Z",
-        "fetchedAt": "2026-09-09T16:21:30.875Z",
+        "publishedAt": "2026-09-09T19:23:55.603Z",
+        "fetchedAt": "2026-09-09T19:23:55.603Z",
         "cityLevel": true
       }
     ]
