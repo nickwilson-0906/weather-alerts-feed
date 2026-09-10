@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T09:06:52.208Z",
+  "lastUpdated": "2026-09-10T13:38:05.099Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-10T09:06:51.549Z"
+        "fetchedAt": "2026-09-10T13:38:05.011Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-10T09:06:51.550Z"
+        "fetchedAt": "2026-09-10T13:38:05.011Z"
       }
     ],
     "Philippines": [
@@ -37,24 +37,9 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-10T09:06:51.550Z"
+        "fetchedAt": "2026-09-10T13:38:05.011Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Thunderstorm Alert",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "headline": "Thunderstorm activity in Manila",
-        "description": "Active thunderstorm conditions. Thunderstorm. Temperature: 25.6°C, Humidity: 92%, Wind: 9.9 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-10T09:06:52.207Z",
-        "fetchedAt": "2026-09-10T09:06:52.207Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
