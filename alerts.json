@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T20:47:53.539Z",
+  "lastUpdated": "2026-09-11T23:07:36.397Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-11T20:47:52.740Z"
+        "fetchedAt": "2026-09-11T23:07:35.797Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-11T20:47:52.741Z"
+        "fetchedAt": "2026-09-11T23:07:35.797Z"
       }
     ],
     "Philippines": [
@@ -37,7 +37,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-11T20:47:52.741Z"
+        "fetchedAt": "2026-09-11T23:07:35.797Z"
       }
     ]
   },
@@ -51,8 +51,8 @@
         "description": "21.9mm of precipitation forecast with 98% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-11T20:47:53.539Z",
-        "fetchedAt": "2026-09-11T20:47:53.539Z",
+        "publishedAt": "2026-09-11T23:07:36.397Z",
+        "fetchedAt": "2026-09-11T23:07:36.397Z",
         "cityLevel": true
       }
     ]
