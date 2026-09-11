@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T14:11:39.189Z",
+  "lastUpdated": "2026-09-11T17:45:54.434Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-11T14:11:38.759Z"
+        "fetchedAt": "2026-09-11T17:45:53.272Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-11T14:11:38.759Z"
+        "fetchedAt": "2026-09-11T17:45:53.272Z"
       }
     ],
     "Philippines": [
@@ -37,7 +37,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-11T14:11:38.760Z"
+        "fetchedAt": "2026-09-11T17:45:53.272Z"
       }
     ]
   },
@@ -47,12 +47,12 @@
         "event": "Rain Advisory",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Today's expected total: 2.4mm. Temperature: 26.1°C, Humidity: 89%, Wind: 2.1 km/h.",
+        "headline": "Moderate drizzle in Manila",
+        "description": "Current conditions: Moderate drizzle. Today's expected total: 1.5mm. Temperature: 25.4°C, Humidity: 92%, Wind: 4.5 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-11T14:11:39.154Z",
-        "fetchedAt": "2026-09-11T14:11:39.154Z",
+        "publishedAt": "2026-09-11T17:45:53.914Z",
+        "fetchedAt": "2026-09-11T17:45:53.914Z",
         "cityLevel": true
       },
       {
@@ -63,8 +63,8 @@
         "description": "23.7mm of precipitation forecast with 98% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-11T14:11:39.189Z",
-        "fetchedAt": "2026-09-11T14:11:39.189Z",
+        "publishedAt": "2026-09-11T17:45:54.434Z",
+        "fetchedAt": "2026-09-11T17:45:54.434Z",
         "cityLevel": true
       }
     ]
