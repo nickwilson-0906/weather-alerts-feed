@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T05:08:30.760Z",
+  "lastUpdated": "2026-09-11T09:45:23.909Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-11T05:08:30.168Z"
+        "fetchedAt": "2026-09-11T09:45:23.194Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-11T05:08:30.168Z"
+        "fetchedAt": "2026-09-11T09:45:23.194Z"
       }
     ],
     "Philippines": [
@@ -37,9 +37,36 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-11T05:08:30.168Z"
+        "fetchedAt": "2026-09-11T09:45:23.194Z"
       }
     ]
   },
-  "cityAlerts": {}
+  "cityAlerts": {
+    "Manila": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Manila",
+        "description": "Current conditions: Light drizzle. Today's expected total: 2.1mm. Temperature: 27.2°C, Humidity: 82%, Wind: 2.3 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-09-11T09:45:23.872Z",
+        "fetchedAt": "2026-09-11T09:45:23.872Z",
+        "cityLevel": true
+      },
+      {
+        "event": "Rain Forecast",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Rain expected in Manila on Thursday, Sep 17",
+        "description": "25.2mm of precipitation forecast with 98% probability.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-09-11T09:45:23.909Z",
+        "fetchedAt": "2026-09-11T09:45:23.909Z",
+        "cityLevel": true
+      }
+    ]
+  }
 }
