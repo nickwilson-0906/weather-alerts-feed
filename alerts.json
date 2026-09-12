@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T18:47:34.168Z",
+  "lastUpdated": "2026-09-12T21:19:59.391Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-12T18:47:33.486Z"
+        "fetchedAt": "2026-09-12T21:19:58.926Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-12T18:47:33.487Z"
+        "fetchedAt": "2026-09-12T21:19:58.926Z"
       }
     ],
     "Philippines": [
@@ -37,24 +37,9 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-12T18:47:33.487Z"
+        "fetchedAt": "2026-09-12T21:19:58.926Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Heavy Rain Forecast",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Heavy rain expected in Manila on Thursday, Sep 17",
-        "description": "37.5mm of precipitation forecast with 98% probability.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-12T18:47:34.168Z",
-        "fetchedAt": "2026-09-12T18:47:34.168Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
