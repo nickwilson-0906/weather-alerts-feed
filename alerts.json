@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T22:31:42.439Z",
+  "lastUpdated": "2026-09-15T00:56:33.591Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-14T22:31:41.545Z"
+        "fetchedAt": "2026-09-15T00:56:32.854Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-14T22:31:41.545Z"
+        "fetchedAt": "2026-09-15T00:56:32.854Z"
       }
     ],
     "Philippines": [
@@ -37,22 +37,48 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-14T22:31:41.545Z"
+        "fetchedAt": "2026-09-15T00:56:32.854Z"
       }
     ]
   },
   "cityAlerts": {
     "Manila": [
       {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Manila",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 6.8mm. Temperature: 29°C, Humidity: 78%, Wind: 4.2 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-09-15T00:56:33.553Z",
+        "fetchedAt": "2026-09-15T00:56:33.553Z",
+        "cityLevel": true
+      },
+      {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Rain expected in Manila on Wednesday, Sep 16",
-        "description": "16.8mm of precipitation forecast with 100% probability.",
+        "headline": "Rain expected in Manila on Thursday, Sep 17",
+        "description": "23.7mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-14T22:31:42.439Z",
-        "fetchedAt": "2026-09-14T22:31:42.439Z",
+        "publishedAt": "2026-09-15T00:56:33.590Z",
+        "fetchedAt": "2026-09-15T00:56:33.590Z",
+        "cityLevel": true
+      }
+    ],
+    "Guatemala City": [
+      {
+        "event": "Rain Forecast",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Rain expected in Guatemala City on Saturday, Sep 19",
+        "description": "23.5mm of precipitation forecast with 90% probability.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-09-15T00:56:33.590Z",
+        "fetchedAt": "2026-09-15T00:56:33.590Z",
         "cityLevel": true
       }
     ]
