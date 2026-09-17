@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T22:11:52.666Z",
+  "lastUpdated": "2026-09-17T00:36:19.643Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-16T22:11:51.969Z"
+        "fetchedAt": "2026-09-17T00:36:19.420Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-16T22:11:51.969Z"
+        "fetchedAt": "2026-09-17T00:36:19.420Z"
       }
     ],
     "Philippines": [
@@ -37,7 +37,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-16T22:11:51.969Z"
+        "fetchedAt": "2026-09-17T00:36:19.420Z"
       }
     ]
   },
@@ -51,22 +51,8 @@
         "description": "15.4mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-16T22:11:52.665Z",
-        "fetchedAt": "2026-09-16T22:11:52.665Z",
-        "cityLevel": true
-      }
-    ],
-    "Guatemala City": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Light drizzle in Guatemala City",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 1.3mm. Temperature: 24.5°C, Humidity: 50%, Wind: 19.9 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-16T22:11:52.665Z",
-        "fetchedAt": "2026-09-16T22:11:52.665Z",
+        "publishedAt": "2026-09-17T00:36:19.643Z",
+        "fetchedAt": "2026-09-17T00:36:19.643Z",
         "cityLevel": true
       }
     ]
