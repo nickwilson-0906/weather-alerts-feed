@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T22:12:10.187Z",
+  "lastUpdated": "2026-09-18T00:25:11.472Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-17T22:12:09.300Z"
+        "fetchedAt": "2026-09-18T00:25:10.484Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-17T22:12:09.301Z"
+        "fetchedAt": "2026-09-18T00:25:10.485Z"
       }
     ],
     "Philippines": [
@@ -37,22 +37,36 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-17T22:12:09.301Z"
+        "fetchedAt": "2026-09-18T00:25:10.485Z"
       }
     ]
   },
   "cityAlerts": {
+    "Manila": [
+      {
+        "event": "Rain Forecast",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Rain expected in Manila on Saturday, Sep 19",
+        "description": "18.2mm of precipitation forecast with 100% probability.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-09-18T00:25:11.472Z",
+        "fetchedAt": "2026-09-18T00:25:11.472Z",
+        "cityLevel": true
+      }
+    ],
     "Guatemala City": [
       {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Rain expected in Guatemala City on Friday, Sep 18",
-        "description": "17.2mm of precipitation forecast with 75% probability.",
+        "description": "17.4mm of precipitation forecast with 86% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-17T22:12:10.187Z",
-        "fetchedAt": "2026-09-17T22:12:10.187Z",
+        "publishedAt": "2026-09-18T00:25:11.472Z",
+        "fetchedAt": "2026-09-18T00:25:11.472Z",
         "cityLevel": true
       }
     ]
