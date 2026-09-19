@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T05:56:10.313Z",
+  "lastUpdated": "2026-09-19T10:46:40.561Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-19T05:56:09.878Z"
+        "fetchedAt": "2026-09-19T10:46:39.862Z"
       }
     ],
     "Colombia": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-19T05:56:09.878Z"
+        "fetchedAt": "2026-09-19T10:46:39.862Z"
       }
     ],
     "Philippines": [
@@ -37,34 +37,22 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-19T05:56:09.878Z"
+        "fetchedAt": "2026-09-19T10:46:39.862Z"
       }
     ]
   },
   "cityAlerts": {
     "Guatemala City": [
       {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Light drizzle in Guatemala City",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 2.9mm. Temperature: 17.8°C, Humidity: 97%, Wind: 6.5 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-19T05:56:10.268Z",
-        "fetchedAt": "2026-09-19T05:56:10.268Z",
-        "cityLevel": true
-      },
-      {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Rain expected in Guatemala City on Saturday, Sep 19",
-        "description": "27.7mm of precipitation forecast with 100% probability.",
+        "headline": "Rain expected in Guatemala City on Friday, Sep 25",
+        "description": "19.3mm of precipitation forecast with 97% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-19T05:56:10.313Z",
-        "fetchedAt": "2026-09-19T05:56:10.313Z",
+        "publishedAt": "2026-09-19T10:46:40.561Z",
+        "fetchedAt": "2026-09-19T10:46:40.561Z",
         "cityLevel": true
       }
     ]
