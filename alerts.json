@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T16:56:00.014Z",
+  "lastUpdated": "2026-09-21T20:38:55.597Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
         "publishedAt": "2026-09-20T07:18:20.000Z",
-        "fetchedAt": "2026-09-21T16:37:32.137Z"
+        "fetchedAt": "2026-09-21T20:38:55.512Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-21T16:37:32.141Z"
+        "fetchedAt": "2026-09-21T20:38:55.516Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-21T16:37:32.141Z"
+        "fetchedAt": "2026-09-21T20:38:55.516Z"
       }
     ],
     "Colombia": [
@@ -48,24 +48,9 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-21T16:37:32.141Z"
+        "fetchedAt": "2026-09-21T20:38:55.516Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Guatemala City": [
-      {
-        "event": "Rain Forecast",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Rain expected in Guatemala City on Tuesday, Sep 22",
-        "description": "18.3mm of precipitation forecast with 100% probability.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-21T16:56:00.014Z",
-        "fetchedAt": "2026-09-21T16:56:00.014Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
