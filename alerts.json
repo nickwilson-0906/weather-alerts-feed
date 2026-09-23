@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T20:38:20.150Z",
+  "lastUpdated": "2026-09-23T23:12:38.899Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-23T20:38:19.452Z"
+        "fetchedAt": "2026-09-23T23:12:38.229Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104188",
         "publishedAt": "2026-09-23T13:04:23.000Z",
-        "fetchedAt": "2026-09-23T20:38:19.448Z"
+        "fetchedAt": "2026-09-23T23:12:38.226Z"
       }
     ],
     "Philippines": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
         "publishedAt": "2026-09-20T07:18:20.000Z",
-        "fetchedAt": "2026-09-23T20:38:19.449Z"
+        "fetchedAt": "2026-09-23T23:12:38.227Z"
       },
       {
         "event": "Weather Alert",
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-23T20:38:19.452Z"
+        "fetchedAt": "2026-09-23T23:12:38.229Z"
       }
     ],
     "Colombia": [
@@ -59,22 +59,22 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-23T20:38:19.452Z"
+        "fetchedAt": "2026-09-23T23:12:38.229Z"
       }
     ]
   },
   "cityAlerts": {
     "Guatemala City": [
       {
-        "event": "Thunderstorm Alert",
+        "event": "Heavy Rain Alert",
         "severity": "Severe",
         "urgency": "Expected",
-        "headline": "Thunderstorm activity in Guatemala City",
-        "description": "Active thunderstorm conditions. Thunderstorm. Temperature: 20.6°C, Humidity: 91%, Wind: 7.2 km/h.",
+        "headline": "Heavy rainfall in Guatemala City",
+        "description": "Current conditions: Slight rain showers. Current rainfall rate: 0.2mm. Today's expected total: 45.3mm. Temperature: 19.2°C, Humidity: 95%, Wind: 5.2 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-23T20:38:20.105Z",
-        "fetchedAt": "2026-09-23T20:38:20.105Z",
+        "publishedAt": "2026-09-23T23:12:38.869Z",
+        "fetchedAt": "2026-09-23T23:12:38.869Z",
         "cityLevel": true
       },
       {
@@ -85,8 +85,8 @@
         "description": "29.8mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-23T20:38:20.150Z",
-        "fetchedAt": "2026-09-23T20:38:20.150Z",
+        "publishedAt": "2026-09-23T23:12:38.899Z",
+        "fetchedAt": "2026-09-23T23:12:38.899Z",
         "cityLevel": true
       }
     ]
