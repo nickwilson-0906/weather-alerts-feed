@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T01:28:28.514Z",
+  "lastUpdated": "2026-09-24T06:41:58.375Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-24T01:28:27.767Z"
+        "fetchedAt": "2026-09-24T06:41:57.392Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104188",
         "publishedAt": "2026-09-23T13:04:23.000Z",
-        "fetchedAt": "2026-09-24T01:28:27.763Z"
+        "fetchedAt": "2026-09-24T06:41:57.389Z"
       }
     ],
     "Philippines": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
         "publishedAt": "2026-09-20T07:18:20.000Z",
-        "fetchedAt": "2026-09-24T01:28:27.764Z"
+        "fetchedAt": "2026-09-24T06:41:57.389Z"
       },
       {
         "event": "Weather Alert",
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-24T01:28:27.767Z"
+        "fetchedAt": "2026-09-24T06:41:57.392Z"
       }
     ],
     "Colombia": [
@@ -59,34 +59,36 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-24T01:28:27.767Z"
+        "fetchedAt": "2026-09-24T06:41:57.392Z"
       }
     ]
   },
   "cityAlerts": {
-    "Guatemala City": [
+    "Manila": [
       {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Dense drizzle in Guatemala City",
-        "description": "Current conditions: Dense drizzle. Current rainfall rate: 0.2mm. Today's expected total: 18.4mm. Temperature: 18.4°C, Humidity: 96%, Wind: 1.8 km/h.",
+        "event": "Thunderstorm Alert",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "headline": "Thunderstorm activity in Manila",
+        "description": "Active thunderstorm conditions. Thunderstorm. Temperature: 30.5°C, Humidity: 70%, Wind: 4.8 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-24T01:28:28.477Z",
-        "fetchedAt": "2026-09-24T01:28:28.477Z",
+        "publishedAt": "2026-09-24T06:41:57.972Z",
+        "fetchedAt": "2026-09-24T06:41:57.972Z",
         "cityLevel": true
-      },
+      }
+    ],
+    "Guatemala City": [
       {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Rain expected in Guatemala City on Thursday, Sep 24",
-        "description": "29.5mm of precipitation forecast with 100% probability.",
+        "headline": "Rain expected in Guatemala City on Friday, Sep 25",
+        "description": "17.9mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-24T01:28:28.513Z",
-        "fetchedAt": "2026-09-24T01:28:28.513Z",
+        "publishedAt": "2026-09-24T06:41:58.374Z",
+        "fetchedAt": "2026-09-24T06:41:58.374Z",
         "cityLevel": true
       }
     ]
