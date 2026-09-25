@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T23:32:56.553Z",
+  "lastUpdated": "2026-09-25T01:56:52.601Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-24T23:32:56.061Z"
+        "fetchedAt": "2026-09-25T01:56:51.991Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104188",
         "publishedAt": "2026-09-23T13:04:23.000Z",
-        "fetchedAt": "2026-09-24T23:32:56.058Z"
+        "fetchedAt": "2026-09-25T01:56:51.988Z"
       }
     ],
     "Philippines": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
         "publishedAt": "2026-09-20T07:18:20.000Z",
-        "fetchedAt": "2026-09-24T23:32:56.058Z"
+        "fetchedAt": "2026-09-25T01:56:51.989Z"
       },
       {
         "event": "Weather Alert",
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-24T23:32:56.061Z"
+        "fetchedAt": "2026-09-25T01:56:51.991Z"
       }
     ],
     "Colombia": [
@@ -59,7 +59,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-24T23:32:56.061Z"
+        "fetchedAt": "2026-09-25T01:56:51.991Z"
       }
     ]
   },
@@ -70,23 +70,11 @@
         "severity": "Severe",
         "urgency": "Expected",
         "headline": "Heavy rainfall in Guatemala City",
-        "description": "Current conditions: Slight rain showers. Current rainfall rate: 0.1mm. Today's expected total: 31.2mm. Temperature: 18.9°C, Humidity: 95%, Wind: 1.4 km/h.",
+        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.2mm. Today's expected total: 40.7mm. Temperature: 17.5°C, Humidity: 99%, Wind: 8.5 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-24T23:32:56.524Z",
-        "fetchedAt": "2026-09-24T23:32:56.524Z",
-        "cityLevel": true
-      },
-      {
-        "event": "Rain Forecast",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Rain expected in Guatemala City on Friday, Sep 25",
-        "description": "25.4mm of precipitation forecast with 100% probability.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-24T23:32:56.553Z",
-        "fetchedAt": "2026-09-24T23:32:56.553Z",
+        "publishedAt": "2026-09-25T01:56:52.601Z",
+        "fetchedAt": "2026-09-25T01:56:52.601Z",
         "cityLevel": true
       }
     ]
