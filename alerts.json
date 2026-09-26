@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T05:03:05.730Z",
+  "lastUpdated": "2026-09-26T09:54:17.016Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-26T05:03:05.221Z"
+        "fetchedAt": "2026-09-26T09:54:16.298Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104188",
         "publishedAt": "2026-09-23T13:04:23.000Z",
-        "fetchedAt": "2026-09-26T05:03:05.218Z"
+        "fetchedAt": "2026-09-26T09:54:16.297Z"
       }
     ],
     "Colombia": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-26T05:03:05.221Z"
+        "fetchedAt": "2026-09-26T09:54:16.298Z"
       }
     ],
     "Philippines": [
@@ -48,7 +48,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-26T05:03:05.221Z"
+        "fetchedAt": "2026-09-26T09:54:16.298Z"
       }
     ]
   },
@@ -58,12 +58,12 @@
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Rain expected in Guatemala City on Tuesday, Sep 29",
-        "description": "15.8mm of precipitation forecast with 82% probability.",
+        "headline": "Rain expected in Guatemala City on Monday, Sep 28",
+        "description": "15.3mm of precipitation forecast with 81% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-26T05:03:05.730Z",
-        "fetchedAt": "2026-09-26T05:03:05.730Z",
+        "publishedAt": "2026-09-26T09:54:17.016Z",
+        "fetchedAt": "2026-09-26T09:54:17.016Z",
         "cityLevel": true
       }
     ]
