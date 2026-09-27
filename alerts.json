@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T21:11:42.470Z",
+  "lastUpdated": "2026-09-27T23:50:07.101Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,18 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-27T21:11:42.277Z"
-      },
-      {
-        "event": "Flood Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green flood alert in Guatemala",
-        "description": "On 21/09/2026, a flood started in Guatemala, lasting until 23/09/2026 (last update). The flood caused 0 deaths and 0 displaced .",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104188",
-        "publishedAt": "2026-09-23T13:04:23.000Z",
-        "fetchedAt": "2026-09-27T21:11:42.274Z"
+        "fetchedAt": "2026-09-27T23:50:04.198Z"
       }
     ],
     "Colombia": [
@@ -35,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-27T21:11:42.277Z"
+        "fetchedAt": "2026-09-27T23:50:04.198Z"
       }
     ],
     "Philippines": [
@@ -48,24 +37,9 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-27T21:11:42.277Z"
+        "fetchedAt": "2026-09-27T23:50:04.198Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Guatemala City": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Light drizzle in Guatemala City",
-        "description": "Current conditions: Light drizzle. Today's expected total: 3.6mm. Temperature: 23.4°C, Humidity: 61%, Wind: 13.4 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-09-27T21:11:42.470Z",
-        "fetchedAt": "2026-09-27T21:11:42.470Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
