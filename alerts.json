@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T11:35:30.635Z",
+  "lastUpdated": "2026-09-28T18:44:16.871Z",
   "alerts": {
     "Philippines": [
       {
@@ -7,11 +7,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Green flood alert in Philippines",
-        "description": "On 18/09/2026, a flood started in Philippines, lasting until 21/09/2026 (last update). The flood caused 1 deaths and 0 displaced .",
+        "description": "On 18/09/2026, a flood started in Philippines, lasting until 26/09/2026 (last update). The flood caused 1 deaths and 0 displaced .",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
         "publishedAt": "2026-09-20T07:18:20.000Z",
-        "fetchedAt": "2026-09-28T11:35:15.401Z"
+        "fetchedAt": "2026-09-28T18:44:16.147Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-28T11:35:15.403Z"
+        "fetchedAt": "2026-09-28T18:44:16.149Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-28T11:35:15.403Z"
+        "fetchedAt": "2026-09-28T18:44:16.149Z"
       }
     ],
     "Colombia": [
@@ -48,9 +48,36 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-28T11:35:15.403Z"
+        "fetchedAt": "2026-09-28T18:44:16.149Z"
       }
     ]
   },
-  "cityAlerts": {}
+  "cityAlerts": {
+    "Guatemala City": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Guatemala City",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 5.6mm. Temperature: 24.9°C, Humidity: 60%, Wind: 4.6 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-09-28T18:44:16.829Z",
+        "fetchedAt": "2026-09-28T18:44:16.829Z",
+        "cityLevel": true
+      },
+      {
+        "event": "Rain Forecast",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Rain expected in Guatemala City on Saturday, Oct 3",
+        "description": "25.0mm of precipitation forecast with 96% probability.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-09-28T18:44:16.871Z",
+        "fetchedAt": "2026-09-28T18:44:16.871Z",
+        "cityLevel": true
+      }
+    ]
+  }
 }
