@@ -1,6 +1,30 @@
 {
-  "lastUpdated": "2026-09-28T04:52:03.535Z",
+  "lastUpdated": "2026-09-28T11:35:30.635Z",
   "alerts": {
+    "Philippines": [
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Philippines",
+        "description": "On 18/09/2026, a flood started in Philippines, lasting until 21/09/2026 (last update). The flood caused 1 deaths and 0 displaced .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
+        "publishedAt": "2026-09-20T07:18:20.000Z",
+        "fetchedAt": "2026-09-28T11:35:15.401Z"
+      },
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Australia, Indonesia, Cambodia, Papua New Guinea, Philippines, Thailand, Vietnam",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+        "publishedAt": "2026-04-30T13:07:47.000Z",
+        "fetchedAt": "2026-09-28T11:35:15.403Z"
+      }
+    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -11,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-09-28T04:52:03.132Z"
+        "fetchedAt": "2026-09-28T11:35:15.403Z"
       }
     ],
     "Colombia": [
@@ -24,20 +48,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-09-28T04:52:03.132Z"
-      }
-    ],
-    "Philippines": [
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Australia, Indonesia, Cambodia, Papua New Guinea, Philippines, Thailand, Vietnam",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-        "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-09-28T04:52:03.132Z"
+        "fetchedAt": "2026-09-28T11:35:15.403Z"
       }
     ]
   },
