@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-30T21:23:11.097Z",
+  "lastUpdated": "2026-10-01T00:46:59.634Z",
   "retentionDays": 90,
   "totalEvents": 42,
-  "activeEvents": 3,
+  "activeEvents": 2,
   "events": [
     {
       "id": "guatemala:weatheralert:droughtisongoinginthebahamasbelizecubadominicanrepublicguatemalahondurashaiti",
@@ -17,8 +17,25 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-09-14T19:10:19.658Z",
-      "lastSeen": "2026-09-30T21:23:11.097Z",
+      "lastSeen": "2026-10-01T00:46:59.634Z",
       "active": true
+    },
+    {
+      "id": "colombia:floodalert:greenfloodalertincolombia",
+      "country": "Colombia",
+      "event": "Flood Alert",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Green flood alert in Colombia",
+      "description": "On 09/07/2026, a flood started in Colombia, lasting until 11/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
+      "publishedAt": "2026-07-11T06:41:16.000Z",
+      "firstSeen": "2026-07-11T06:59:17.417Z",
+      "lastSeen": "2026-10-01T00:46:59.634Z",
+      "active": true,
+      "endedAt": "2026-08-22T22:32:35.888Z"
     },
     {
       "id": "philippines:floodalert:greenfloodalertinphilippines",
@@ -34,25 +51,8 @@
       "publishedAt": "2026-06-15T09:44:33.000Z",
       "firstSeen": "2026-07-07T17:33:47.416Z",
       "lastSeen": "2026-09-30T21:23:11.097Z",
-      "active": true,
-      "endedAt": "2026-09-26T00:06:32.748Z"
-    },
-    {
-      "id": "colombia:floodalert:greenfloodalertincolombia",
-      "country": "Colombia",
-      "event": "Flood Alert",
-      "severity": "Moderate",
-      "currentSeverity": "Moderate",
-      "urgency": "Future",
-      "headline": "Green flood alert in Colombia",
-      "description": "On 09/07/2026, a flood started in Colombia, lasting until 11/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
-      "publishedAt": "2026-07-11T06:41:16.000Z",
-      "firstSeen": "2026-07-11T06:59:17.417Z",
-      "lastSeen": "2026-09-30T21:23:11.097Z",
-      "active": true,
-      "endedAt": "2026-08-22T22:32:35.888Z"
+      "active": false,
+      "endedAt": "2026-10-01T00:46:59.634Z"
     },
     {
       "id": "philippines:weatheralert:droughtisongoinginaustraliaindonesiacambodiapapuanewguineaphilippinesthaila",
