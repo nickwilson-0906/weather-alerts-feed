@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T11:08:10.944Z",
+  "lastUpdated": "2026-10-02T16:39:40.037Z",
   "alerts": {
     "Colombia": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
         "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-10-02T11:08:10.342Z"
+        "fetchedAt": "2026-10-02T16:39:39.205Z"
       }
     ],
     "Guatemala": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-02T11:08:10.344Z"
+        "fetchedAt": "2026-10-02T16:39:39.207Z"
       }
     ],
     "Philippines": [
@@ -37,22 +37,36 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-02T11:08:10.344Z"
+        "fetchedAt": "2026-10-02T16:39:39.207Z"
       }
     ]
   },
   "cityAlerts": {
+    "Manila": [
+      {
+        "event": "Rain Forecast",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Rain expected in Manila on Tuesday, Oct 6",
+        "description": "20.2mm of precipitation forecast with 99% probability.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-10-02T16:39:40.037Z",
+        "fetchedAt": "2026-10-02T16:39:40.037Z",
+        "cityLevel": true
+      }
+    ],
     "Guatemala City": [
       {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Rain expected in Guatemala City on Sunday, Oct 4",
-        "description": "17.9mm of precipitation forecast with 100% probability.",
+        "headline": "Rain expected in Guatemala City on Thursday, Oct 8",
+        "description": "16.7mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-02T11:08:10.944Z",
-        "fetchedAt": "2026-10-02T11:08:10.944Z",
+        "publishedAt": "2026-10-02T16:39:40.037Z",
+        "fetchedAt": "2026-10-02T16:39:40.037Z",
         "cityLevel": true
       }
     ]
