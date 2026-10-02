@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T05:07:52.630Z",
+  "lastUpdated": "2026-10-02T11:08:10.944Z",
   "alerts": {
     "Colombia": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
         "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-10-02T05:07:52.118Z"
+        "fetchedAt": "2026-10-02T11:08:10.342Z"
       }
     ],
     "Guatemala": [
@@ -19,27 +19,40 @@
         "event": "Weather Alert",
         "severity": "Severe",
         "urgency": "Expected",
-        "headline": "Drought is on going in The Bahamas, Belize, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador",
+        "headline": "Drought is on going in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador",
         "description": "The  Drought notification level is Orange.",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-02T05:07:52.120Z"
+        "fetchedAt": "2026-10-02T11:08:10.344Z"
+      }
+    ],
+    "Philippines": [
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines, Thailand, Vietnam",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+        "publishedAt": "2026-04-30T13:07:47.000Z",
+        "fetchedAt": "2026-10-02T11:08:10.344Z"
       }
     ]
   },
   "cityAlerts": {
-    "Manila": [
+    "Guatemala City": [
       {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Rain expected in Manila on Wednesday, Oct 7",
-        "description": "25.2mm of precipitation forecast with 98% probability.",
+        "headline": "Rain expected in Guatemala City on Sunday, Oct 4",
+        "description": "17.9mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-02T05:07:52.630Z",
-        "fetchedAt": "2026-10-02T05:07:52.630Z",
+        "publishedAt": "2026-10-02T11:08:10.944Z",
+        "fetchedAt": "2026-10-02T11:08:10.944Z",
         "cityLevel": true
       }
     ]
