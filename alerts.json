@@ -1,19 +1,6 @@
 {
-  "lastUpdated": "2026-10-02T21:01:47.315Z",
+  "lastUpdated": "2026-10-03T00:31:55.974Z",
   "alerts": {
-    "Colombia": [
-      {
-        "event": "Flood Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green flood alert in Colombia",
-        "description": "On 26/09/2026, a flood started in Colombia, lasting until 28/09/2026 (last update). The flood caused 0 deaths and 0 displaced .",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
-        "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-10-02T21:01:46.850Z"
-      }
-    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -24,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-02T21:01:46.851Z"
+        "fetchedAt": "2026-10-03T00:31:55.454Z"
       }
     ],
     "Philippines": [
@@ -37,24 +24,9 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-02T21:01:46.851Z"
+        "fetchedAt": "2026-10-03T00:31:55.455Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Rain Forecast",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Rain expected in Manila on Wednesday, Oct 7",
-        "description": "16.2mm of precipitation forecast with 97% probability.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-02T21:01:47.315Z",
-        "fetchedAt": "2026-10-02T21:01:47.315Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
