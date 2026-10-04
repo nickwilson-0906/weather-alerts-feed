@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T20:11:52.088Z",
+  "lastUpdated": "2026-10-04T23:14:53.178Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-04T20:11:51.527Z"
+        "fetchedAt": "2026-10-04T23:14:53.024Z"
       }
     ],
     "Philippines": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-04T20:11:51.527Z"
+        "fetchedAt": "2026-10-04T23:14:53.024Z"
       }
     ]
   },
@@ -38,22 +38,8 @@
         "description": "17.5mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-04T20:11:52.087Z",
-        "fetchedAt": "2026-10-04T20:11:52.087Z",
-        "cityLevel": true
-      }
-    ],
-    "Guatemala City": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Moderate drizzle in Guatemala City",
-        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 9.1mm. Temperature: 19.7°C, Humidity: 86%, Wind: 7.3 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-04T20:11:52.087Z",
-        "fetchedAt": "2026-10-04T20:11:52.087Z",
+        "publishedAt": "2026-10-04T23:14:53.178Z",
+        "fetchedAt": "2026-10-04T23:14:53.178Z",
         "cityLevel": true
       }
     ]
