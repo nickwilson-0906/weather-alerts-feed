@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T21:49:05.445Z",
+  "lastUpdated": "2026-10-04T00:26:02.579Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-03T21:49:04.792Z"
+        "fetchedAt": "2026-10-04T00:26:02.182Z"
       }
     ],
     "Philippines": [
@@ -24,36 +24,22 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-03T21:49:04.792Z"
+        "fetchedAt": "2026-10-04T00:26:02.182Z"
       }
     ]
   },
   "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Rain Forecast",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Rain expected in Manila on Tuesday, Oct 6",
-        "description": "15.0mm of precipitation forecast with 95% probability.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-03T21:49:05.445Z",
-        "fetchedAt": "2026-10-03T21:49:05.445Z",
-        "cityLevel": true
-      }
-    ],
     "Guatemala City": [
       {
         "event": "Rain Advisory",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Light drizzle in Guatemala City",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 8.6mm. Temperature: 20.9°C, Humidity: 83%, Wind: 6.4 km/h.",
+        "headline": "Dense drizzle in Guatemala City",
+        "description": "Current conditions: Dense drizzle. Current rainfall rate: 0.2mm. Today's expected total: 20mm. Temperature: 17.9°C, Humidity: 98%, Wind: 4.6 km/h.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-03T21:49:05.445Z",
-        "fetchedAt": "2026-10-03T21:49:05.445Z",
+        "publishedAt": "2026-10-04T00:26:02.579Z",
+        "fetchedAt": "2026-10-04T00:26:02.579Z",
         "cityLevel": true
       }
     ]
