@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T06:14:07.941Z",
+  "lastUpdated": "2026-10-04T12:31:57.651Z",
   "retentionDays": 90,
   "totalEvents": 44,
   "activeEvents": 2,
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-04T06:14:07.941Z",
+      "lastSeen": "2026-10-04T12:31:57.651Z",
       "active": true
     },
     {
@@ -33,7 +33,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-04T06:14:07.941Z",
+      "lastSeen": "2026-10-04T12:31:57.651Z",
       "active": true
     },
     {

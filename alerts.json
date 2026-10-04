@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T06:14:07.939Z",
+  "lastUpdated": "2026-10-04T12:31:57.649Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-04T06:14:07.858Z"
+        "fetchedAt": "2026-10-04T12:31:56.920Z"
       }
     ],
     "Philippines": [
@@ -24,9 +24,36 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-04T06:14:07.858Z"
+        "fetchedAt": "2026-10-04T12:31:56.920Z"
       }
     ]
   },
-  "cityAlerts": {}
+  "cityAlerts": {
+    "Manila": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Manila",
+        "description": "Current conditions: Light drizzle. Today's expected total: 4.1mm. Temperature: 30.2°C, Humidity: 68%, Wind: 7.5 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-10-04T12:31:57.329Z",
+        "fetchedAt": "2026-10-04T12:31:57.329Z",
+        "cityLevel": true
+      },
+      {
+        "event": "Rain Forecast",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Rain expected in Manila on Tuesday, Oct 6",
+        "description": "15.7mm of precipitation forecast with 100% probability.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-10-04T12:31:57.649Z",
+        "fetchedAt": "2026-10-04T12:31:57.649Z",
+        "cityLevel": true
+      }
+    ]
+  }
 }
