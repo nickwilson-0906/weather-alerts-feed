@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T09:08:57.681Z",
+  "lastUpdated": "2026-10-05T18:30:46.389Z",
   "alerts": {
     "Colombia": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
         "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-10-05T09:08:57.150Z"
+        "fetchedAt": "2026-10-05T18:30:45.982Z"
       }
     ],
     "Philippines": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
         "publishedAt": "2026-09-20T07:18:20.000Z",
-        "fetchedAt": "2026-10-05T09:08:57.151Z"
+        "fetchedAt": "2026-10-05T18:30:45.983Z"
       },
       {
         "event": "Weather Alert",
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-05T09:08:57.151Z"
+        "fetchedAt": "2026-10-05T18:30:45.983Z"
       }
     ],
     "Guatemala": [
@@ -48,7 +48,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-05T09:08:57.151Z"
+        "fetchedAt": "2026-10-05T18:30:45.983Z"
       }
     ]
   },
@@ -58,12 +58,12 @@
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Rain expected in Manila on Tuesday, Oct 6",
-        "description": "25.0mm of precipitation forecast with 100% probability.",
+        "headline": "Rain expected in Manila on Thursday, Oct 8",
+        "description": "17.5mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-05T09:08:57.681Z",
-        "fetchedAt": "2026-10-05T09:08:57.681Z",
+        "publishedAt": "2026-10-05T18:30:46.388Z",
+        "fetchedAt": "2026-10-05T18:30:46.388Z",
         "cityLevel": true
       }
     ],
@@ -72,12 +72,12 @@
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Rain expected in Guatemala City on Wednesday, Oct 7",
-        "description": "25.6mm of precipitation forecast with 100% probability.",
+        "headline": "Rain expected in Guatemala City on Sunday, Oct 11",
+        "description": "18.0mm of precipitation forecast with 82% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-05T09:08:57.681Z",
-        "fetchedAt": "2026-10-05T09:08:57.681Z",
+        "publishedAt": "2026-10-05T18:30:46.388Z",
+        "fetchedAt": "2026-10-05T18:30:46.388Z",
         "cityLevel": true
       }
     ]
