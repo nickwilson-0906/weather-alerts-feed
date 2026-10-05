@@ -1,6 +1,43 @@
 {
-  "lastUpdated": "2026-10-05T02:06:14.012Z",
+  "lastUpdated": "2026-10-05T09:08:57.681Z",
   "alerts": {
+    "Colombia": [
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Colombia",
+        "description": "On 26/09/2026, a flood started in Colombia, lasting until 05/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
+        "publishedAt": "2026-09-30T05:14:50.000Z",
+        "fetchedAt": "2026-10-05T09:08:57.150Z"
+      }
+    ],
+    "Philippines": [
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Philippines",
+        "description": "On 18/09/2026, a flood started in Philippines, lasting until 04/10/2026 (last update). The flood caused 2 deaths and 0 displaced .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
+        "publishedAt": "2026-09-20T07:18:20.000Z",
+        "fetchedAt": "2026-10-05T09:08:57.151Z"
+      },
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines, Thailand, Vietnam",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+        "publishedAt": "2026-04-30T13:07:47.000Z",
+        "fetchedAt": "2026-10-05T09:08:57.151Z"
+      }
+    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -11,20 +48,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-05T02:06:13.494Z"
-      }
-    ],
-    "Philippines": [
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines, Thailand, Vietnam",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-        "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-05T02:06:13.494Z"
+        "fetchedAt": "2026-10-05T09:08:57.151Z"
       }
     ]
   },
@@ -35,11 +59,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Rain expected in Manila on Tuesday, Oct 6",
-        "description": "16.7mm of precipitation forecast with 99% probability.",
+        "description": "25.0mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-05T02:06:14.012Z",
-        "fetchedAt": "2026-10-05T02:06:14.012Z",
+        "publishedAt": "2026-10-05T09:08:57.681Z",
+        "fetchedAt": "2026-10-05T09:08:57.681Z",
         "cityLevel": true
       }
     ],
@@ -48,12 +72,12 @@
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Rain expected in Guatemala City on Tuesday, Oct 6",
-        "description": "17.1mm of precipitation forecast with 100% probability.",
+        "headline": "Rain expected in Guatemala City on Wednesday, Oct 7",
+        "description": "25.6mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-05T02:06:14.012Z",
-        "fetchedAt": "2026-10-05T02:06:14.012Z",
+        "publishedAt": "2026-10-05T09:08:57.681Z",
+        "fetchedAt": "2026-10-05T09:08:57.681Z",
         "cityLevel": true
       }
     ]

@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-05T02:06:14.014Z",
+  "lastUpdated": "2026-10-05T09:08:57.683Z",
   "retentionDays": 90,
   "totalEvents": 44,
-  "activeEvents": 2,
+  "activeEvents": 4,
   "events": [
     {
       "id": "guatemala:weatheralert:droughtisongoinginthebahamasbelizecostaricacubadominicanrepublicguatemalahond",
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-05T02:06:14.014Z",
+      "lastSeen": "2026-10-05T09:08:57.683Z",
       "active": true
     },
     {
@@ -33,7 +33,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-05T02:06:14.014Z",
+      "lastSeen": "2026-10-05T09:08:57.683Z",
       "active": true
     },
     {
@@ -49,9 +49,26 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
       "publishedAt": "2026-07-11T06:41:16.000Z",
       "firstSeen": "2026-07-11T06:59:17.417Z",
-      "lastSeen": "2026-10-02T21:01:47.316Z",
-      "active": false,
+      "lastSeen": "2026-10-05T09:08:57.683Z",
+      "active": true,
       "endedAt": "2026-10-03T00:31:55.976Z"
+    },
+    {
+      "id": "philippines:floodalert:greenfloodalertinphilippines",
+      "country": "Philippines",
+      "event": "Flood Alert",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Green flood alert in Philippines",
+      "description": "On 13/06/2026, a flood started in Philippines, lasting until 05/07/2026 (last update). The flood caused 0 deaths and 866 displaced .",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
+      "publishedAt": "2026-06-15T09:44:33.000Z",
+      "firstSeen": "2026-07-07T17:33:47.416Z",
+      "lastSeen": "2026-10-05T09:08:57.683Z",
+      "active": true,
+      "endedAt": "2026-10-01T00:46:59.634Z"
     },
     {
       "id": "guatemala:weatheralert:droughtisongoinginthebahamasbelizecubadominicanrepublicguatemalahondurashaiti",
@@ -69,23 +86,6 @@
       "lastSeen": "2026-10-02T05:07:52.632Z",
       "active": false,
       "endedAt": "2026-10-02T11:08:10.946Z"
-    },
-    {
-      "id": "philippines:floodalert:greenfloodalertinphilippines",
-      "country": "Philippines",
-      "event": "Flood Alert",
-      "severity": "Moderate",
-      "currentSeverity": "Moderate",
-      "urgency": "Future",
-      "headline": "Green flood alert in Philippines",
-      "description": "On 13/06/2026, a flood started in Philippines, lasting until 05/07/2026 (last update). The flood caused 0 deaths and 866 displaced .",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1103942",
-      "publishedAt": "2026-06-15T09:44:33.000Z",
-      "firstSeen": "2026-07-07T17:33:47.416Z",
-      "lastSeen": "2026-09-30T21:23:11.097Z",
-      "active": false,
-      "endedAt": "2026-10-01T00:46:59.634Z"
     },
     {
       "id": "philippines:weatheralert:droughtisongoinginaustraliaindonesiacambodiapapuanewguineaphilippinesthaila",
