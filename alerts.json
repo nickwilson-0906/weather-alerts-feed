@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T06:45:47.149Z",
+  "lastUpdated": "2026-10-06T14:03:46.369Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-06T06:45:46.559Z"
+        "fetchedAt": "2026-10-06T14:03:45.748Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104213",
         "publishedAt": "2026-10-06T06:14:44.000Z",
-        "fetchedAt": "2026-10-06T06:45:46.557Z"
+        "fetchedAt": "2026-10-06T14:03:45.747Z"
       }
     ],
     "Colombia": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
         "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-10-06T06:45:46.557Z"
+        "fetchedAt": "2026-10-06T14:03:45.747Z"
       }
     ],
     "Philippines": [
@@ -48,7 +48,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
         "publishedAt": "2026-09-20T07:18:20.000Z",
-        "fetchedAt": "2026-10-06T06:45:46.558Z"
+        "fetchedAt": "2026-10-06T14:03:45.748Z"
       },
       {
         "event": "Weather Alert",
@@ -59,36 +59,22 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-06T06:45:46.559Z"
+        "fetchedAt": "2026-10-06T14:03:45.748Z"
       }
     ]
   },
   "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Slight rain showers in Manila",
-        "description": "Current conditions: Slight rain showers. Current rainfall rate: 0.2mm. Today's expected total: 4.6mm. Temperature: 28.9°C, Humidity: 77%, Wind: 7.6 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-06T06:45:47.119Z",
-        "fetchedAt": "2026-10-06T06:45:47.119Z",
-        "cityLevel": true
-      }
-    ],
     "Guatemala City": [
       {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Rain expected in Guatemala City on Friday, Oct 9",
-        "description": "17.9mm of precipitation forecast with 100% probability.",
+        "description": "15.1mm of precipitation forecast with 97% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-06T06:45:47.149Z",
-        "fetchedAt": "2026-10-06T06:45:47.149Z",
+        "publishedAt": "2026-10-06T14:03:46.369Z",
+        "fetchedAt": "2026-10-06T14:03:46.369Z",
         "cityLevel": true
       }
     ]
