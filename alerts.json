@@ -1,6 +1,52 @@
 {
-  "lastUpdated": "2026-10-08T08:01:26.680Z",
+  "lastUpdated": "2026-10-08T15:39:15.634Z",
   "alerts": {
+    "Philippines": [
+      {
+        "event": "Weather Alert",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "headline": "Volcanic eruption is on going for Taal in Philippines",
+        "description": "Volcano Taal is emitting ash clouds according to the regional VAAC. The aviation alert level is Orange.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000151",
+        "publishedAt": "2026-10-08T13:00:44.000Z",
+        "fetchedAt": "2026-10-08T15:39:14.654Z"
+      },
+      {
+        "event": "Earthquake",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green earthquake (Magnitude 5.5M, Depth:52.054km) in Philippines 08/10/2026 08:07 UTC, 2.4 million in MMI&gt;=IV.",
+        "description": "On 10/8/2026 8:07:59 AM, an earthquake occurred in Philippines potentially affecting 2.4 million in MMI>=IV. The earthquake had Magnitude 5.5M, Depth:52.054km.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1570075",
+        "publishedAt": "2026-10-08T08:27:59.000Z",
+        "fetchedAt": "2026-10-08T15:39:14.654Z"
+      },
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Philippines",
+        "description": "On 18/09/2026, a flood started in Philippines, lasting until 04/10/2026 (last update). The flood caused 2 deaths and 0 displaced .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
+        "publishedAt": "2026-09-20T07:18:20.000Z",
+        "fetchedAt": "2026-10-08T15:39:14.656Z"
+      },
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines, Thailand, Vietnam",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+        "publishedAt": "2026-04-30T13:07:47.000Z",
+        "fetchedAt": "2026-10-08T15:39:14.656Z"
+      }
+    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -11,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-08T08:01:26.244Z"
+        "fetchedAt": "2026-10-08T15:39:14.656Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +68,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104213",
         "publishedAt": "2026-10-06T06:14:44.000Z",
-        "fetchedAt": "2026-10-08T08:01:26.242Z"
+        "fetchedAt": "2026-10-08T15:39:14.655Z"
       }
     ],
     "Colombia": [
@@ -35,84 +81,22 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
         "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-10-08T08:01:26.243Z"
-      }
-    ],
-    "Philippines": [
-      {
-        "event": "Flood Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green flood alert in Philippines",
-        "description": "On 18/09/2026, a flood started in Philippines, lasting until 04/10/2026 (last update). The flood caused 2 deaths and 0 displaced .",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104176",
-        "publishedAt": "2026-09-20T07:18:20.000Z",
-        "fetchedAt": "2026-10-08T08:01:26.244Z"
-      },
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines, Thailand, Vietnam",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-        "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-08T08:01:26.244Z"
+        "fetchedAt": "2026-10-08T15:39:14.656Z"
       }
     ]
   },
   "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Moderate drizzle in Manila",
-        "description": "Current conditions: Moderate drizzle. Today's expected total: 10.8mm. Temperature: 28.8°C, Humidity: 82%, Wind: 4.8 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-08T08:01:26.639Z",
-        "fetchedAt": "2026-10-08T08:01:26.639Z",
-        "cityLevel": true
-      },
-      {
-        "event": "Rain Forecast",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Rain expected in Manila on Tuesday, Oct 13",
-        "description": "15.0mm of precipitation forecast with 100% probability.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-08T08:01:26.679Z",
-        "fetchedAt": "2026-10-08T08:01:26.679Z",
-        "cityLevel": true
-      }
-    ],
     "Guatemala City": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Dense drizzle in Guatemala City",
-        "description": "Current conditions: Dense drizzle. Current rainfall rate: 0.1mm. Today's expected total: 23.5mm. Temperature: 17.2°C, Humidity: 100%, Wind: 6.4 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-08T08:01:26.679Z",
-        "fetchedAt": "2026-10-08T08:01:26.679Z",
-        "cityLevel": true
-      },
       {
         "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Rain expected in Guatemala City on Friday, Oct 9",
-        "description": "16.0mm of precipitation forecast with 99% probability.",
+        "description": "16.6mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-08T08:01:26.679Z",
-        "fetchedAt": "2026-10-08T08:01:26.679Z",
+        "publishedAt": "2026-10-08T15:39:15.634Z",
+        "fetchedAt": "2026-10-08T15:39:15.634Z",
         "cityLevel": true
       }
     ]
