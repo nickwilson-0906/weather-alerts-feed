@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T07:25:36.815Z",
+  "lastUpdated": "2026-10-09T14:33:58.954Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,18 +11,18 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000151",
         "publishedAt": "2026-10-08T13:00:44.000Z",
-        "fetchedAt": "2026-10-09T07:25:36.414Z"
+        "fetchedAt": "2026-10-09T14:33:58.509Z"
       },
       {
         "event": "Earthquake",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Green earthquake (Magnitude 5.5M, Depth:52.054km) in Philippines 08/10/2026 08:07 UTC, 2.4 million in MMI&gt;=IV.",
-        "description": "On 10/8/2026 8:07:59 AM, an earthquake occurred in Philippines potentially affecting 2.4 million in MMI>=IV. The earthquake had Magnitude 5.5M, Depth:52.054km.",
+        "headline": "Green earthquake (Magnitude 5.5M, Depth:52.054km) in Philippines 08/10/2026 08:07 UTC, 80 thousand in MMI V.",
+        "description": "On 10/8/2026 8:07:59 AM, an earthquake occurred in Philippines potentially affecting 80 thousand in MMI V. The earthquake had Magnitude 5.5M, Depth:52.054km.",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1570075",
         "publishedAt": "2026-10-08T08:27:59.000Z",
-        "fetchedAt": "2026-10-09T07:25:36.414Z"
+        "fetchedAt": "2026-10-09T14:33:58.509Z"
       },
       {
         "event": "Weather Alert",
@@ -33,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-09T07:25:36.416Z"
+        "fetchedAt": "2026-10-09T14:33:58.511Z"
       }
     ],
     "Guatemala": [
@@ -46,7 +46,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-09T07:25:36.416Z"
+        "fetchedAt": "2026-10-09T14:33:58.511Z"
       },
       {
         "event": "Flood Alert",
@@ -57,7 +57,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104213",
         "publishedAt": "2026-10-06T06:14:44.000Z",
-        "fetchedAt": "2026-10-09T07:25:36.415Z"
+        "fetchedAt": "2026-10-09T14:33:58.510Z"
       }
     ],
     "Colombia": [
@@ -70,9 +70,24 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
         "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-10-09T07:25:36.416Z"
+        "fetchedAt": "2026-10-09T14:33:58.511Z"
       }
     ]
   },
-  "cityAlerts": {}
+  "cityAlerts": {
+    "Guatemala City": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Guatemala City",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 4.3mm. Temperature: 18.1°C, Humidity: 94%, Wind: 2.4 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-10-09T14:33:58.954Z",
+        "fetchedAt": "2026-10-09T14:33:58.954Z",
+        "cityLevel": true
+      }
+    ]
+  }
 }
