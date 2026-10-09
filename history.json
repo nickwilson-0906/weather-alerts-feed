@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-09T19:49:34.801Z",
+  "lastUpdated": "2026-10-09T23:55:15.765Z",
   "retentionDays": 90,
   "totalEvents": 45,
-  "activeEvents": 6,
+  "activeEvents": 4,
   "events": [
     {
       "id": "guatemala:weatheralert:droughtisongoinginthebahamasbelizecostaricacubadominicanrepublicguatemalahond",
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-09T19:49:34.801Z",
+      "lastSeen": "2026-10-09T23:55:15.765Z",
       "active": true
     },
     {
@@ -33,7 +33,39 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-09T19:49:34.801Z",
+      "lastSeen": "2026-10-09T23:55:15.765Z",
+      "active": true
+    },
+    {
+      "id": "philippines:weatheralert:volcaniceruptionisongoingfortaalinphilippines",
+      "country": "Philippines",
+      "event": "Weather Alert",
+      "severity": "Severe",
+      "currentSeverity": "Severe",
+      "urgency": "Expected",
+      "headline": "Volcanic eruption is on going for Taal in Philippines",
+      "description": "Volcano Taal is emitting ash clouds according to the regional VAAC. The aviation alert level is Orange.",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000151",
+      "publishedAt": "2026-10-08T13:00:44.000Z",
+      "firstSeen": "2026-10-08T15:39:15.636Z",
+      "lastSeen": "2026-10-09T23:55:15.765Z",
+      "active": true
+    },
+    {
+      "id": "philippines:earthquake:greenearthquakemagnitude55mdepth:52054kminphilippines0810202608:07utc80thousa",
+      "country": "Philippines",
+      "event": "Earthquake",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Green earthquake (Magnitude 5.5M, Depth:52.054km) in Philippines 08/10/2026 08:07 UTC, 80 thousand in MMI V.",
+      "description": "On 10/8/2026 8:07:59 AM, an earthquake occurred in Philippines potentially affecting 80 thousand in MMI V. The earthquake had Magnitude 5.5M, Depth:52.054km.",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1570075",
+      "publishedAt": "2026-10-08T08:27:59.000Z",
+      "firstSeen": "2026-10-09T14:33:58.956Z",
+      "lastSeen": "2026-10-09T23:55:15.765Z",
       "active": true
     },
     {
@@ -50,8 +82,8 @@
       "publishedAt": "2026-07-11T06:41:16.000Z",
       "firstSeen": "2026-07-11T06:59:17.417Z",
       "lastSeen": "2026-10-09T19:49:34.801Z",
-      "active": true,
-      "endedAt": "2026-10-03T00:31:55.976Z"
+      "active": false,
+      "endedAt": "2026-10-09T23:55:15.765Z"
     },
     {
       "id": "guatemala:floodalert:greenfloodalertinguatemala",
@@ -67,40 +99,8 @@
       "publishedAt": "2026-07-11T06:40:35.000Z",
       "firstSeen": "2026-07-11T06:59:17.417Z",
       "lastSeen": "2026-10-09T19:49:34.801Z",
-      "active": true,
-      "endedAt": "2026-09-27T23:50:07.103Z"
-    },
-    {
-      "id": "philippines:weatheralert:volcaniceruptionisongoingfortaalinphilippines",
-      "country": "Philippines",
-      "event": "Weather Alert",
-      "severity": "Severe",
-      "currentSeverity": "Severe",
-      "urgency": "Expected",
-      "headline": "Volcanic eruption is on going for Taal in Philippines",
-      "description": "Volcano Taal is emitting ash clouds according to the regional VAAC. The aviation alert level is Orange.",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000151",
-      "publishedAt": "2026-10-08T13:00:44.000Z",
-      "firstSeen": "2026-10-08T15:39:15.636Z",
-      "lastSeen": "2026-10-09T19:49:34.801Z",
-      "active": true
-    },
-    {
-      "id": "philippines:earthquake:greenearthquakemagnitude55mdepth:52054kminphilippines0810202608:07utc80thousa",
-      "country": "Philippines",
-      "event": "Earthquake",
-      "severity": "Moderate",
-      "currentSeverity": "Moderate",
-      "urgency": "Future",
-      "headline": "Green earthquake (Magnitude 5.5M, Depth:52.054km) in Philippines 08/10/2026 08:07 UTC, 80 thousand in MMI V.",
-      "description": "On 10/8/2026 8:07:59 AM, an earthquake occurred in Philippines potentially affecting 80 thousand in MMI V. The earthquake had Magnitude 5.5M, Depth:52.054km.",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1570075",
-      "publishedAt": "2026-10-08T08:27:59.000Z",
-      "firstSeen": "2026-10-09T14:33:58.956Z",
-      "lastSeen": "2026-10-09T19:49:34.801Z",
-      "active": true
+      "active": false,
+      "endedAt": "2026-10-09T23:55:15.765Z"
     },
     {
       "id": "philippines:earthquake:greenearthquakemagnitude55mdepth:52054kminphilippines0810202608:07utc24millio",
