@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-12T06:02:58.357Z",
+  "lastUpdated": "2026-10-12T15:32:23.571Z",
   "alerts": {
     "Philippines": [
+      {
+        "event": "Weather Alert",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "headline": "Volcanic eruption is on going for Kanlaon in Philippines",
+        "description": "Volcano Kanlaon is emitting ash clouds according to the regional VAAC. The aviation alert level is Orange.",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000152",
+        "publishedAt": "2026-10-12T05:58:55.000Z",
+        "fetchedAt": "2026-10-12T15:32:22.901Z"
+      },
       {
         "event": "Weather Alert",
         "severity": "Severe",
@@ -11,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000151",
         "publishedAt": "2026-10-08T13:00:44.000Z",
-        "fetchedAt": "2026-10-12T06:02:58.243Z"
+        "fetchedAt": "2026-10-12T15:32:22.901Z"
       },
       {
         "event": "Earthquake",
@@ -22,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1570075",
         "publishedAt": "2026-10-08T08:27:59.000Z",
-        "fetchedAt": "2026-10-12T06:02:58.243Z"
+        "fetchedAt": "2026-10-12T15:32:22.901Z"
       },
       {
         "event": "Weather Alert",
@@ -33,7 +44,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-12T06:02:58.245Z"
+        "fetchedAt": "2026-10-12T15:32:22.903Z"
       }
     ],
     "Guatemala": [
@@ -46,24 +57,9 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-12T06:02:58.245Z"
+        "fetchedAt": "2026-10-12T15:32:22.903Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Today's expected total: 11.8mm. Temperature: 28.2°C, Humidity: 82%, Wind: 5.1 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-12T06:02:58.357Z",
-        "fetchedAt": "2026-10-12T06:02:58.357Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
