@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T22:36:34.824Z",
+  "lastUpdated": "2026-10-13T03:12:06.672Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000152",
         "publishedAt": "2026-10-12T05:58:55.000Z",
-        "fetchedAt": "2026-10-12T22:36:34.328Z"
+        "fetchedAt": "2026-10-13T03:12:06.071Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-12T22:36:34.330Z"
+        "fetchedAt": "2026-10-13T03:12:06.074Z"
       }
     ],
     "Guatemala": [
@@ -35,24 +35,9 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-12T22:36:34.330Z"
+        "fetchedAt": "2026-10-13T03:12:06.074Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 12.7mm. Temperature: 26.2°C, Humidity: 91%, Wind: 3 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-12T22:36:34.824Z",
-        "fetchedAt": "2026-10-12T22:36:34.824Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
