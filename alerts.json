@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T06:36:50.290Z",
+  "lastUpdated": "2026-10-14T12:25:44.940Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000152",
         "publishedAt": "2026-10-12T05:58:55.000Z",
-        "fetchedAt": "2026-10-14T06:36:49.905Z"
+        "fetchedAt": "2026-10-14T12:25:44.032Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,20 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-14T06:36:49.908Z"
+        "fetchedAt": "2026-10-14T12:25:44.035Z"
+      }
+    ],
+    "Colombia": [
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Colombia",
+        "description": "On 26/09/2026, a flood started in Colombia, lasting until 05/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+        "source": "GDACS",
+        "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
+        "publishedAt": "2026-09-30T05:14:50.000Z",
+        "fetchedAt": "2026-10-14T12:25:44.034Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +48,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-14T06:36:49.908Z"
+        "fetchedAt": "2026-10-14T12:25:44.035Z"
       }
     ]
   },
