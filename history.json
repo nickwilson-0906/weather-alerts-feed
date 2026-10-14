@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-14T12:25:44.942Z",
+  "lastUpdated": "2026-10-14T17:31:19.673Z",
   "retentionDays": 90,
-  "totalEvents": 40,
-  "activeEvents": 4,
+  "totalEvents": 41,
+  "activeEvents": 5,
   "events": [
     {
       "id": "guatemala:weatheralert:droughtisongoinginthebahamasbelizecostaricacubadominicanrepublicguatemalahond",
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-14T12:25:44.942Z",
+      "lastSeen": "2026-10-14T17:31:19.673Z",
       "active": true
     },
     {
@@ -33,7 +33,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-14T12:25:44.942Z",
+      "lastSeen": "2026-10-14T17:31:19.673Z",
       "active": true
     },
     {
@@ -49,7 +49,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000143",
       "publishedAt": "2026-07-10T06:03:01.000Z",
       "firstSeen": "2026-07-10T08:52:37.157Z",
-      "lastSeen": "2026-10-14T12:25:44.942Z",
+      "lastSeen": "2026-10-14T17:31:19.673Z",
       "active": true,
       "endedAt": "2026-07-14T22:13:58.654Z"
     },
@@ -66,9 +66,25 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
       "publishedAt": "2026-07-11T06:41:16.000Z",
       "firstSeen": "2026-07-11T06:59:17.417Z",
-      "lastSeen": "2026-10-14T12:25:44.942Z",
+      "lastSeen": "2026-10-14T17:31:19.673Z",
       "active": true,
       "endedAt": "2026-10-09T23:55:15.765Z"
+    },
+    {
+      "id": "philippines:typhoontwentynine26:orangenotificationfortropicalcyclonetwentynine26populationaffectedby",
+      "country": "Philippines",
+      "event": "Typhoon TWENTYNINE-26",
+      "severity": "Severe",
+      "currentSeverity": "Severe",
+      "urgency": "Expected",
+      "headline": "Orange notification for tropical cyclone TWENTYNINE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.177 million .",
+      "description": "From 14/10/2026 to 14/10/2026, a Tropical Depression (maximum wind speed of 231 km/h) TWENTYNINE-26 was active in NWPacific. The cyclone affects these countries: Guam (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0.177 million .",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
+      "publishedAt": "2026-10-14T14:31:53.000Z",
+      "firstSeen": "2026-10-14T17:31:19.673Z",
+      "lastSeen": "2026-10-14T17:31:19.673Z",
+      "active": true
     },
     {
       "id": "philippines:weatheralert:volcaniceruptionisongoingfortaalinphilippines",
