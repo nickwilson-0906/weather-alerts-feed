@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-10-14T17:31:19.671Z",
+  "lastUpdated": "2026-10-14T20:58:42.779Z",
   "alerts": {
     "Philippines": [
       {
         "event": "Typhoon TWENTYNINE-26",
         "severity": "Severe",
         "urgency": "Expected",
-        "headline": "Orange notification for tropical cyclone TWENTYNINE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.177 million .",
-        "description": "From 14/10/2026 to 14/10/2026, a Tropical Depression (maximum wind speed of 231 km/h) TWENTYNINE-26 was active in NWPacific. The cyclone affects these countries: Guam (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0.177 million .",
+        "headline": "Orange notification for tropical cyclone TWENTYNINE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.158 million .",
+        "description": "From 14/10/2026 to 14/10/2026, a Tropical Depression (maximum wind speed of 231 km/h) TWENTYNINE-26 was active in NWPacific. The cyclone affects these countries: Guam (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0.158 million .",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-14T17:31:19.110Z"
+        "fetchedAt": "2026-10-14T20:58:42.367Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000152",
         "publishedAt": "2026-10-12T05:58:55.000Z",
-        "fetchedAt": "2026-10-14T17:31:19.110Z"
+        "fetchedAt": "2026-10-14T20:58:42.368Z"
       },
       {
         "event": "Weather Alert",
@@ -33,7 +33,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-14T17:31:19.112Z"
+        "fetchedAt": "2026-10-14T20:58:42.369Z"
       }
     ],
     "Colombia": [
@@ -42,11 +42,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Green flood alert in Colombia",
-        "description": "On 26/09/2026, a flood started in Colombia, lasting until 05/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+        "description": "On 26/09/2026, a flood started in Colombia, lasting until 14/10/2026 (last update). The flood caused 0 deaths and 15 displaced .",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
         "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-10-14T17:31:19.112Z"
+        "fetchedAt": "2026-10-14T20:58:42.369Z"
       }
     ],
     "Guatemala": [
@@ -59,7 +59,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-14T17:31:19.112Z"
+        "fetchedAt": "2026-10-14T20:58:42.369Z"
       }
     ]
   },

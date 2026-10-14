@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-14T17:31:19.673Z",
+  "lastUpdated": "2026-10-14T20:58:42.780Z",
   "retentionDays": 90,
-  "totalEvents": 41,
+  "totalEvents": 40,
   "activeEvents": 5,
   "events": [
     {
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-14T17:31:19.673Z",
+      "lastSeen": "2026-10-14T20:58:42.780Z",
       "active": true
     },
     {
@@ -33,7 +33,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-14T17:31:19.673Z",
+      "lastSeen": "2026-10-14T20:58:42.780Z",
       "active": true
     },
     {
@@ -49,7 +49,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000143",
       "publishedAt": "2026-07-10T06:03:01.000Z",
       "firstSeen": "2026-07-10T08:52:37.157Z",
-      "lastSeen": "2026-10-14T17:31:19.673Z",
+      "lastSeen": "2026-10-14T20:58:42.780Z",
       "active": true,
       "endedAt": "2026-07-14T22:13:58.654Z"
     },
@@ -66,7 +66,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
       "publishedAt": "2026-07-11T06:41:16.000Z",
       "firstSeen": "2026-07-11T06:59:17.417Z",
-      "lastSeen": "2026-10-14T17:31:19.673Z",
+      "lastSeen": "2026-10-14T20:58:42.780Z",
       "active": true,
       "endedAt": "2026-10-09T23:55:15.765Z"
     },
@@ -83,7 +83,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
       "publishedAt": "2026-10-14T14:31:53.000Z",
       "firstSeen": "2026-10-14T17:31:19.673Z",
-      "lastSeen": "2026-10-14T17:31:19.673Z",
+      "lastSeen": "2026-10-14T20:58:42.780Z",
       "active": true
     },
     {
@@ -680,23 +680,6 @@
       "lastSeen": "2026-07-17T00:13:52.159Z",
       "active": false,
       "endedAt": "2026-07-17T03:42:49.333Z"
-    },
-    {
-      "id": "philippines:earthquake:greenearthquakemagnitude62mdepth:67854kminphilippines1407202615:49utc30thousa",
-      "country": "Philippines",
-      "event": "Earthquake",
-      "severity": "Moderate",
-      "currentSeverity": "Moderate",
-      "urgency": "Future",
-      "headline": "Green earthquake (Magnitude 6.2M, Depth:67.854km) in Philippines 14/07/2026 15:49 UTC, 30 thousand in MMI VI.",
-      "description": "On 7/14/2026 3:49:41 PM, an earthquake occurred in Philippines potentially affecting 30 thousand in MMI VI. The earthquake had Magnitude 6.2M, Depth:67.854km.",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1551846",
-      "publishedAt": "2026-07-14T16:07:21.000Z",
-      "firstSeen": "2026-07-14T18:41:34.505Z",
-      "lastSeen": "2026-07-16T20:35:33.175Z",
-      "active": false,
-      "endedAt": "2026-07-16T21:47:12.153Z"
     }
   ]
 }
