@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-20T05:24:33.623Z",
+  "lastUpdated": "2026-10-20T10:19:57.646Z",
   "retentionDays": 90,
-  "totalEvents": 40,
+  "totalEvents": 41,
   "activeEvents": 4,
   "events": [
     {
@@ -17,23 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-20T05:24:33.623Z",
-      "active": true
-    },
-    {
-      "id": "philippines:weatheralert:droughtisongoinginbruneiindonesiacambodiamalaysiapapuanewguineaphilippinest",
-      "country": "Philippines",
-      "event": "Weather Alert",
-      "severity": "Moderate",
-      "currentSeverity": "Moderate",
-      "urgency": "Future",
-      "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines, Thailand, Vietnam",
-      "description": "The  Drought notification level is Green.",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-      "publishedAt": "2026-04-30T13:07:47.000Z",
-      "firstSeen": "2026-10-02T11:08:10.946Z",
-      "lastSeen": "2026-10-20T05:24:33.623Z",
+      "lastSeen": "2026-10-20T10:19:57.646Z",
       "active": true
     },
     {
@@ -49,7 +33,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
       "publishedAt": "2026-07-11T06:41:16.000Z",
       "firstSeen": "2026-07-11T06:59:17.417Z",
-      "lastSeen": "2026-10-20T05:24:33.623Z",
+      "lastSeen": "2026-10-20T10:19:57.646Z",
       "active": true,
       "endedAt": "2026-10-09T23:55:15.765Z"
     },
@@ -66,9 +50,42 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
       "publishedAt": "2026-10-14T14:31:53.000Z",
       "firstSeen": "2026-10-16T04:04:55.042Z",
-      "lastSeen": "2026-10-20T05:24:33.623Z",
+      "lastSeen": "2026-10-20T10:19:57.646Z",
       "active": true,
       "endedAt": "2026-10-16T09:03:14.697Z"
+    },
+    {
+      "id": "philippines:weatheralert:droughtisongoinginbruneiindonesiacambodiamalaysiapapuanewguineaphilippines",
+      "country": "Philippines",
+      "event": "Weather Alert",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
+      "description": "The  Drought notification level is Green.",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+      "publishedAt": "2026-04-30T13:07:47.000Z",
+      "firstSeen": "2026-10-20T10:19:57.646Z",
+      "lastSeen": "2026-10-20T10:19:57.646Z",
+      "active": true
+    },
+    {
+      "id": "philippines:weatheralert:droughtisongoinginbruneiindonesiacambodiamalaysiapapuanewguineaphilippinest",
+      "country": "Philippines",
+      "event": "Weather Alert",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines, Thailand, Vietnam",
+      "description": "The  Drought notification level is Green.",
+      "source": "GDACS",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+      "publishedAt": "2026-04-30T13:07:47.000Z",
+      "firstSeen": "2026-10-02T11:08:10.946Z",
+      "lastSeen": "2026-10-20T05:24:33.623Z",
+      "active": false,
+      "endedAt": "2026-10-20T10:19:57.646Z"
     },
     {
       "id": "philippines:supertyphoonchampi26:orangenotificationfortropicalcyclonechampi26populationaffectedbycat",
