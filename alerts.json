@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T21:43:21.676Z",
+  "lastUpdated": "2026-10-20T00:43:25.841Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-19T21:43:21.457Z"
+        "fetchedAt": "2026-10-20T00:43:25.602Z"
       },
       {
         "event": "Super Typhoon CHAMPI-26",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-19T21:43:21.455Z"
+        "fetchedAt": "2026-10-20T00:43:25.600Z"
       }
     ],
     "Colombia": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
         "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-10-19T21:43:21.457Z"
+        "fetchedAt": "2026-10-20T00:43:25.601Z"
       }
     ],
     "Guatemala": [
@@ -48,9 +48,24 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-19T21:43:21.457Z"
+        "fetchedAt": "2026-10-20T00:43:25.601Z"
       }
     ]
   },
-  "cityAlerts": {}
+  "cityAlerts": {
+    "Guatemala City": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Guatemala City",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 6mm. Temperature: 17.3°C, Humidity: 100%, Wind: 9 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-10-20T00:43:25.841Z",
+        "fetchedAt": "2026-10-20T00:43:25.841Z",
+        "cityLevel": true
+      }
+    ]
+  }
 }
