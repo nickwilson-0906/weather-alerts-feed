@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T20:33:02.511Z",
+  "lastUpdated": "2026-10-21T23:41:08.264Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-21T20:33:01.868Z"
+        "fetchedAt": "2026-10-21T23:41:07.749Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104244",
         "publishedAt": "2026-10-21T10:52:49.000Z",
-        "fetchedAt": "2026-10-21T20:33:01.865Z"
+        "fetchedAt": "2026-10-21T23:41:07.746Z"
       }
     ],
     "Philippines": [
@@ -35,35 +35,20 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-21T20:33:01.868Z"
+        "fetchedAt": "2026-10-21T23:41:07.749Z"
       },
       {
         "event": "Super Typhoon CHAMPI-26",
         "severity": "Extreme",
         "urgency": "Immediate",
-        "headline": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.181 million .",
-        "description": "From 14/10/2026 to 21/10/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 296 km/h) CHAMPI-26 was active in NWPacific. The cyclone affects these countries: Philippines, Guam, Northern Mariana Islands, Japan (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wi",
+        "headline": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.231 million .",
+        "description": "From 14/10/2026 to 21/10/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 296 km/h) CHAMPI-26 was active in NWPacific. The cyclone affects these countries: Philippines, Guam, Northern Mariana Islands, Japan, Taiwan (vulnerability Medium). Estimated population affected by category 1 (120 ",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-21T20:33:01.866Z"
+        "fetchedAt": "2026-10-21T23:41:07.747Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Guatemala City": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Slight rain showers in Guatemala City",
-        "description": "Current conditions: Slight rain showers. Current rainfall rate: 0.2mm. Today's expected total: 4.1mm. Temperature: 21.1°C, Humidity: 79%, Wind: 11.2 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-21T20:33:02.511Z",
-        "fetchedAt": "2026-10-21T20:33:02.511Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
