@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T01:01:40.480Z",
+  "lastUpdated": "2026-10-21T06:03:57.676Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,18 +11,18 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-21T01:01:38.333Z"
+        "fetchedAt": "2026-10-21T06:03:57.093Z"
       },
       {
         "event": "Super Typhoon CHAMPI-26",
         "severity": "Extreme",
         "urgency": "Immediate",
-        "headline": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 7.023 million .",
-        "description": "From 14/10/2026 to 20/10/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 296 km/h) CHAMPI-26 was active in NWPacific. The cyclone affects these countries: Guam, Northern Mariana Islands, Japan (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or ",
+        "headline": "Red notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.233 million .",
+        "description": "From 14/10/2026 to 21/10/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 296 km/h) CHAMPI-26 was active in NWPacific. The cyclone affects these countries: Guam, Northern Mariana Islands, Japan (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or ",
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-21T01:01:38.331Z"
+        "fetchedAt": "2026-10-21T06:03:57.092Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-21T01:01:38.333Z"
+        "fetchedAt": "2026-10-21T06:03:57.093Z"
       }
     ]
   },
