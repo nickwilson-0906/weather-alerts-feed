@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T13:37:25.884Z",
+  "lastUpdated": "2026-10-24T17:00:16.603Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-24T13:37:25.811Z"
+        "fetchedAt": "2026-10-24T17:00:15.927Z"
       },
       {
         "event": "Flood Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104244",
         "publishedAt": "2026-10-21T10:52:49.000Z",
-        "fetchedAt": "2026-10-24T13:37:25.808Z"
+        "fetchedAt": "2026-10-24T17:00:15.925Z"
       }
     ],
     "Philippines": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-24T13:37:25.811Z"
+        "fetchedAt": "2026-10-24T17:00:15.927Z"
       },
       {
         "event": "Super Typhoon CHAMPI-26",
@@ -46,24 +46,9 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-24T13:37:25.809Z"
+        "fetchedAt": "2026-10-24T17:00:15.926Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Moderate drizzle in Manila",
-        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 10.2mm. Temperature: 28.3°C, Humidity: 71%, Wind: 3.3 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-24T13:37:25.883Z",
-        "fetchedAt": "2026-10-24T13:37:25.883Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
