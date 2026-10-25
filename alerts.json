@@ -1,30 +1,6 @@
 {
-  "lastUpdated": "2026-10-24T21:56:27.036Z",
+  "lastUpdated": "2026-10-25T00:11:37.584Z",
   "alerts": {
-    "Guatemala": [
-      {
-        "event": "Weather Alert",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "headline": "Drought is on going in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
-        "description": "The  Drought notification level is Orange.",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
-        "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-24T21:56:26.140Z"
-      },
-      {
-        "event": "Flood Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green flood alert in Guatemala",
-        "description": "On 18/10/2026, a flood started in Guatemala, lasting until 20/10/2026 (last update). The flood caused 0 deaths and 1 displaced .",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104244",
-        "publishedAt": "2026-10-21T10:52:49.000Z",
-        "fetchedAt": "2026-10-24T21:56:26.138Z"
-      }
-    ],
     "Philippines": [
       {
         "event": "Weather Alert",
@@ -35,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-24T21:56:26.140Z"
+        "fetchedAt": "2026-10-25T00:11:37.252Z"
       },
       {
         "event": "Super Typhoon CHAMPI-26",
@@ -46,7 +22,20 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-24T21:56:26.139Z"
+        "fetchedAt": "2026-10-25T00:11:37.250Z"
+      }
+    ],
+    "Guatemala": [
+      {
+        "event": "Weather Alert",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "headline": "Drought is on going in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
+        "description": "The  Drought notification level is Orange.",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
+        "publishedAt": "2026-07-03T12:57:40.000Z",
+        "fetchedAt": "2026-10-25T00:11:37.252Z"
       }
     ]
   },
@@ -57,11 +46,11 @@
         "severity": "Moderate",
         "urgency": "Future",
         "headline": "Rain expected in Manila on Saturday, Oct 31",
-        "description": "16.5mm of precipitation forecast with 78% probability.",
+        "description": "16.5mm of precipitation forecast with 100% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-24T21:56:27.035Z",
-        "fetchedAt": "2026-10-24T21:56:27.035Z",
+        "publishedAt": "2026-10-25T00:11:37.584Z",
+        "fetchedAt": "2026-10-25T00:11:37.584Z",
         "cityLevel": true
       }
     ]
