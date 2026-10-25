@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T04:50:47.815Z",
+  "lastUpdated": "2026-10-25T09:40:17.189Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-25T04:50:47.506Z"
+        "fetchedAt": "2026-10-25T09:40:14.101Z"
       },
       {
         "event": "Super Typhoon CHAMPI-26",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-25T04:50:47.505Z"
+        "fetchedAt": "2026-10-25T09:40:14.100Z"
       }
     ],
     "Guatemala": [
@@ -35,24 +35,9 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-25T04:50:47.506Z"
+        "fetchedAt": "2026-10-25T09:40:14.101Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Rain Forecast",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Rain expected in Manila on Saturday, Oct 31",
-        "description": "16.5mm of precipitation forecast with 100% probability.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-25T04:50:47.815Z",
-        "fetchedAt": "2026-10-25T04:50:47.815Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
