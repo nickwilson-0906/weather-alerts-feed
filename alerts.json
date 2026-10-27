@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T18:22:25.349Z",
+  "lastUpdated": "2026-10-27T22:31:30.152Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-27T18:22:24.822Z"
+        "fetchedAt": "2026-10-27T22:31:29.422Z"
       },
       {
         "event": "Super Typhoon CHAMPI-26",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-27T18:22:24.821Z"
+        "fetchedAt": "2026-10-27T22:31:29.421Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-27T18:22:24.822Z"
+        "fetchedAt": "2026-10-27T22:31:29.422Z"
       }
     ]
   },
