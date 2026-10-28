@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T15:08:33.253Z",
+  "lastUpdated": "2026-10-28T20:18:03.633Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-28T15:08:33.168Z"
+        "fetchedAt": "2026-10-28T20:18:03.328Z"
       },
       {
         "event": "Super Typhoon CHAMPI-26",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-28T15:08:33.167Z"
+        "fetchedAt": "2026-10-28T20:18:03.327Z"
       }
     ],
     "Guatemala": [
@@ -30,29 +30,27 @@
         "event": "Weather Alert",
         "severity": "Severe",
         "urgency": "Expected",
-        "headline": "Drought is on going in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
+        "headline": "Drought is on going in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
         "description": "The  Drought notification level is Orange.",
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-28T15:08:33.168Z"
+        "fetchedAt": "2026-10-28T20:18:03.328Z"
+      }
+    ],
+    "Colombia": [
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
+        "publishedAt": "2026-07-03T12:57:35.000Z",
+        "fetchedAt": "2026-10-28T20:18:03.328Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Manila": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Moderate drizzle in Manila",
-        "description": "Current conditions: Moderate drizzle. Current rainfall rate: 0.1mm. Today's expected total: 0.7mm. Temperature: 27.4°C, Humidity: 75%, Wind: 5.6 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-10-28T15:08:33.253Z",
-        "fetchedAt": "2026-10-28T15:08:33.253Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }
