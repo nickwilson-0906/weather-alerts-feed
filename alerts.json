@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-29T00:15:58.793Z",
+  "lastUpdated": "2026-10-29T06:17:54.277Z",
   "alerts": {
     "Philippines": [
+      {
+        "event": "Earthquake",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green earthquake (Magnitude 5.8M, Depth:10km) in Philippines 29/10/2026 03:19 UTC, 7 thousand in MMI IV.",
+        "description": "On 10/29/2026 3:19:05 AM, an earthquake occurred in Philippines potentially affecting 7 thousand in MMI IV. The earthquake had Magnitude 5.8M, Depth:10km.",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574466",
+        "publishedAt": "2026-10-29T03:34:20.000Z",
+        "fetchedAt": "2026-10-29T06:17:53.696Z"
+      },
       {
         "event": "Weather Alert",
         "severity": "Moderate",
@@ -11,7 +22,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-10-29T00:15:58.109Z"
+        "fetchedAt": "2026-10-29T06:17:53.699Z"
       },
       {
         "event": "Super Typhoon CHAMPI-26",
@@ -22,7 +33,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338",
         "publishedAt": "2026-10-14T14:31:53.000Z",
-        "fetchedAt": "2026-10-29T00:15:58.109Z"
+        "fetchedAt": "2026-10-29T06:17:53.699Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +46,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-10-29T00:15:58.109Z"
+        "fetchedAt": "2026-10-29T06:17:53.699Z"
       }
     ],
     "Colombia": [
@@ -48,9 +59,24 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-10-29T00:15:58.110Z"
+        "fetchedAt": "2026-10-29T06:17:53.699Z"
       }
     ]
   },
-  "cityAlerts": {}
+  "cityAlerts": {
+    "Manila": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Manila",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 2.6mm. Temperature: 33.7°C, Humidity: 49%, Wind: 11.7 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-10-29T06:17:54.276Z",
+        "fetchedAt": "2026-10-29T06:17:54.276Z",
+        "cityLevel": true
+      }
+    ]
+  }
 }
