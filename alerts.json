@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T00:19:18.824Z",
+  "lastUpdated": "2026-11-01T06:40:32.001Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574466",
         "publishedAt": "2026-10-29T03:34:20.000Z",
-        "fetchedAt": "2026-11-01T00:19:18.704Z"
+        "fetchedAt": "2026-11-01T06:40:31.899Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-01T00:19:18.706Z"
+        "fetchedAt": "2026-11-01T06:40:31.902Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-01T00:19:18.706Z"
+        "fetchedAt": "2026-11-01T06:40:31.902Z"
       }
     ],
     "Colombia": [
@@ -48,9 +48,24 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-01T00:19:18.706Z"
+        "fetchedAt": "2026-11-01T06:40:31.902Z"
       }
     ]
   },
-  "cityAlerts": {}
+  "cityAlerts": {
+    "Manila": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Manila",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 2.6mm. Temperature: 32.4°C, Humidity: 55%, Wind: 5.9 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-11-01T06:40:32.001Z",
+        "fetchedAt": "2026-11-01T06:40:32.001Z",
+        "cityLevel": true
+      }
+    ]
+  }
 }
