@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T13:49:08.565Z",
+  "lastUpdated": "2026-11-01T18:49:03.063Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574466",
         "publishedAt": "2026-10-29T03:34:20.000Z",
-        "fetchedAt": "2026-11-01T13:49:08.440Z"
+        "fetchedAt": "2026-11-01T18:49:02.753Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-01T13:49:08.443Z"
+        "fetchedAt": "2026-11-01T18:49:02.755Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-01T13:49:08.443Z"
+        "fetchedAt": "2026-11-01T18:49:02.755Z"
       }
     ],
     "Colombia": [
@@ -48,7 +48,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-01T13:49:08.443Z"
+        "fetchedAt": "2026-11-01T18:49:02.755Z"
       }
     ]
   },
