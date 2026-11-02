@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-02T09:10:45.312Z",
+  "lastUpdated": "2026-11-02T19:31:03.441Z",
   "retentionDays": 90,
-  "totalEvents": 42,
+  "totalEvents": 41,
   "activeEvents": 4,
   "events": [
     {
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-10-20T10:19:57.646Z",
-      "lastSeen": "2026-11-02T09:10:45.312Z",
+      "lastSeen": "2026-11-02T19:31:03.441Z",
       "active": true
     },
     {
@@ -33,7 +33,7 @@
       "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-10-28T20:18:03.635Z",
-      "lastSeen": "2026-11-02T09:10:45.312Z",
+      "lastSeen": "2026-11-02T19:31:03.441Z",
       "active": true
     },
     {
@@ -49,7 +49,7 @@
       "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-10-28T20:18:03.635Z",
-      "lastSeen": "2026-11-02T09:10:45.312Z",
+      "lastSeen": "2026-11-02T19:31:03.441Z",
       "active": true
     },
     {
@@ -65,7 +65,7 @@
       "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574466",
       "publishedAt": "2026-10-29T03:34:20.000Z",
       "firstSeen": "2026-10-29T06:17:54.278Z",
-      "lastSeen": "2026-11-02T09:10:45.312Z",
+      "lastSeen": "2026-11-02T19:31:03.441Z",
       "active": true
     },
     {
@@ -696,23 +696,6 @@
       "lastSeen": "2026-08-06T01:07:46.877Z",
       "active": false,
       "endedAt": "2026-08-06T04:31:48.885Z"
-    },
-    {
-      "id": "philippines:weatheralert:droughtisongoinginaustraliaindonesiacambodialaospapuanewguineaphilippinesth",
-      "country": "Philippines",
-      "event": "Weather Alert",
-      "severity": "Moderate",
-      "currentSeverity": "Moderate",
-      "urgency": "Future",
-      "headline": "Drought is on going in Australia, Indonesia, Cambodia, Laos, Papua New Guinea, Philippines, Thailand, Vietnam",
-      "description": "The  Drought notification level is Green.",
-      "source": "GDACS",
-      "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-      "publishedAt": "2026-04-30T13:07:47.000Z",
-      "firstSeen": "2026-07-16T11:20:18.633Z",
-      "lastSeen": "2026-08-04T11:35:18.616Z",
-      "active": false,
-      "endedAt": "2026-08-04T13:25:02.748Z"
     }
   ]
 }
