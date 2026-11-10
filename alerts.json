@@ -1,30 +1,6 @@
 {
-  "lastUpdated": "2026-11-10T12:23:22.576Z",
+  "lastUpdated": "2026-11-10T19:56:03.429Z",
   "alerts": {
-    "Colombia": [
-      {
-        "event": "Flood Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green flood alert in Colombia",
-        "description": "On 26/09/2026, a flood started in Colombia, lasting until 08/11/2026 (last update). The flood caused 1 deaths and 47 displaced .",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
-        "publishedAt": "2026-09-30T05:14:50.000Z",
-        "fetchedAt": "2026-11-10T12:23:22.490Z"
-      },
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
-        "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-10T12:23:22.491Z"
-      }
-    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -35,7 +11,42 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-10T12:23:22.491Z"
+        "fetchedAt": "2026-11-10T19:56:03.336Z"
+      },
+      {
+        "event": "Earthquake",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green earthquake (Magnitude 5.6M, Depth:35km) in Guatemala 10/11/2026 14:54 UTC, 570 thousand in MMI IV.",
+        "description": "On 11/10/2026 2:54:17 PM, an earthquake occurred in Guatemala potentially affecting 570 thousand in MMI IV. The earthquake had Magnitude 5.6M, Depth:35km.",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618",
+        "publishedAt": "2026-11-10T15:15:15.000Z",
+        "fetchedAt": "2026-11-10T19:56:03.333Z"
+      }
+    ],
+    "Colombia": [
+      {
+        "event": "Flood Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green flood alert in Colombia",
+        "description": "On 26/09/2026, a flood started in Colombia, lasting until 08/11/2026 (last update). The flood caused 1 deaths and 47 displaced .",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104200",
+        "publishedAt": "2026-09-30T05:14:50.000Z",
+        "fetchedAt": "2026-11-10T19:56:03.336Z"
+      },
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
+        "publishedAt": "2026-07-03T12:57:35.000Z",
+        "fetchedAt": "2026-11-10T19:56:03.336Z"
       }
     ],
     "Philippines": [
@@ -48,7 +59,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-10T12:23:22.491Z"
+        "fetchedAt": "2026-11-10T19:56:03.336Z"
       }
     ]
   },

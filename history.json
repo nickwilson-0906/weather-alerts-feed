@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T12:23:22.578Z",
+  "lastUpdated": "2026-11-10T19:56:03.431Z",
   "retentionDays": 90,
-  "totalEvents": 33,
-  "activeEvents": 4,
+  "totalEvents": 34,
+  "activeEvents": 5,
   "events": [
     {
       "id": "philippines:weatheralert:droughtisongoinginbruneiindonesiacambodiamalaysiapapuanewguineaphilippines",
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-10-20T10:19:57.646Z",
-      "lastSeen": "2026-11-10T12:23:22.578Z",
+      "lastSeen": "2026-11-10T19:56:03.431Z",
       "active": true
     },
     {
@@ -33,7 +33,7 @@
       "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-10-28T20:18:03.635Z",
-      "lastSeen": "2026-11-10T12:23:22.578Z",
+      "lastSeen": "2026-11-10T19:56:03.431Z",
       "active": true
     },
     {
@@ -49,7 +49,7 @@
       "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-10-28T20:18:03.635Z",
-      "lastSeen": "2026-11-10T12:23:22.578Z",
+      "lastSeen": "2026-11-10T19:56:03.431Z",
       "active": true
     },
     {
@@ -65,9 +65,25 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104014",
       "publishedAt": "2026-07-11T06:41:16.000Z",
       "firstSeen": "2026-07-11T06:59:17.417Z",
-      "lastSeen": "2026-11-10T12:23:22.578Z",
+      "lastSeen": "2026-11-10T19:56:03.431Z",
       "active": true,
       "endedAt": "2026-11-06T00:18:35.022Z"
+    },
+    {
+      "id": "guatemala:earthquake:greenearthquakemagnitude56mdepth:35kminguatemala1011202614:54utc570thousandinmm",
+      "country": "Guatemala",
+      "event": "Earthquake",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Green earthquake (Magnitude 5.6M, Depth:35km) in Guatemala 10/11/2026 14:54 UTC, 570 thousand in MMI IV.",
+      "description": "On 11/10/2026 2:54:17 PM, an earthquake occurred in Guatemala potentially affecting 570 thousand in MMI IV. The earthquake had Magnitude 5.6M, Depth:35km.",
+      "source": "GDACS",
+      "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618",
+      "publishedAt": "2026-11-10T15:15:15.000Z",
+      "firstSeen": "2026-11-10T19:56:03.431Z",
+      "lastSeen": "2026-11-10T19:56:03.431Z",
+      "active": true
     },
     {
       "id": "philippines:floodalert:greenfloodalertinphilippines",
