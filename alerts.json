@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T20:23:16.909Z",
+  "lastUpdated": "2026-11-14T23:56:30.074Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,18 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-14T20:07:11.216Z"
-      },
-      {
-        "event": "Earthquake",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green earthquake (Magnitude 5.5M, Depth:59.652km) in Guatemala 10/11/2026 14:54 UTC, 1.2 million in MMI IV.",
-        "description": "On 11/10/2026 2:54:19 PM, an earthquake occurred in Guatemala potentially affecting 1.2 million in MMI IV. The earthquake had Magnitude 5.5M, Depth:59.652km.",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618",
-        "publishedAt": "2026-11-10T15:15:15.000Z",
-        "fetchedAt": "2026-11-14T20:07:11.215Z"
+        "fetchedAt": "2026-11-14T23:56:29.959Z"
       }
     ],
     "Philippines": [
@@ -35,7 +24,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-14T20:07:11.216Z"
+        "fetchedAt": "2026-11-14T23:56:29.959Z"
       }
     ],
     "Colombia": [
@@ -48,7 +37,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-14T20:07:11.216Z"
+        "fetchedAt": "2026-11-14T23:56:29.959Z"
       }
     ]
   },
