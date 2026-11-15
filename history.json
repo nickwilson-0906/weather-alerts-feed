@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-15T13:58:31.833Z",
+  "lastUpdated": "2026-11-15T19:41:32.543Z",
   "retentionDays": 90,
-  "totalEvents": 31,
-  "activeEvents": 3,
+  "totalEvents": 32,
+  "activeEvents": 4,
   "events": [
     {
       "id": "philippines:weatheralert:droughtisongoinginbruneiindonesiacambodiamalaysiapapuanewguineaphilippines",
@@ -17,7 +17,7 @@
       "link": "https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
       "publishedAt": "2026-04-30T13:07:47.000Z",
       "firstSeen": "2026-10-20T10:19:57.646Z",
-      "lastSeen": "2026-11-15T13:58:31.833Z",
+      "lastSeen": "2026-11-15T19:41:32.543Z",
       "active": true
     },
     {
@@ -33,7 +33,7 @@
       "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
       "publishedAt": "2026-07-03T12:57:40.000Z",
       "firstSeen": "2026-10-28T20:18:03.635Z",
-      "lastSeen": "2026-11-15T13:58:31.833Z",
+      "lastSeen": "2026-11-15T19:41:32.543Z",
       "active": true
     },
     {
@@ -49,7 +49,23 @@
       "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-10-28T20:18:03.635Z",
-      "lastSeen": "2026-11-15T13:58:31.833Z",
+      "lastSeen": "2026-11-15T19:41:32.543Z",
+      "active": true
+    },
+    {
+      "id": "philippines:earthquake:greenearthquakemagnitude55mdepth:9971kminphilippines1511202613:41utc30thousan",
+      "country": "Philippines",
+      "event": "Earthquake",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Green earthquake (Magnitude 5.5M, Depth:9.971km) in Philippines 15/11/2026 13:41 UTC, 30 thousand in MMI VI.",
+      "description": "On 11/15/2026 1:41:35 PM, an earthquake occurred in Philippines potentially affecting 30 thousand in MMI VI. The earthquake had Magnitude 5.5M, Depth:9.971km.",
+      "source": "GDACS",
+      "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577487",
+      "publishedAt": "2026-11-15T13:55:51.000Z",
+      "firstSeen": "2026-11-15T19:41:32.543Z",
+      "lastSeen": "2026-11-15T19:41:32.543Z",
       "active": true
     },
     {

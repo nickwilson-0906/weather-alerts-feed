@@ -1,6 +1,30 @@
 {
-  "lastUpdated": "2026-11-15T13:58:31.831Z",
+  "lastUpdated": "2026-11-15T19:41:32.542Z",
   "alerts": {
+    "Philippines": [
+      {
+        "event": "Earthquake",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Green earthquake (Magnitude 5.5M, Depth:9.971km) in Philippines 15/11/2026 13:41 UTC, 30 thousand in MMI VI.",
+        "description": "On 11/15/2026 1:41:35 PM, an earthquake occurred in Philippines potentially affecting 30 thousand in MMI VI. The earthquake had Magnitude 5.5M, Depth:9.971km.",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577487",
+        "publishedAt": "2026-11-15T13:55:51.000Z",
+        "fetchedAt": "2026-11-15T19:41:31.914Z"
+      },
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+        "publishedAt": "2026-04-30T13:07:47.000Z",
+        "fetchedAt": "2026-11-15T19:41:31.916Z"
+      }
+    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -11,20 +35,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-15T13:58:31.620Z"
-      }
-    ],
-    "Philippines": [
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-        "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-15T13:58:31.620Z"
+        "fetchedAt": "2026-11-15T19:41:31.916Z"
       }
     ],
     "Colombia": [
@@ -37,7 +48,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-15T13:58:31.620Z"
+        "fetchedAt": "2026-11-15T19:41:31.916Z"
       }
     ]
   },
