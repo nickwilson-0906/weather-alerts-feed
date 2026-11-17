@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T03:59:29.686Z",
+  "lastUpdated": "2026-11-17T13:08:33.436Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,18 +11,18 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577487",
         "publishedAt": "2026-11-15T13:55:51.000Z",
-        "fetchedAt": "2026-11-17T03:59:29.542Z"
+        "fetchedAt": "2026-11-17T13:08:31.792Z"
       },
       {
         "event": "Weather Alert",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
+        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Laos, Malaysia, Papua New Guinea, Philippines, Singapore, Vietnam",
         "description": "The  Drought notification level is Green.",
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-17T03:59:29.545Z"
+        "fetchedAt": "2026-11-17T13:08:31.795Z"
       }
     ],
     "Guatemala": [
@@ -30,12 +30,12 @@
         "event": "Weather Alert",
         "severity": "Severe",
         "urgency": "Expected",
-        "headline": "Drought is on going in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
+        "headline": "Drought is on going in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Mexico, Nicaragua, El Salvador, United States",
         "description": "The  Drought notification level is Orange.",
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-17T03:59:29.545Z"
+        "fetchedAt": "2026-11-17T13:08:31.795Z"
       }
     ],
     "Colombia": [
@@ -48,7 +48,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-17T03:59:29.545Z"
+        "fetchedAt": "2026-11-17T13:08:31.795Z"
       }
     ]
   },
