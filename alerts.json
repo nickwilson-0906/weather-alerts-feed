@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T10:40:58.466Z",
+  "lastUpdated": "2026-11-19T19:10:18.493Z",
   "alerts": {
     "Philippines": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577487",
         "publishedAt": "2026-11-15T13:55:51.000Z",
-        "fetchedAt": "2026-11-19T10:40:58.310Z"
+        "fetchedAt": "2026-11-19T19:10:18.278Z"
       },
       {
         "event": "Weather Alert",
@@ -22,7 +22,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-19T10:40:58.311Z"
+        "fetchedAt": "2026-11-19T19:10:18.279Z"
       }
     ],
     "Guatemala": [
@@ -35,7 +35,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-19T10:40:58.311Z"
+        "fetchedAt": "2026-11-19T19:10:18.279Z"
       }
     ],
     "Colombia": [
@@ -48,9 +48,24 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-19T10:40:58.311Z"
+        "fetchedAt": "2026-11-19T19:10:18.279Z"
       }
     ]
   },
-  "cityAlerts": {}
+  "cityAlerts": {
+    "Guatemala City": [
+      {
+        "event": "Rain Advisory",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Light drizzle in Guatemala City",
+        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 1.6mm. Temperature: 23.6°C, Humidity: 55%, Wind: 17.1 km/h.",
+        "source": "Open-Meteo",
+        "link": "https://open-meteo.com/",
+        "publishedAt": "2026-11-19T19:10:18.493Z",
+        "fetchedAt": "2026-11-19T19:10:18.493Z",
+        "cityLevel": true
+      }
+    ]
+  }
 }
