@@ -1,30 +1,6 @@
 {
-  "lastUpdated": "2026-11-19T19:10:18.493Z",
+  "lastUpdated": "2026-11-20T01:17:28.274Z",
   "alerts": {
-    "Philippines": [
-      {
-        "event": "Earthquake",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green earthquake (Magnitude 5.5M, Depth:9.971km) in Philippines 15/11/2026 13:41 UTC, 30 thousand in MMI VI.",
-        "description": "On 11/15/2026 1:41:35 PM, an earthquake occurred in Philippines potentially affecting 30 thousand in MMI VI. The earthquake had Magnitude 5.5M, Depth:9.971km.",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577487",
-        "publishedAt": "2026-11-15T13:55:51.000Z",
-        "fetchedAt": "2026-11-19T19:10:18.278Z"
-      },
-      {
-        "event": "Weather Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Laos, Malaysia, Papua New Guinea, Philippines, Singapore, Vietnam",
-        "description": "The  Drought notification level is Green.",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-        "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-19T19:10:18.279Z"
-      }
-    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -35,7 +11,20 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-19T19:10:18.279Z"
+        "fetchedAt": "2026-11-20T01:17:22.058Z"
+      }
+    ],
+    "Philippines": [
+      {
+        "event": "Weather Alert",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Laos, Malaysia, Papua New Guinea, Philippines, Singapore, Vietnam",
+        "description": "The  Drought notification level is Green.",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+        "publishedAt": "2026-04-30T13:07:47.000Z",
+        "fetchedAt": "2026-11-20T01:17:22.058Z"
       }
     ],
     "Colombia": [
@@ -48,24 +37,9 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-19T19:10:18.279Z"
+        "fetchedAt": "2026-11-20T01:17:22.058Z"
       }
     ]
   },
-  "cityAlerts": {
-    "Guatemala City": [
-      {
-        "event": "Rain Advisory",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Light drizzle in Guatemala City",
-        "description": "Current conditions: Light drizzle. Current rainfall rate: 0.1mm. Today's expected total: 1.6mm. Temperature: 23.6°C, Humidity: 55%, Wind: 17.1 km/h.",
-        "source": "Open-Meteo",
-        "link": "https://open-meteo.com/",
-        "publishedAt": "2026-11-19T19:10:18.493Z",
-        "fetchedAt": "2026-11-19T19:10:18.493Z",
-        "cityLevel": true
-      }
-    ]
-  }
+  "cityAlerts": {}
 }

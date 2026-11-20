@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-19T19:10:18.494Z",
+  "lastUpdated": "2026-11-20T01:17:28.275Z",
   "retentionDays": 90,
   "totalEvents": 32,
-  "activeEvents": 4,
+  "activeEvents": 3,
   "events": [
     {
       "id": "colombia:weatheralert:droughtisongoinginarubabrazilcolombiacostaricafrenchguianaguyanapanamasuriname",
@@ -17,7 +17,39 @@
       "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
       "publishedAt": "2026-07-03T12:57:35.000Z",
       "firstSeen": "2026-10-28T20:18:03.635Z",
-      "lastSeen": "2026-11-19T19:10:18.494Z",
+      "lastSeen": "2026-11-20T01:17:28.275Z",
+      "active": true
+    },
+    {
+      "id": "philippines:weatheralert:droughtisongoinginbruneiindonesiacambodialaosmalaysiapapuanewguineaphilippi",
+      "country": "Philippines",
+      "event": "Weather Alert",
+      "severity": "Moderate",
+      "currentSeverity": "Moderate",
+      "urgency": "Future",
+      "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Laos, Malaysia, Papua New Guinea, Philippines, Singapore, Vietnam",
+      "description": "The  Drought notification level is Green.",
+      "source": "GDACS",
+      "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
+      "publishedAt": "2026-04-30T13:07:47.000Z",
+      "firstSeen": "2026-11-17T13:08:33.438Z",
+      "lastSeen": "2026-11-20T01:17:28.275Z",
+      "active": true
+    },
+    {
+      "id": "guatemala:weatheralert:droughtisongoinginbelizecostaricacubadominicanrepublicguatemalahondurasmexico",
+      "country": "Guatemala",
+      "event": "Weather Alert",
+      "severity": "Severe",
+      "currentSeverity": "Severe",
+      "urgency": "Expected",
+      "headline": "Drought is on going in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Mexico, Nicaragua, El Salvador, United States",
+      "description": "The  Drought notification level is Orange.",
+      "source": "GDACS",
+      "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
+      "publishedAt": "2026-07-03T12:57:40.000Z",
+      "firstSeen": "2026-11-17T13:08:33.438Z",
+      "lastSeen": "2026-11-20T01:17:28.275Z",
       "active": true
     },
     {
@@ -34,39 +66,8 @@
       "publishedAt": "2026-11-15T13:55:51.000Z",
       "firstSeen": "2026-11-15T19:41:32.543Z",
       "lastSeen": "2026-11-19T19:10:18.494Z",
-      "active": true
-    },
-    {
-      "id": "philippines:weatheralert:droughtisongoinginbruneiindonesiacambodialaosmalaysiapapuanewguineaphilippi",
-      "country": "Philippines",
-      "event": "Weather Alert",
-      "severity": "Moderate",
-      "currentSeverity": "Moderate",
-      "urgency": "Future",
-      "headline": "Drought is on going in Brunei, Indonesia, Cambodia, Laos, Malaysia, Papua New Guinea, Philippines, Singapore, Vietnam",
-      "description": "The  Drought notification level is Green.",
-      "source": "GDACS",
-      "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
-      "publishedAt": "2026-04-30T13:07:47.000Z",
-      "firstSeen": "2026-11-17T13:08:33.438Z",
-      "lastSeen": "2026-11-19T19:10:18.494Z",
-      "active": true
-    },
-    {
-      "id": "guatemala:weatheralert:droughtisongoinginbelizecostaricacubadominicanrepublicguatemalahondurasmexico",
-      "country": "Guatemala",
-      "event": "Weather Alert",
-      "severity": "Severe",
-      "currentSeverity": "Severe",
-      "urgency": "Expected",
-      "headline": "Drought is on going in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Mexico, Nicaragua, El Salvador, United States",
-      "description": "The  Drought notification level is Orange.",
-      "source": "GDACS",
-      "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
-      "publishedAt": "2026-07-03T12:57:40.000Z",
-      "firstSeen": "2026-11-17T13:08:33.438Z",
-      "lastSeen": "2026-11-19T19:10:18.494Z",
-      "active": true
+      "active": false,
+      "endedAt": "2026-11-20T01:17:28.275Z"
     },
     {
       "id": "philippines:weatheralert:droughtisongoinginbruneiindonesiacambodiamalaysiapapuanewguineaphilippines",
