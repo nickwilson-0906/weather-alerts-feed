@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T09:01:11.064Z",
+  "lastUpdated": "2026-11-20T17:50:15.057Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-20T09:01:10.783Z"
+        "fetchedAt": "2026-11-20T17:50:14.879Z"
       }
     ],
     "Philippines": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-20T09:01:10.783Z"
+        "fetchedAt": "2026-11-20T17:50:14.880Z"
       }
     ],
     "Colombia": [
@@ -37,22 +37,22 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-20T09:01:10.784Z"
+        "fetchedAt": "2026-11-20T17:50:14.880Z"
       }
     ]
   },
   "cityAlerts": {
-    "Manila": [
+    "Guatemala City": [
       {
-        "event": "Rain Advisory",
+        "event": "Rain Forecast",
         "severity": "Moderate",
         "urgency": "Future",
-        "headline": "Light drizzle in Manila",
-        "description": "Current conditions: Light drizzle. Today's expected total: 25.8mm. Temperature: 26.4°C, Humidity: 86%, Wind: 2.3 km/h.",
+        "headline": "Rain expected in Guatemala City on Tuesday, Nov 24",
+        "description": "17.0mm of precipitation forecast with 79% probability.",
         "source": "Open-Meteo",
         "link": "https://open-meteo.com/",
-        "publishedAt": "2026-11-20T09:01:11.064Z",
-        "fetchedAt": "2026-11-20T09:01:11.064Z",
+        "publishedAt": "2026-11-20T17:50:15.057Z",
+        "fetchedAt": "2026-11-20T17:50:15.057Z",
         "cityLevel": true
       }
     ]
