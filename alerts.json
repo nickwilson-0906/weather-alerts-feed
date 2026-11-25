@@ -1,30 +1,6 @@
 {
-  "lastUpdated": "2026-11-24T18:11:26.370Z",
+  "lastUpdated": "2026-11-25T02:33:15.320Z",
   "alerts": {
-    "Colombia": [
-      {
-        "event": "Weather Alert",
-        "severity": "Severe",
-        "urgency": "Expected",
-        "headline": "Drought is on going in Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
-        "description": "The  Drought notification level is Orange.",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
-        "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-24T18:11:26.230Z"
-      },
-      {
-        "event": "Flood Alert",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "headline": "Green flood alert in Colombia",
-        "description": "On 18/11/2026, a flood started in Colombia, lasting until 20/11/2026 (last update). The flood caused 0 deaths and 0 displaced .",
-        "source": "GDACS",
-        "link": "http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104294",
-        "publishedAt": "2026-11-23T07:13:16.000Z",
-        "fetchedAt": "2026-11-24T18:11:26.228Z"
-      }
-    ],
     "Guatemala": [
       {
         "event": "Weather Alert",
@@ -35,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-24T18:11:26.230Z"
+        "fetchedAt": "2026-11-25T02:33:15.162Z"
       }
     ],
     "Philippines": [
@@ -48,7 +24,20 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-24T18:11:26.230Z"
+        "fetchedAt": "2026-11-25T02:33:15.162Z"
+      }
+    ],
+    "Colombia": [
+      {
+        "event": "Weather Alert",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "headline": "Drought is on going in Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
+        "description": "The  Drought notification level is Orange.",
+        "source": "GDACS",
+        "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
+        "publishedAt": "2026-07-03T12:57:35.000Z",
+        "fetchedAt": "2026-11-25T02:33:15.162Z"
       }
     ]
   },
