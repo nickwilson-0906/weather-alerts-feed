@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T14:13:13.245Z",
+  "lastUpdated": "2026-11-27T22:45:15.734Z",
   "alerts": {
     "Guatemala": [
       {
@@ -11,7 +11,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1027449",
         "publishedAt": "2026-07-03T12:57:40.000Z",
-        "fetchedAt": "2026-11-27T14:13:13.075Z"
+        "fetchedAt": "2026-11-27T22:45:15.450Z"
       }
     ],
     "Philippines": [
@@ -24,7 +24,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1018545",
         "publishedAt": "2026-04-30T13:07:47.000Z",
-        "fetchedAt": "2026-11-27T14:13:13.075Z"
+        "fetchedAt": "2026-11-27T22:45:15.450Z"
       }
     ],
     "Colombia": [
@@ -37,7 +37,7 @@
         "source": "GDACS",
         "link": "http://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1023877",
         "publishedAt": "2026-07-03T12:57:35.000Z",
-        "fetchedAt": "2026-11-27T14:13:13.075Z"
+        "fetchedAt": "2026-11-27T22:45:15.450Z"
       }
     ]
   },
